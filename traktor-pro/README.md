@@ -1,0 +1,1 @@
+Push MODE + A + B to enter MIDI mode

@@ -1,0 +1,28 @@
+{
+  "name": "nk-traktor-live",
+  "version": "2.3.0",
+  "description": "Traktor Pro mix template for the KORG nanoKEY/nanoKONTROL Studio MIDI controllers.",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotherightthing/nk-traktor-live.git"
+  },
+  "keywords": [
+    "midi-controller",
+    "djing"
+  ],
+  "person": {
+    "name": "Dan Smith",
+    "email": "dev@dotherightthing.co.nz",
+    "url": "http://dotherightthing.co.nz"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dotherightthing/nk-traktor-live/issues"
+  },
+  "homepage": "https://github.com/dotherightthing/nk-traktor-live#readme",
+  "private": true
+}

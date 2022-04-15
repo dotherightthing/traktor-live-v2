@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/Users/Dan/NativeKONTROL/ClyphX_Pro/"
+		},
+		{
+			"path": "/Applications/Ableton Live 10 Standard.app/Contents/App-Resources/MIDI Remote Scripts/ClyphX_Pro/clyphx_pro/user_actions"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.txt": "powershell"
+		},
+		"editor.wordWrap": "on",
+		"markdownlint.config": {
+			"MD013": false,
+			"no-inline-html": {
+				"allowed_elements": [
+					"img"
+				]
+			},
+			"MD024": false,
+			"no-duplicate-heading": {
+				"siblings_only": true
+			}
+		}
+	}
+}

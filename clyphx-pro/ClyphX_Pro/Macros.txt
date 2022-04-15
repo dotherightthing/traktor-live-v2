@@ -1,0 +1,304 @@
+#********************************** [SETTINGS NOTES] **********************************
+
+# Please DO NOT change any of the spacing in this file.
+
+# Please DO NOT change the name of this file or its file extension.  When done making
+# your changes to the settings below, just save the file.
+
+# After saving this file, you will need to load a new Live Set/reload the
+# current Live Set for your changes to take effect.
+
+
+
+# --------------------------------------------------------------------------------------
+
+[MACROS]
+
+# Below, you can specify a list of Macros to use in Action Lists.
+
+# The entry format is $MACRO_NAME$ = ACTION(s)
+
+# --------------------------------------------------------------------------------------
+# | ENTRY      |  DESCRIPTION
+# --------------------------------------------------------------------------------------
+# | MACRO_NAME |  A unique one-word name for the Macro enclosed in dollar signs.
+# --------------------------------------------------------------------------------------
+# | ACTION(s)  |  The Action(s) to assign to the Macro.  You can also assign Macros to
+# |            |  other Macros.
+# --------------------------------------------------------------------------------------
+
+# See the Macros section of the manual for more info on Macros.
+
+# --------------------------------------------------------------------------------------
+
+# Below is an example list that has been commented out (the # at the beginning of
+# a line makes the line a comment). Your list should be formatted in the same way
+# except without the # at the beginning of each line.
+
+# Single line Macro:
+# $EX_MACRO_1$ = METRO
+
+# Multi line Macro type 1 (note that each additional line needs to be indented by 1 space):
+# $EX_MACRO_2$ = ARM;
+#  SOLO;
+
+# Multi line Macro type 2 (note that each additional line needs to be indented by 1 space):
+# $EX_MACRO_3$ =
+#  ARM;
+#  SOLO;
+
+# --------------------------------------------------------------------------------------
+
+# Traktor TSI v3.0 - Shared Macros
+
+$FX_1_1$ =
+ BIND FX_MACRO_1 "1FX"/DEV("Traktor-FX1") P1;
+ BIND FX_MACRO_2 "1FX"/DEV("Traktor-FX1") P2;
+ BIND FX_MACRO_3 "1FX"/DEV("Traktor-FX1") P3;
+ BIND FX_MACRO_4 "1FX"/DEV("Traktor-FX1") P4;
+ BIND FX_MACRO_5 "1FX"/DEV("Traktor-FX1") P5;
+ BIND FX_MACRO_6 "1FX"/DEV("Traktor-FX1") P6;
+ BIND FX_MACRO_7 "1FX"/DEV("Traktor-FX1") P7;
+ BIND FX_MACRO_8 "1FX"/DEV("Traktor-FX1") P8;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_1% 127;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_2% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_3% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_1% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_2% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_3% 0
+
+$FX_1_2$ =
+ BIND FX_MACRO_1 "1FX"/DEV("Traktor-FX2") P1;
+ BIND FX_MACRO_2 "1FX"/DEV("Traktor-FX2") P2;
+ BIND FX_MACRO_3 "1FX"/DEV("Traktor-FX2") P3;
+ BIND FX_MACRO_4 "1FX"/DEV("Traktor-FX2") P4;
+ BIND FX_MACRO_5 "1FX"/DEV("Traktor-FX2") P5;
+ BIND FX_MACRO_6 "1FX"/DEV("Traktor-FX2") P6;
+ BIND FX_MACRO_7 "1FX"/DEV("Traktor-FX2") P7;
+ BIND FX_MACRO_8 "1FX"/DEV("Traktor-FX2") P8;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_1% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_2% 127;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_3% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_1% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_2% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_3% 0
+
+$FX_1_3$ =
+ BIND FX_MACRO_1 "1FX"/DEV("Traktor-FX3") P1;
+ BIND FX_MACRO_2 "1FX"/DEV("Traktor-FX3") P2;
+ BIND FX_MACRO_3 "1FX"/DEV("Traktor-FX3") P3;
+ BIND FX_MACRO_4 "1FX"/DEV("Traktor-FX3") P4;
+ BIND FX_MACRO_5 "1FX"/DEV("Traktor-FX3") P5;
+ BIND FX_MACRO_6 "1FX"/DEV("Traktor-FX3") P6;
+ BIND FX_MACRO_7 "1FX"/DEV("Traktor-FX3") P7;
+ BIND FX_MACRO_8 "1FX"/DEV("Traktor-FX3") P8;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_1% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_2% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_3% 127;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_1% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_2% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_3% 0
+
+$FX_4_1$ =
+ BIND FX_MACRO_1 "4FX"/DEV("Traktor-FX1") P1;
+ BIND FX_MACRO_2 "4FX"/DEV("Traktor-FX1") P2;
+ BIND FX_MACRO_3 "4FX"/DEV("Traktor-FX1") P3;
+ BIND FX_MACRO_4 "4FX"/DEV("Traktor-FX1") P4;
+ BIND FX_MACRO_5 "4FX"/DEV("Traktor-FX1") P5;
+ BIND FX_MACRO_6 "4FX"/DEV("Traktor-FX1") P6;
+ BIND FX_MACRO_7 "4FX"/DEV("Traktor-FX1") P7;
+ BIND FX_MACRO_8 "4FX"/DEV("Traktor-FX1") P8;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_1% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_2% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_3% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_1% 127;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_2% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_3% 0
+
+$FX_4_2$ =
+ BIND FX_MACRO_1 "4FX"/DEV("Traktor-FX2") P1;
+ BIND FX_MACRO_2 "4FX"/DEV("Traktor-FX2") P2;
+ BIND FX_MACRO_3 "4FX"/DEV("Traktor-FX2") P3;
+ BIND FX_MACRO_4 "4FX"/DEV("Traktor-FX2") P4;
+ BIND FX_MACRO_5 "4FX"/DEV("Traktor-FX2") P5;
+ BIND FX_MACRO_6 "4FX"/DEV("Traktor-FX2") P6;
+ BIND FX_MACRO_7 "4FX"/DEV("Traktor-FX2") P7;
+ BIND FX_MACRO_8 "4FX"/DEV("Traktor-FX2") P8;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_1% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_2% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_3% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_1% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_2% 127;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_3% 0
+
+$FX_4_3$ =
+ BIND FX_MACRO_1 "4FX"/DEV("Traktor-FX3") P1;
+ BIND FX_MACRO_2 "4FX"/DEV("Traktor-FX3") P2;
+ BIND FX_MACRO_3 "4FX"/DEV("Traktor-FX3") P3;
+ BIND FX_MACRO_4 "4FX"/DEV("Traktor-FX3") P4;
+ BIND FX_MACRO_5 "4FX"/DEV("Traktor-FX3") P5;
+ BIND FX_MACRO_6 "4FX"/DEV("Traktor-FX3") P6;
+ BIND FX_MACRO_7 "4FX"/DEV("Traktor-FX3") P7;
+ BIND FX_MACRO_8 "4FX"/DEV("Traktor-FX3") P8;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_1% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_2% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_1_3% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_1% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_2% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_FX_4_3% 127
+
+$LEDS_1$ =
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_1% 127;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_2% 127;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_3% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_4% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_5% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_6% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_7% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_8% 0;
+ user_clip loop_led
+
+$LEDS_2$ =
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_1% 127;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_2% 127;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_3% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_4% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_5% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_6% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_7% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_8% 0;
+ user_clip loop_led
+
+$LEDS_3$ =
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_1% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_2% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_3% 127;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_4% 127;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_5% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_6% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_7% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_8% 0;
+ user_clip loop_led
+
+$LEDS_4$ =
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_1% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_2% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_3% 127;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_4% 127;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_5% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_6% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_7% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_8% 0;
+ user_clip loop_led
+
+$LEDS_5$ =
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_1% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_2% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_3% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_4% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_5% 127;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_6% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_7% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_8% 0;
+ user_clip deck_leds;
+ user_clip loop_led
+
+$LEDS_6$ =
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_1% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_2% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_3% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_4% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_5% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_6% 127;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_7% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_8% 0;
+ user_clip deck_leds;
+ user_clip loop_led
+
+$LEDS_7$ =
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_1% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_2% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_3% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_4% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_5% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_6% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_7% 127;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_8% 0;
+ user_clip deck_leds;
+ user_clip loop_led
+
+$LEDS_8$ =
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_1% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_2% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_3% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_4% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_5% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_6% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_7% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_SELECT_8% 127;
+ user_clip deck_leds;
+ user_clip loop_led
+
+$LOOP$ =
+ SEL/CLIP LOOP;
+ WAIT 5;
+ user_clip loop_led
+
+$LOOP_DOUBLE$ =
+ SEL/CLIP LOOP *2;
+ MSG "Doubled loop size"
+
+$LOOP_HALVE$ =
+ SEL/CLIP LOOP *.5;
+ MSG "Halved loop size"
+
+$LOOP_LEFT$ =
+ SEL/CLIP LOOP <;
+ MSG "Moved clip start back by loop length"
+
+$LOOP_NUDGE_LEFT$ =
+ SEL/JUMP <;
+ MSG "Jumped clip back"
+
+$LOOP_NUDGE_RIGHT$ =
+ SEL/JUMP >;
+ MSG "Jumped clip forward"
+
+$LOOP_PLAY$ = SEL/PLAY
+
+# Note: if this doesn't work, press the SYNC button on the controller
+$LOOP_RECORD$ =
+ WAIT 5;
+ MSG "Recording new clip";
+ user_clip select_traktor_deck;
+ ALL/ARM OFF;
+ SEL/ARM ON;
+ %MIDI_NANOKONTROL% %MIDI_CC_PLAY% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_REC% 127;
+ SEL/SEL EMPTY;
+ SRECFIX 4;
+ WAITS 5B;
+ SEL/ARM OFF;
+ %MIDI_NANOKONTROL% %MIDI_CC_REC% 0;
+ %MIDI_NANOKONTROL% %MIDI_CC_PLAY% 127;
+ user_clip loop_led;
+ user_clip deselect_traktor_deck;
+ MSG "Recorded new clip"
+
+$LOOP_RIGHT$ =
+ SEL/CLIP LOOP >;
+ MSG "Moved clip start forward by loop length"
+
+$LOOP_STOP$ = SEL/STOP
+
+$INPUT_DECK_A$ =
+ 5/IN "1FX";
+ 6/IN "1FX";
+ 7/IN "1FX";
+ 8/IN "1FX"
+
+$INPUT_DECK_B$ =
+ 5/IN "4FX";
+ 6/IN "4FX";
+ 7/IN "4FX";
+ 8/IN "4FX"

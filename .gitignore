@@ -1,0 +1,12 @@
+manuals
+.vscode
+ableton-live/nk-traktor-live Project/Ableton Project Info/Project8_1.cfg
+ableton-live/nk-traktor-live Project/Icon?
+ableton-live/nk-traktor-live Project/Backup
+ableton-live/nk-traktor-live Project/Samples
+ableton-live/nk-traktor-live Project/*.als
+!ableton-live/nk-traktor-live Project/nk-traktor-live.als
+!*.code-workspace
+ableton-live/nk-traktor-live Project/Recordings from Audio Hijack
+ableton-live/nk-traktor-live Project/Samples
+ableton-live/nk-traktor-live Project/Recordings from Audio Hijack
