@@ -6,7 +6,7 @@
   "scripts": {
     "install": "./scripts/install.sh",
     "open": "./scripts/open.sh",
-    "refresh": "npm run install && npm run open",
+    "refresh": "npm run install && ./scripts/refresh.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
