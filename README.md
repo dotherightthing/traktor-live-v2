@@ -1,6 +1,6 @@
 # Push2 Traktor Live
 
-[![GitHub release](https://img.shields.io/github/v/tag/dotherightthing/nk-traktor-live)](https://github.com/dotherightthing/nk-traktor-live/releases) [![GitHub issues](https://img.shields.io/github/issues/dotherightthing/nk-traktor-live.svg)](https://github.com/dotherightthing/nk-traktor-live/issues)
+[![GitHub release](https://img.shields.io/github/v/tag/dotherightthing/push2-traktor-live)](https://github.com/dotherightthing/push2-traktor-live/releases) [![GitHub issues](https://img.shields.io/github/issues/dotherightthing/push2-traktor-live.svg)](https://github.com/dotherightthing/push2-traktor-live/issues)
 
 This is a 'fork' of <https://github.com/dotherightthing/nk-traktor-live/>, which uses Push2 as the main controller and repurposes the two Korg controllers.
 
