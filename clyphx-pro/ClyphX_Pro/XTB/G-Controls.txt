@@ -108,7 +108,7 @@ VERSION = v1.0.0
 
 # --------------------------------------------------------------------------------------
 
-# Traktor TSI v3.0 - XTB (KORG nanoKONTROL Studio) - G-Controls
+# XTB (KORG nanoKONTROL Studio) - G-Controls
 # CC numbers reference those assigned in the KORG KONTROL Editor
 # Note: Multiple line formatting and Variables not supported below
 
@@ -149,25 +149,25 @@ TRACK_4_FX_3 RELEASED = WAIT 1; $FX_4_3$
 #    TODO full control may require duplicating the modifier system from the nanoKONTROL TSI to the Programmatic TSI (#17)
 
 SELECT_1 = CC, 1, 46, 0, 127, FALSE
-SELECT_1 RELEASED = 1/SEL; WAIT 1; $LEDS_1$; $INPUT_DECK_A$
+SELECT_1 RELEASED = 1/SEL; WAIT 1; $INPUT_DECK_A$
 
 SELECT_2 = CC, 1, 47, 0, 127, FALSE
-SELECT_2 RELEASED = 1/SEL; WAIT 1; $LEDS_2$; $INPUT_DECK_A$
+SELECT_2 RELEASED = 1/SEL; WAIT 1; $INPUT_DECK_A$
 
 SELECT_3 = CC, 1, 48, 0, 127, FALSE
-SELECT_3 RELEASED = 4/SEL; WAIT 1; $LEDS_3$; $INPUT_DECK_B$
+SELECT_3 RELEASED = 4/SEL; WAIT 1; $INPUT_DECK_B$
 
 SELECT_4 = CC, 1, 49, 0, 127, FALSE
-SELECT_4 RELEASED = 4/SEL; WAIT 1; $LEDS_4$; $INPUT_DECK_B$
+SELECT_4 RELEASED = 4/SEL; WAIT 1; $INPUT_DECK_B$
 
 SELECT_5 = CC, 1, 50, 0, 127, FALSE
-SELECT_5 RELEASED = 5/SEL; WAIT 1; $LEDS_5$
+SELECT_5 RELEASED = 5/SEL
 
 SELECT_6 = CC, 1, 51, 0, 127, FALSE
-SELECT_6 RELEASED = 6/SEL; WAIT 1; $LEDS_6$
+SELECT_6 RELEASED = 6/SEL
 
 SELECT_7 = CC, 1, 52, 0, 127, FALSE
-SELECT_7 RELEASED = 7/SEL; WAIT 1; $LEDS_7$
+SELECT_7 RELEASED = 7/SEL
 
 SELECT_8 = CC, 1, 53, 0, 127, FALSE
-SELECT_8 RELEASED = 8/SEL; WAIT 1; $LEDS_8$
+SELECT_8 RELEASED = 8/SEL

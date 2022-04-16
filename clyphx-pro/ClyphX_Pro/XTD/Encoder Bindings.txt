@@ -146,18 +146,11 @@ VERSION = v1.0.5
 
 # --------------------------------------------------------------------------------------
 
-# XTC (KORG nanoKEY Studio) - Encoder bindings
+# XTD (Traktor Kontrol Z1) - Encoder bindings
 # CC numbers reference those assigned in the KORG KONTROL Editor
 
 # FX macros
-# These bindings are dynamically remapped by Track FX selection in X-Controls.txt
-# CHANNEL, CC, MAPPING_MODE, NEEDS_TAKEOVER, BINDING
+# NAME = CHANNEL, CC, MAPPING_MODE, NEEDS_TAKEOVER, BINDING
 
-FX_MACRO_1 = 2, 20, ABSOLUTE, TRUE, "1FX"/DEV(1) P1
-FX_MACRO_2 = 2, 21, ABSOLUTE, TRUE, "1FX"/DEV(1) P2
-FX_MACRO_3 = 2, 22, ABSOLUTE, TRUE, "1FX"/DEV(1) P3
-FX_MACRO_4 = 2, 23, ABSOLUTE, TRUE, "1FX"/DEV(1) P4
-FX_MACRO_5 = 2, 24, ABSOLUTE, TRUE, "1FX"/DEV(1) P5
-FX_MACRO_6 = 2, 25, ABSOLUTE, TRUE, "1FX"/DEV(1) P6
-FX_MACRO_7 = 2, 26, ABSOLUTE, TRUE, "1FX"/DEV(1) P7
-FX_MACRO_8 = 2, 27, ABSOLUTE, TRUE, "1FX"/DEV(1) P8
+Z1_XFADER_LIVE_XFADER = 3, 5, ABSOLUTE, TRUE, MST/XFADER
+Z1_GAIN_L_LIVE_MASTER_VOL = 1, 0, RELATIVE_TWO_COMPLIMENT, TRUE, MST/VOL

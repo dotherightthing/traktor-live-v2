@@ -73,22 +73,9 @@
 
 # --------------------------------------------------------------------------------------
 
-# Traktor TSI v3.0 - XTB (KORG nanoKONTROL Studio) - X-Controls
+# XTD (Traktor Kontrol Z1) - X-Controls
 # An X-Control is a control on a MIDI controller.
-# CC numbers reference those assigned in the KORG KONTROL Editor
+# NAME (CONTROLLER_TARGET_ACTION) = TYPE, CHANNEL, NOTE_OR_CC, OFF_LED, ON_LED, ON_ACTION_LIST
 
-# Left and right arrows on first row of buttons
-LOOP_SIZE_LEFT = CC, 1, 56, 0, 127, $LOOP_HALVE$
-LOOP_SIZE_RIGHT = CC, 1, 57, 0, 127, $LOOP_DOUBLE$
-
-# FFWD and RWD arrows on second row of buttons
-LOOP_MOVE_LEFT = CC, 1, 58, 0, 127, $LOOP_LEFT$
-LOOP_MOVE_RIGHT = CC, 1, 59, 0, 127, $LOOP_RIGHT$
-
-# Left and right arrows on second row of buttons
-LOOP_NUDGE_LEFT = CC, 1, 60, 0, 127, $LOOP_NUDGE_LEFT$
-LOOP_NUDGE_RIGHT = CC, 1, 61, 0, 127, $LOOP_NUDGE_RIGHT$
-
-# Back-to-start button
-# Trigger shift on when pressed and shift off when released
-SHIFT_BUTTON = CC, 1, 62, 0, 127, shift on : shift off
+Z1_ON_L_TRAKTOR_SELECT_DECK_A = CC, 1, 5, 0, 127, MSG "Selecting Traktor Deck A"
+Z1_ON_R_TRAKTOR_SELECT_DECK_B = CC, 2, 5, 0, 127, $TRAKTOR_SELECT_DECK_B$

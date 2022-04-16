@@ -60,35 +60,19 @@
 %MIDI_BOME% = 'MIDIA'
 %MIDI_NANOKONTROL% = 'MIDIB'
 %MIDI_NANOKEY% = 'MIDIC'
+%MIDI_Z1% = 'MIDID'
 
 # MIDI controls
-# See also G-Controls (which doesn't support variables)
+# See also G-Controls (which don't support variables)
 
-%MIDI_CC_FX_1_1% = CC 1 22
-%MIDI_CC_FX_1_2% = CC 1 30
-%MIDI_CC_FX_1_3% = CC 1 39
+# Traktor Kontrol Z1
 
-%MIDI_CC_FX_4_1% = CC 1 23
-%MIDI_CC_FX_4_2% = CC 1 31
-%MIDI_CC_FX_4_3% = CC 1 40
-
-%MIDI_CC_LOOP% = CC 1 55
-
-%MIDI_CC_PLAY% = CC 1 80
-
-%MIDI_CC_REC% = CC 1 81
-
-%MIDI_CC_SELECT_1% = CC 1 46
-%MIDI_CC_SELECT_2% = CC 1 47
-%MIDI_CC_SELECT_3% = CC 1 48
-%MIDI_CC_SELECT_4% = CC 1 49
-%MIDI_CC_SELECT_5% = CC 1 50
-%MIDI_CC_SELECT_6% = CC 1 51
-%MIDI_CC_SELECT_7% = CC 1 52
-%MIDI_CC_SELECT_8% = CC 1 53
+%MIDI_CC_Z1_ON_L% = CC 1 5
+%MIDI_CC_Z1_ON_R% = CC 2 5
 
 # Traktor Virtual Input
+# See Clyphx Pro M4L (Max for Live) device on Master track, accessed via User Mode (Shift + Session)
 
-%MIDI_CC_TRAKTOR_DECK_A% = CC 16 46
-%MIDI_CC_TRAKTOR_DECK_B% = CC 16 49
-%MIDI_CC_TRAKTOR_DECK_D% = CC 16 50
+%MIDI_CC_TRAKTOR_SYNC% = CC 16 1
+%MIDI_CC_TRAKTOR_SELECT_DECK_A% = CC 16 2
+%MIDI_CC_TRAKTOR_SELECT_DECK_B% = CC 16 3
