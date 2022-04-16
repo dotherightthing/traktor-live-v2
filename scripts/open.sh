@@ -26,9 +26,10 @@ cd $INIT_CWD \
 && echo "" \
 && echo "1. Traktor Pro        - click: MASTER CLOCK START" \
 && echo "2. Traktor Pro        - click: MASTER CLOCK SYNC" \
-&& echo "3. Ableton Live       - click: Options > External Sync" \
-&& echo "4. Audio Hijack       - click: COMMAND + R (Record)" \
-&& echo "5. Traktor Kontrol Z1 - push: MODE + A + B (MIDI mode)"
+&& echo "3. Traktor Pro        - click: Preferences > Audio Setup > Audio Device > Push 2 Traktor Live" \
+&& echo "4. Ableton Live       - click: Options > External Sync" \
+&& echo "5. Audio Hijack       - click: COMMAND + R (Record)" \
+&& echo "6. Traktor Kontrol Z1 - push: MODE + A + B (MIDI mode)"
 && echo "" \
 && echo "Enjoy!" \
 && echo ""
