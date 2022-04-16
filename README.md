@@ -347,6 +347,10 @@ N/A
   * Sync: `Off`
   * Remote: `On`
 
+##### nativeKONTROL ClyphX Pro configuration
+
+See Clyphx Pro M4L (Max for Live) device on Master track, accessed via User Mode (Shift + Session)
+
 ---
 
 ### 6. Controller Overlay
