@@ -1,7 +1,7 @@
 {
-  "description": "Traktor Pro mix template for the KORG nanoKEY/nanoKONTROL Studio MIDI controllers.",
   "name": "push2-traktor-live",
   "version": "1.0.0",
+  "description": "Traktor Pro mix template for the Push2 and other MIDI controllers.",
   "main": "README.md",
   "scripts": {
     "install": "./scripts/install.sh",
