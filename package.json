@@ -1,7 +1,7 @@
 {
-  "name": "nk-traktor-live",
-  "version": "2.3.0",
   "description": "Traktor Pro mix template for the KORG nanoKEY/nanoKONTROL Studio MIDI controllers.",
+  "name": "push2-traktor-live",
+  "version": "1.0.0",
   "main": "README.md",
   "scripts": {
     "install": "./scripts/install.sh",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dotherightthing/nk-traktor-live.git"
+    "url": "git+https://github.com/dotherightthing/push2-traktor-live.git"
   },
   "keywords": [
     "midi-controller",
@@ -24,8 +24,8 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dotherightthing/nk-traktor-live/issues"
+    "url": "https://github.com/dotherightthing/push2-traktor-live/issues"
   },
-  "homepage": "https://github.com/dotherightthing/nk-traktor-live#readme",
+  "homepage": "https://github.com/dotherightthing/push2-traktor-live#readme",
   "private": true
 }
