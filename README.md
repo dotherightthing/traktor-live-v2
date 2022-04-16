@@ -47,6 +47,7 @@ The Loop Recorder is problematic because it records loops slightly too long. Sam
     * [Native Instruments Traktor Pro Controller Manager](#native-instruments-traktor-pro-controller-manager)
     * [KORG nanoKEY Studio](#korg-nanokey-studio)
     * [KORG nanoKONTROL Studio](#korg-nanokontrol-studio)
+    * [Native Instruments Traktor Kontrol X1](#native-instruments-traktor-kontrol-x1)
     * [Native Instruments Traktor Kontrol Z1](#native-instruments-traktor-kontrol-z1)
     * [Ableton Push2](#ableton-push2)
 6. **[Controller Overlay](#6-controller-overlay):**
@@ -296,6 +297,17 @@ Double-click to open the set files, then select Communication > Write Scene Data
 1. `clyphx-pro/ClyphX_Pro/XTB/Encoder Bindings.txt`
 1. `clyphx-pro/ClyphX_Pro/XTB/G-Controls.txt`
 1. `clyphx-pro/ClyphX_Pro/XTB/X-Controls.txt`
+
+---
+
+#### Native Instruments Traktor Kontrol X1
+
+* Product: <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-x1/>
+* Version: 2
+
+##### Ableton Live MIDI setup
+
+N/A
 
 ---
 
