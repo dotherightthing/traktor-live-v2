@@ -24,10 +24,11 @@ cd $INIT_CWD \
 && echo "" \
 && echo "To complete the installation please do the following:" \
 && echo "" \
-&& echo "1. Traktor Pro  - click: MASTER CLOCK START" \
-&& echo "2. Traktor Pro  - click: MASTER CLOCK SYNC" \
-&& echo "3. Ableton Live - click: Options > External Sync" \
-&& echo "4. Audio Hijack - click: COMMAND + R" \
+&& echo "1. Traktor Pro        - click: MASTER CLOCK START" \
+&& echo "2. Traktor Pro        - click: MASTER CLOCK SYNC" \
+&& echo "3. Ableton Live       - click: Options > External Sync" \
+&& echo "4. Audio Hijack       - click: COMMAND + R (Record)" \
+&& echo "5. Traktor Kontrol Z1 - push: MODE + A + B (MIDI mode)"
 && echo "" \
 && echo "Enjoy!" \
 && echo ""
