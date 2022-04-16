@@ -16,13 +16,18 @@ set -e
 
 # open files to run apps
 cd $INIT_CWD \
-&& echo "Running applications" \
+&& echo "Running applications..." \
 && open /Applications/Loopback.app \
 && open traktor-pro/push2-traktor-live.tsi \
 && open ableton-live/push2-traktor-live\ Project/push2-traktor-live.als \
 && open audio-hijack/push2-traktor-live.ahsession \
-&& echo "----------8<----------" \
-&& echo "Traktor Pro - please click: MASTER CLOCK START" \
-&& echo "Ableton Live - please click: Options > External Sync" \
-&& echo "Audio Hijack - please click: COMMAND+R" \
-&& echo "---------->8----------"
+&& echo "" \
+&& echo "To complete the installation please do the following:" \
+&& echo "" \
+&& echo "1. Traktor Pro  - click: MASTER CLOCK START" \
+&& echo "2. Traktor Pro  - click: MASTER CLOCK SYNC" \
+&& echo "3. Ableton Live - click: Options > External Sync" \
+&& echo "4. Audio Hijack - click: COMMAND + R" \
+&& echo "" \
+&& echo "Enjoy!" \
+&& echo ""

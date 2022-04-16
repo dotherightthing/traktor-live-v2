@@ -14,16 +14,14 @@
 # v: print shell input lines as they are read (including all comments!)
 set -e
 
+# Removed:
+# cp 'clyphx-pro/user_actions/' '/Applications/Ableton Live 10 Standard.app/Contents/App-Resources/MIDI Remote Scripts/ClyphX_Pro/clyphx_pro/' \
+
 # install project files
 cd $INIT_CWD \
-&& echo "Installing ClyphX Pro configuration" \
+&& echo "Installing configuration files" \
 && rm -rf ~/NativeKONTROL/ClyphX_Pro \
 && rm -rf '/Applications/Ableton Live 10 Standard.app/Contents/App-Resources/MIDI Remote Scripts/ClyphX_Pro/clyphx_pro/user_actions' \
 && cp -R 'clyphx-pro/ClyphX_Pro' ~/NativeKONTROL \
-&& cp 'clyphx-pro/user_actions/' '/Applications/Ableton Live 10 Standard.app/Contents/App-Resources/MIDI Remote Scripts/ClyphX_Pro/clyphx_pro/' \
-&& echo "Installing Loopback configuration" \
 && cp 'loopback/Devices.plist' ~/Library/Application\ Support/Loopback \
-&& open traktor-pro/push2-traktor-live.tsi \
-&& open ableton-live/push2-traktor-live Project/push2-traktor-live.als \
-&& open audio-hijack/push2-traktor-live.ahsession \
 && echo "Installation complete"
