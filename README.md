@@ -6,7 +6,7 @@ This is a 'fork' of <https://github.com/dotherightthing/nk-traktor-live/>, which
 
 Traktor Pro mix template for the KORG nanoKEY/nanoKONTROL Studio MIDI controllers.
 
-Includes Ableton Live starter file with mixer and 4 channel sampler.
+Includes Ableton Live starter file.
 
 I've documented this for my own benefit, but please help yourself to any part you find useful.
 
