@@ -4,6 +4,9 @@
   "description": "Traktor Pro mix template for the KORG nanoKEY/nanoKONTROL Studio MIDI controllers.",
   "main": "README.md",
   "scripts": {
+    "install": "./scripts/install.sh",
+    "open": "./scripts/open.sh",
+    "refresh": "npm run install && npm run open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
