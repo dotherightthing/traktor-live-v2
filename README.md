@@ -415,7 +415,7 @@ Inkscape is a cross-platform vector editor.
     * Owner manual: <https://www.korg.com/us/support/download/manual/0/552/2911/>
     * SVG: `svg-overlays/nanokontrol-inkscape.svg`
 3. Traktor Kontrol X1 Mk2
-    * SVG: `svg-overlays/traktor-kontrol-x1.svg`
+    * SVG: `svg-overlays/traktor-kontrol-x1.svg` (custom)
 
 ##### Process to create the bundled SVG
 
