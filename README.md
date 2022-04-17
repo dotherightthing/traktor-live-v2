@@ -305,9 +305,24 @@ Double-click to open the set files, then select Communication > Write Scene Data
 * Product: <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-x1/>
 * Version: 2
 
+##### Features
+
+* By default:
+   1. SHIFT + left encoder moves the loop by the length of the loop
+* I  this version:
+   1. SHIFT + left encoder moves the loop by the length set using one of the top 8 LED buttons
+   2. Left/right FX buttons trigger BPM /2 and BPM x2 on Deck A/B
+
 ##### Ableton Live MIDI setup
 
 N/A
+
+##### Traktor Pro Controller Manager Device Setup
+
+* Device: `Traktor Kontrol X1 v1.0`
+* TSI: `traktor-pro/traktor-kontrol-x1-v1-0.tsi`
+* In-port: `KontrolX1MK2`
+* Out-port: `KontrolX1MK2`
 
 ---
 
@@ -399,6 +414,8 @@ Inkscape is a cross-platform vector editor.
 2. KORG nanoKONTROL Studio
     * Owner manual: <https://www.korg.com/us/support/download/manual/0/552/2911/>
     * SVG: `svg-overlays/nanokontrol-inkscape.svg`
+3. Traktor Kontrol X1 Mk2
+    * SVG: `svg-overlays/traktor-kontrol-x1.svg`
 
 ##### Process to create the bundled SVG
 
