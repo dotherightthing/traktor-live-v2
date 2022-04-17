@@ -309,10 +309,14 @@ Double-click to open the set files, then select Communication > Write Scene Data
 
 * Default:
    1. SHIFT + left encoder moves the loop by the length of the loop
+   2. Left/Right LOAD button loads track into Deck A/B
+   3. SHIFT + Left/Right? LOAD button toggles SNAP
 * This version:
    1. SHIFT + left encoder moves the loop by the length set using one of the top 8 LED buttons
-   2. Left FX buttons trigger BPM /2 and BPM x2 on selected deck
-   3. Right FX buttons trigger Beatjump -1/16 / +1/16 on selected deck
+   2. Left/Right LOAD button selects Deck A/B
+   3. SHIFT + Left/Right LOAD button loads track into Deck A/B
+   4. Left FX buttons trigger BPM /2 and BPM x2 on selected deck
+   5. Right FX buttons trigger Beatjump -1/16 / +1/16 on selected deck
 
 ##### Ableton Live MIDI setup
 
