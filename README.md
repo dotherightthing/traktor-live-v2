@@ -284,6 +284,11 @@ Double-click to open the set files, then select Communication > Write Scene Data
   * Sync: `Off`
   * Remote: `On`
 
+###### Features
+
+* Tracks 1-8: Pan
+* Tracks 1-8: Volume
+
 ##### KORG KONTROL Editor configuration files
 
 1. Set: `korg-kontrol-editor/push2-traktor-live.nktrl_st_data`
