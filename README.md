@@ -219,11 +219,11 @@ Part of Traktor Pro 3: <https://support.native-instruments.com/hc/en-us/articles
 
 `.tsi` templates map control surfaces and supporting software to Traktor Pro's interface API.
 
+1. `traktor-pro/clock.tsi` - for MIDI clock sync (TBC - iof not for another project)
 1. `traktor-pro/clyphx-pro-v1-0.tsi` - for sending MIDI from Live to Traktor
-1. `traktor-pro/generic-keyboard.tsi` - keyboard shortcuts to control MIDI clock
 1. `traktor-pro/korg-nanokey-studio-v1.tsi` - hot cues and key adjust
-1. `traktor-pro/korg-nanokontrol-studio-v3-0.tsi` - loop adjustment
-1. `traktor-pro/push2-traktor-live.tsi` - clock sync?
+1. `traktor-pro/push2-traktor-live.tsi` - Traktor Settings (Preferences > Export)
+1. `traktor-pro/traktor-kontrol-z1-default.tsi` - default mappings (unit is used in MIDI mode)
 
 ##### Project file
 
