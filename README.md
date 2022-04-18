@@ -353,6 +353,13 @@ N/A
   * Sync: `Off`
   * Remote: `On`
 
+###### Features
+
+* L/R HI/MID/LOW control DECK A/B Device 1 EQ
+* L/R FILTER control DECK A/B Device 1 Pan (Macrobat)
+* L/R VOLUME control DECK A/B Device 1 Vol (Macrobat)
+* XFADER controls XFADER
+
 ---
 
 #### Ableton Push2
