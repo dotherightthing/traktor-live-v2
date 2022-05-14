@@ -147,7 +147,6 @@ VERSION = v1.0.5
 # --------------------------------------------------------------------------------------
 
 # XTD (Traktor Kontrol Z1) - Encoder bindings
-# CC numbers reference those assigned in the KORG KONTROL Editor
 
 # FX macros
 # NAME = CHANNEL, CC, MAPPING_MODE, NEEDS_TAKEOVER, BINDING
