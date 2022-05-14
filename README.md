@@ -67,7 +67,7 @@ The Loop Recorder is problematic because it records loops slightly too long. Sam
 
 #### MacBook Pro
 
-This setup is for the Traktor Kontrol Z1. Mixing is only done on headphones, so the master mix goes to both Left and Right channels (for monitoring and recording with Audio Hijack) and cueing goes to the Right channel (this is not recorded).
+This setup is for the Traktor Kontrol Z1. Mixing is only done on headphones, so the master mix goes to both Left and Right channels (for monitoring and recording with Audio Hijack) and cueing goes to the Right channel (this is not recorded). This is a variation on the [split cue](https://www.digitaldjtips.com/2019/05/dj-tips-tricks-what-split-cue-is-why-you-may-want-to-use-it/) approach.
 
 ---
 
