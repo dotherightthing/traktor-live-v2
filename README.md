@@ -67,9 +67,7 @@ The Loop Recorder is problematic because it records loops slightly too long. Sam
 
 #### MacBook Pro
 
-This setup is for the internal sound card on my Macbook Pro.
-
-As my Native Instruments Z1 is in storage, the output goes directly to headphones and there is no separate output for cueing.
+This setup is for the Traktor Kontrol Z1. Mixing is only done on headphones, so the master mix goes to both Left and Right channels (for monitoring and recording with Audio Hijack) and cueing goes to the Right channel (this is not recorded).
 
 ---
 
@@ -112,7 +110,7 @@ In order to be able to choose which Traktor Pro deck to sample from, both decks 
 
 1. `ableton-live/push2-traktor-live Project/push2-traktor-live.als`
 
-Contains a 2 channel mixer and a 6 channel sampler.
+Contains a 2 channel mixer and an 8 channel sampler (Deck A x3 + Deck B x3 + Resample x1 + Chop x1).
 
 ##### Audio
 
@@ -123,14 +121,15 @@ Contains a 2 channel mixer and a 6 channel sampler.
 <img src="ableton-live/screenshots/output-config.png" alt="Screenshot of Ableton Live's Output Config window" width="500">
 
 1. Driver Type: `CoreAudio`
-2. Audio Input Device: `NK Traktor Live (6 In, 6 Out)`
-3. Audio Output Device: `NK Traktor Live (6 In, 6 Out)`
+2. Audio Input Device: `NK Traktor Live (8 In, 8 Out)`
+3. Audio Output Device: `NK Traktor Live (8 In, 8 Out)`
 4. Channel Configuration
    1. Input Config:
       * `3/4: Traktor Pro Deck A`
       * `5/6: Traktor Pro Deck B`
    2. Output Config:
       * `1/2: Live Out`
+      * `7/8: Live Cue R` (channel `8`)
 
 ##### UI (top left)
 
@@ -219,7 +218,7 @@ Part of Traktor Pro 3: <https://support.native-instruments.com/hc/en-us/articles
 
 `.tsi` templates map control surfaces and supporting software to Traktor Pro's interface API.
 
-1. `traktor-pro/clock.tsi` - for MIDI clock sync (TBC - iof not for another project)
+1. `traktor-pro/clock.tsi` - for MIDI clock sync (TBC - if not for another project)
 1. `traktor-pro/clyphx-pro-v1-0.tsi` - for sending MIDI from Live to Traktor
 1. `traktor-pro/korg-nanokey-studio-v1.tsi` - hot cues and key adjust
 1. `traktor-pro/push2-traktor-live.tsi` - Traktor Settings (Preferences > Export)
@@ -360,6 +359,7 @@ N/A
 * L/R VOLUME control DECK A/B Device 1 Vol (Macrobat)
 * L FILTER ON copies DECK A to DECK B
 * R FILTER ON copies DECK B to DECK A
+* CUE MIX controls Cue Volume
 * XFADER controls XFADER
 
 ---
