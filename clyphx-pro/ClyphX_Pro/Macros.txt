@@ -84,3 +84,23 @@ $TRAKTOR_SELECT_DECK_B$ =
  %MIDI_TRAKTOR% %MIDI_CC_TRAKTOR_SELECT_DECK_A% 0;
  %MIDI_TRAKTOR% %MIDI_CC_TRAKTOR_SELECT_DECK_B% 127;
  MSG "Selected Traktor Deck B"
+
+# https://www.youtube.com/watch?v=rjSTTO3f4_Y
+# TODO check Gain amt
+# TODO renaming not working
+# TODD need to select Note on Push2 to see slices and do sequencing
+# TODO insert the simpler at track 8
+# TODO possible to put all the slices into the sequencer automatically?
+$SLICE$ =
+  "CHOP"/DEL;
+  SEL/CLIP(SEL) TOSIMP;
+  WAIT 5;
+  SEL/NAME "CHOP";
+  SEL/DEV SIMP PLAYMODE SLICE;
+  SEL/DEV SIMP SMODE BEAT;
+  SEL/DEV SIMP MULT 4;
+  SEL/DEV SIMP GAIN 108;
+  ADDCLIP SEL 1;
+  SEL "CHOP";
+  SEL/CLIP NAMED "CHP";
+  SEL/PLAY
