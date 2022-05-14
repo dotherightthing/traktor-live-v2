@@ -92,3 +92,13 @@ LOOP_NUDGE_RIGHT = CC, 1, 61, 0, 127, $LOOP_NUDGE_RIGHT$
 # Back-to-start button
 # Trigger shift on when pressed and shift off when released
 SHIFT_BUTTON = CC, 1, 62, 0, 127, shift on : shift off
+
+# Channel cues
+SOLO_1 = CC, 1, 46, 127, 0, 1/SOLO
+SOLO_2 = CC, 1, 47, 127, 0, 2/SOLO
+SOLO_3 = CC, 1, 48, 127, 0, 3/SOLO
+SOLO_4 = CC, 1, 49, 127, 0, 4/SOLO
+SOLO_5 = CC, 1, 50, 127, 0, 5/SOLO
+SOLO_6 = CC, 1, 51, 127, 0, 6/SOLO
+SOLO_7 = CC, 1, 52, 127, 0, 7/SOLO
+SOLO_8 = CC, 1, 53, 127, 0, 8/SOLO
