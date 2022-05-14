@@ -76,6 +76,3 @@
 # XTD (Traktor Kontrol Z1) - X-Controls
 # An X-Control is a control on a MIDI controller.
 # NAME (CONTROLLER_TARGET_ACTION) = TYPE, CHANNEL, NOTE_OR_CC, OFF_LED, ON_LED, ON_ACTION_LIST
-
-Z1_CUE_A = CC, 3, 1, 127, 0, "DECK A"/SOLO
-Z1_CUE_B = CC, 3, 2, 127, 0, "DECK B"/SOLO
