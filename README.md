@@ -88,7 +88,7 @@ In order to be able to choose which Traktor Pro deck to sample from, both decks 
 
 ##### Project file
 
-* `loopback/Devices.plist`
+* `loopback/Devices.plist` (from `Users/Name/Application Support/Loopback/Devices.plist`)
 
 ---
 
