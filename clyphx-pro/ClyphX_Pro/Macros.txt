@@ -117,5 +117,6 @@ $RESET$ =
  "DECK A"/ARM OFF;
  "DECK B"/ARM OFF;
  ALL/MUTE OFF;
+ RESTART;
  MSG "Reset mixer";
  PUSH MSG "Reset mixer"
