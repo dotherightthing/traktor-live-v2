@@ -97,3 +97,6 @@ TOP_RIGHT_ARROW = CC, 1, 57, 0, 127,
  6/IN "DECK B";
  PUSH MSG "Set input to Deck B";
  MSG "Set input to Deck B"
+
+# Reset set mixing controls
+REWIND_BUTTON = CC, 1, 62, 0, 127, $RESET$
