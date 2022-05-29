@@ -156,6 +156,7 @@ VERSION = v1.0.5
 
 
 # LEDs work best with Button Behaviour = Momentary
+# This controller does not appear to support this mode
 
 # Channel cues
 Z1_CUE_A = CC, 3, 1, 0, 127, "DECK A"/SOLO
