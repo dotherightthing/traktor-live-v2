@@ -23,5 +23,6 @@ cd $INIT_CWD \
 && rm -rf ~/NativeKONTROL/ClyphX_Pro \
 && rm -rf '/Applications/Ableton Live 10 Standard.app/Contents/App-Resources/MIDI Remote Scripts/ClyphX_Pro/clyphx_pro/user_actions' \
 && cp -R 'clyphx-pro/ClyphX_Pro' ~/NativeKONTROL \
+&& cp -R 'clyphx-pro/user_actions' /Applications/Ableton\ Live\ 10\ Standard.app/Contents/App-Resources/MIDI\ Remote\ Scripts/ClyphX_Pro/clyphx_pro \
 && cp 'loopback/Devices.plist' ~/Library/Application\ Support/Loopback \
 && echo "Installation complete"
