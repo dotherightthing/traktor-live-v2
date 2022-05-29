@@ -220,7 +220,7 @@ Part of Traktor Pro 3: <https://support.native-instruments.com/hc/en-us/articles
 
 1. `traktor-pro/clock.tsi` - for MIDI clock sync (TBC - if not for another project)
 1. `traktor-pro/clyphx-pro-v1-0.tsi` - for sending MIDI from Live to Traktor
-1. `traktor-pro/korg-nanokey-studio-v1.tsi` - hot cues and key adjust
+1. `traktor-pro/korg-nanokey-studio-v1.tsi` - key adjust
 1. `traktor-pro/push2-traktor-live.tsi` - Traktor Settings (Preferences > Export)
 1. `traktor-pro/traktor-kontrol-z1-default.tsi` - default mappings (unit is used in MIDI mode)
 
@@ -240,17 +240,7 @@ Part of Traktor Pro 3: <https://support.native-instruments.com/hc/en-us/articles
 * Version: 1.08
 * Editor: <https://www.korg.com/us/support/download/software/1/133/1355/>
 
-##### Ableton Live MIDI setup
-
-* Control Surface: `ClyphX Pro XTC`
-* Input: `nanoKEY Studio`
-  * Track: `On`
-  * Sync: `Off`
-  * Remote: `On`
-* Output: `nanoKEY Studio`
-  * Track: `On`
-  * Sync: `Off`
-  * Remote: `On`
+The nanoKEY is only used to pitch loops in Traktor, via key adjust.
 
 ##### KORG KONTROL Editor configuration files
 
@@ -258,10 +248,6 @@ Part of Traktor Pro 3: <https://support.native-instruments.com/hc/en-us/articles
 2. Set containing all scenes: `korg-kontrol-editor/push2-traktor-live.nanokey_st_set`
 
 Double-click to open the set files, then select Communication > Write Scene Data.
-
-##### nativeKONTROL ClyphX Pro configuration files: XTC
-
-1. `clyphx-pro/ClyphX_Pro/XTC/Encoder Bindings.txt`
 
 ---
 
