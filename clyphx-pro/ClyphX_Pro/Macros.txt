@@ -51,30 +51,6 @@
 
 # Shared Macros
 
-$LOOP_DOUBLE$ =
- SEL/CLIP LOOP *2;
- MSG "Doubled loop size"
-
-$LOOP_HALVE$ =
- SEL/CLIP LOOP *.5;
- MSG "Halved loop size"
-
-$LOOP_LEFT$ =
- SEL/CLIP LOOP <;
- MSG "Moved clip start back by loop length"
-
-$LOOP_NUDGE_LEFT$ =
- SEL/JUMP <;
- MSG "Jumped clip back"
-
-$LOOP_NUDGE_RIGHT$ =
- SEL/JUMP >;
- MSG "Jumped clip forward"
-
-$LOOP_RIGHT$ =
- SEL/CLIP LOOP >;
- MSG "Moved clip start forward by loop length"
-
 $TRAKTOR_SELECT_DECK_A$ =
  %MIDI_TRAKTOR% %MIDI_CC_TRAKTOR_SELECT_DECK_A% 127;
  %MIDI_TRAKTOR% %MIDI_CC_TRAKTOR_SELECT_DECK_B% 0;

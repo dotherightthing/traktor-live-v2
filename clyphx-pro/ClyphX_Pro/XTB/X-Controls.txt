@@ -77,18 +77,23 @@
 # An X-Control is a control on a MIDI controller.
 # CC numbers reference those assigned in the KORG KONTROL Editor
 
-# Left and right arrows on first row of buttons
-LOOP_SIZE_LEFT = CC, 1, 56, 0, 127, $LOOP_HALVE$
-LOOP_SIZE_RIGHT = CC, 1, 57, 0, 127, $LOOP_DOUBLE$
+# Deck input selector
+TOP_LEFT_ARROW = CC, 1, 56, 0, 127,
+ 1/IN "DECK A";
+ 2/IN "DECK A";
+ 3/IN "DECK A";
+ 4/IN "DECK A";
+ 5/IN "DECK A";
+ 6/IN "DECK A";
+ PUSH MSG "Set input to Deck A";
+ MSG "Set input to Deck A"
 
-# FFWD and RWD arrows on second row of buttons
-LOOP_MOVE_LEFT = CC, 1, 58, 0, 127, $LOOP_LEFT$
-LOOP_MOVE_RIGHT = CC, 1, 59, 0, 127, $LOOP_RIGHT$
-
-# Left and right arrows on second row of buttons
-LOOP_NUDGE_LEFT = CC, 1, 60, 0, 127, $LOOP_NUDGE_LEFT$
-LOOP_NUDGE_RIGHT = CC, 1, 61, 0, 127, $LOOP_NUDGE_RIGHT$
-
-# Back-to-start button
-# Trigger shift on when pressed and shift off when released
-SHIFT_BUTTON = CC, 1, 62, 0, 127, shift on : shift off
+TOP_RIGHT_ARROW = CC, 1, 57, 0, 127,
+ 1/IN "DECK B";
+ 2/IN "DECK B";
+ 3/IN "DECK B";
+ 4/IN "DECK B";
+ 5/IN "DECK B";
+ 6/IN "DECK B";
+ PUSH MSG "Set input to Deck B";
+ MSG "Set input to Deck B"
