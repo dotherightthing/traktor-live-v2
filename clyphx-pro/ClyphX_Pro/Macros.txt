@@ -120,3 +120,6 @@ $RESET$ =
  RESTART;
  MSG "Reset mixer";
  PUSH MSG "Reset mixer"
+
+$SYNC$ =
+ %MIDI_TRAKTOR% %MIDI_CC_TRAKTOR_SYNC% 127

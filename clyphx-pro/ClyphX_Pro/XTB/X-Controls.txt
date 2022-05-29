@@ -98,5 +98,11 @@ TOP_RIGHT_ARROW = CC, 1, 57, 0, 127,
  PUSH MSG "Set input to Deck B";
  MSG "Set input to Deck B"
 
-# Reset set mixing controls
+# Reset mixer
 REWIND_BUTTON = CC, 1, 62, 0, 127, $RESET$
+
+# Chop/slice a clip
+STOP_BUTTON = CC, 1, 63, 0, 127, $SLICE$
+
+# Sync to clock
+PLAY_BUTTON = CC, 1, 80, 0, 127, $SYNC$
