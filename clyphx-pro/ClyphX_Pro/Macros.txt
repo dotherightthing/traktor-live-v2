@@ -66,6 +66,8 @@ $TRAKTOR_SELECT_DECK_B$ =
 # TODO renaming not working
 # TODD need to select Note on Push2 to see slices and do sequencing
 # TODO insert the simpler at track 8
+# - moving a track is not possible: https://nativekontrol.proboards.com/thread/4480/move-track
+# - CMD + <> will move track, but only if track header is selected first
 # TODO possible to put all the slices into the sequencer automatically?
 $SLICE$ =
   "CHOP"/DEL;
@@ -78,5 +80,5 @@ $SLICE$ =
   SEL/DEV SIMP GAIN 108;
   ADDCLIP SEL 1;
   SEL "CHOP";
-  SEL/CLIP NAMED "CHP";
+  SEL/CLIP NAMED "CHOP";
   SEL/PLAY
