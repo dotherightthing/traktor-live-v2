@@ -106,3 +106,6 @@ STOP_BUTTON = CC, 1, 63, 0, 127, $SLICE$
 
 # Sync to clock
 PLAY_BUTTON = CC, 1, 80, 0, 127, $SYNC$
+
+# Flatten clip
+REC_BUTTON = CC, 1, 81, 0, 127, user_clip id_playing_clip
