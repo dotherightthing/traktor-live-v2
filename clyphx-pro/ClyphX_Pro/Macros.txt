@@ -70,20 +70,28 @@ $TRAKTOR_SELECT_DECK_B$ =
 # - CMD + <> will move track, but only if track header is selected first
 # TODO possible to put all the slices into the sequencer automatically?
 $SLICE$ =
-  "CHOP"/DEL;
-  SEL/CLIP(SEL) TOSIMP;
-  WAIT 5;
-  SEL/NAME "CHOP";
-  SEL/DEV SIMP PLAYMODE SLICE;
-  SEL/DEV SIMP SMODE BEAT;
-  SEL/DEV SIMP MULT 4;
-  SEL/DEV SIMP GAIN 108;
-  ADDCLIP SEL 1;
-  SEL "CHOP";
-  SEL/CLIP NAMED "CHOP";
-  SEL/PLAY
+ "CHOP"/DEL;
+ SEL/CLIP(SEL) TOSIMP;
+ WAIT 5;
+ SEL/NAME "CHOP";
+ SEL/DEV SIMP PLAYMODE SLICE;
+ SEL/DEV SIMP SMODE BEAT;
+ SEL/DEV SIMP MULT 4;
+ SEL/DEV SIMP GAIN 108;
+ ADDCLIP SEL 1;
+ SEL "CHOP";
+ SEL/CLIP NAMED "CHOP";
+ SEL/PLAY;
+ MSG "Sliced selected clip";
+ PUSH MSG "Sliced selected clip"
 
+$FLATTEN =
+ MSG "Flatten selected clip (TODO)";
+ PUSH MSG "Flatten selected clip (TODO)"
+
+# Set VU Meters to 0 so that no-signal displays as 0 rather than 64
 $RESET$ =
+ PUSH MODE SESSION;
  ALL/DEV(1) P1 127;
  ALL/DEV(1) P2 63;
  ALL/DEV(1) P3 107;
@@ -116,15 +124,83 @@ $RESET$ =
  "SAMPLE 4"/IN "DECK A";
  "SAMPLE 5"/IN "DECK A";
  "SAMPLE 6"/IN "DECK A";
+ "Meter 1"/DEV("midiAudioToCC") "Input Gain" 84;
+ "Meter 1"/DEV("midiAudioToCC") "Inertia" 127;
+ "Meter 1"/DEV("midiAudioToCC") "Rate" 50;
+ "Meter 2"/DEV("midiAudioToCC") "Input Gain" 84;
+ "Meter 2"/DEV("midiAudioToCC") "Inertia" 127;
+ "Meter 2"/DEV("midiAudioToCC") "Rate" 50;
+ "Meter 3"/DEV("midiAudioToCC") "Input Gain" 84;
+ "Meter 3"/DEV("midiAudioToCC") "Inertia" 127;
+ "Meter 3"/DEV("midiAudioToCC") "Rate" 50;
+ "Meter 4"/DEV("midiAudioToCC") "Input Gain" 84;
+ "Meter 4"/DEV("midiAudioToCC") "Inertia" 127;
+ "Meter 4"/DEV("midiAudioToCC") "Rate" 50;
+ "Meter 5"/DEV("midiAudioToCC") "Input Gain" 84;
+ "Meter 5"/DEV("midiAudioToCC") "Inertia" 127;
+ "Meter 5"/DEV("midiAudioToCC") "Rate" 50;
+ "Meter 6"/DEV("midiAudioToCC") "Input Gain" 84;
+ "Meter 6"/DEV("midiAudioToCC") "Inertia" 127;
+ "Meter 6"/DEV("midiAudioToCC") "Rate" 50;
+ "Meter 7"/DEV("midiAudioToCC") "Input Gain" 84;
+ "Meter 7"/DEV("midiAudioToCC") "Inertia" 127;
+ "Meter 7"/DEV("midiAudioToCC") "Rate" 50;
+ "Meter 8"/DEV("midiAudioToCC") "Input Gain" 84;
+ "Meter 8"/DEV("midiAudioToCC") "Inertia" 127;
+ "Meter 8"/DEV("midiAudioToCC") "Rate" 50;
  ALL/SOLO OFF;
- ALL/ARM ON;
- "CHOP"/ARM OFF;
- "DECK A"/ARM OFF;
- "DECK B"/ARM OFF;
  ALL/MUTE OFF;
+ ALL/ARM OFF;
+ "SAMPLE 1"/ARM ON;
+ "SAMPLE 2"/ARM ON;
+ "SAMPLE 3"/ARM ON;
+ "SAMPLE 4"/ARM ON;
+ "SAMPLE 5"/ARM ON;
+ "SAMPLE 6"/ARM ON;
+ "RESAMPLE"/ARM ON;
+ "Meter 1"/MUTE ON;
+ "Meter 2"/MUTE ON;
+ "Meter 3"/MUTE ON;
+ "Meter 4"/MUTE ON;
+ "Meter 5"/MUTE ON;
+ "Meter 6"/MUTE ON;
+ "Meter 7"/MUTE ON;
+ "Meter 8"/MUTE ON;
+ %MIDI_MFT_1% $MFT_BANK_1$;
+ %MIDI_MFT_1% %MIDI_CC_MFT_BANK_1_ROW_1_ENCODER_1% 0;
+ %MIDI_MFT_1% %MIDI_CC_MFT_BANK_1_ROW_1_ENCODER_2% 0;
+ %MIDI_MFT_1% %MIDI_CC_MFT_BANK_1_ROW_1_ENCODER_3% 0;
+ %MIDI_MFT_1% %MIDI_CC_MFT_BANK_1_ROW_1_ENCODER_4% 0;
+ %MIDI_MFT_2% $MFT_BANK_3$;
+ %MIDI_MFT_2% %MIDI_CC_MFT_BANK_3_ROW_1_ENCODER_1% 0;
+ %MIDI_MFT_2% %MIDI_CC_MFT_BANK_3_ROW_1_ENCODER_2% 0;
+ %MIDI_MFT_2% %MIDI_CC_MFT_BANK_3_ROW_1_ENCODER_3% 0;
+ %MIDI_MFT_2% %MIDI_CC_MFT_BANK_3_ROW_1_ENCODER_4% 0;
  RESTART;
  MSG "Reset mixer";
  PUSH MSG "Reset mixer"
 
 $SYNC$ =
- %MIDI_TRAKTOR% %MIDI_CC_TRAKTOR_SYNC% 127
+ %MIDI_TRAKTOR% %MIDI_CC_TRAKTOR_SYNC% 127;
+ MSG "Synced to Traktor";
+ PUSH MSG "Synced to Traktor"
+
+$MFT_BANK_1$ =
+ %MIDI_MFT_1% CC 4 0 127;
+ MSG "Left Midi Fighter in Bank 1";
+ PUSH MSG "Left Midi Fighter in Bank 1"
+
+$MFT_BANK_2$ =
+ %MIDI_MFT_1% CC 4 1 127;
+ MSG "Left Midi Fighter in Bank 2";
+ PUSH MSG "Left Midi Fighter in Bank 2"
+
+$MFT_BANK_3$ =
+ %MIDI_MFT_2% CC 4 2 127;
+ MSG "Right Midi Fighter in Bank 3";
+ PUSH MSG "Right Midi Fighter in Bank 3"
+
+$MFT_BANK_4$ =
+ %MIDI_MFT_2% CC 4 3 127;
+ MSG "Right Midi Fighter in Bank 4";
+ PUSH MSG "Right Midi Fighter in Bank 4"

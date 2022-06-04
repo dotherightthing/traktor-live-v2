@@ -73,33 +73,18 @@
 
 # --------------------------------------------------------------------------------------
 
-# XTB (KORG nanoKONTROL Studio) - X-Controls
-# An X-Control is a control on a MIDI controller.
-# CC numbers reference those assigned in the KORG KONTROL Editor
+# XTC (Midi Fighter Twister 2) - X-Controls
+# Track names are for reference only
+# CC numbers reference those assigned in the Midi Fighter Utility
 
-# Deck input selector
-TOP_LEFT_ARROW = CC, 1, 56, 0, 127,
- 1/IN "DECK A";
- 2/IN "DECK A";
- 3/IN "DECK A";
- 4/IN "DECK A";
- 5/IN "DECK A";
- 6/IN "DECK A";
- PUSH MSG "Set input to Deck A";
- MSG "Set input to Deck A"
+# Slice selected clip
+MFT_BANK_3_RSIDE_1 = CC, 4, 23, 0, 127, $SLICE$
+MFT_BANK_4_RSIDE_1 = CC, 4, 29, 0, 127, $SLICE$
 
-TOP_RIGHT_ARROW = CC, 1, 57, 0, 127,
- 1/IN "DECK B";
- 2/IN "DECK B";
- 3/IN "DECK B";
- 4/IN "DECK B";
- 5/IN "DECK B";
- 6/IN "DECK B";
- PUSH MSG "Set input to Deck B";
- MSG "Set input to Deck B"
+# Toggle between banks 3 & 4
+MFT_BANK_3_RSIDE_1 = CC, 4, 24, 0, 127, $MFT_BANK_4$
+MFT_BANK_4_RSIDE_1 = CC, 4, 30, 0, 127, $MFT_BANK_3$
 
-# Chop/slice a clip
-STOP_BUTTON = CC, 1, 63, 0, 127, $SLICE$
-
-# Flatten clip
-REC_BUTTON = CC, 1, 81, 0, 127, user_clip id_playing_clip
+# Flatten selected clip
+MFT_BANK_3_RSIDE_3 = CC, 4, 25, 0, 127, $FLATTEN$
+MFT_BANK_4_RSIDE_3 = CC, 4, 31, 0, 127, $FLATTEN$

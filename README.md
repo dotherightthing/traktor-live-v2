@@ -50,6 +50,7 @@ The Loop Recorder is problematic because it records loops slightly too long. Sam
     * [Native Instruments Traktor Kontrol X1](#native-instruments-traktor-kontrol-x1)
     * [Native Instruments Traktor Kontrol Z1](#native-instruments-traktor-kontrol-z1)
     * [Ableton Push2](#ableton-push2)
+    * [Midi Fighter Twister](#midi-fighter-twister)
 6. **[Controller Overlay](#6-controller-overlay):**
     * [Inkscape](#inkscape)
     * [Cricut](#cricut)
@@ -370,6 +371,43 @@ N/A
 ##### nativeKONTROL ClyphX Pro configuration
 
 See Clyphx Pro M4L (Max for Live) device on Master track, accessed via User Mode (Shift + Session)
+
+---
+
+#### Midi Fighter Twister (MFT)
+
+* Product: <https://store.djtechtools.com/products/midi-fighter-twister>
+
+##### Ableton Live MIDI setup
+
+The project uses two MFTs, but the Midi Fighter Utility only supports one. Therefore the four available banks are split between the MFTs:
+
+* MFT 1 (left): banks 1 and 2
+* MFT 2 (right): banks 3 and 4
+
+On startup and 'Reset', MFT 1 switches to bank 1 and MFT 2 switches to bank 3.
+
+When configured to send out MIDI messages, the device uses the following;
+
+* Channel 1 = encoder / encoder LEDs
+* Channel 2 = button / RGB indicator
+* Channel 4 = system: side buttons incl bank switching
+* Channel 5 = 'Shift Encoder Hold' / encoder press and turn (but see <https://forum.djtechtools.com/showthread.php?t=95122> - the `PRESSED_DELAYED` *G-Control* (Gesture Control) is used as a substitute)
+
+###### VU Meters
+
+These use the *midiAudioToCC* VST, which is part of the *PIZ MIDI plugins* package by [Paul Cecchetti](https://www.paulcecchettimusic.com).
+
+In order to display a VU Meter on a Midi Fighter encoder:
+
+1. Create an Audio track which takes input from one of the sampler tracks
+2. Put an instance of *midiAudioToCC* on this Audio track.
+3. MIDI map the Midi Fighter encoder to the Envelope L control (or use ClyphX Pro's Encoder Bindings to do so)
+4. Toggle on Monitor for this track
+5. Mute this track
+6. The signal level will display when the sampler track is not muted
+
+Default settings are applied on `$RESET$`. Live's *Save as Default Configuration* function does not appear to work properly with this device.
 
 ---
 

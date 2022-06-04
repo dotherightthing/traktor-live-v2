@@ -1,0 +1,214 @@
+VERSION = v1.0.0
+
+#********************************** [SETTINGS NOTES] **********************************
+
+# Please DO NOT change any of the spacing in this file.
+
+# Please DO NOT change the name of this file or its file extension.  When done making
+# your changes to the settings below, just save the file.
+
+# After saving this file, you will need to load a new Live Set/reload the
+# current Live Set for your changes to take effect.
+
+
+#********************************** [SETTINGS] *****************************************
+
+# Below you can specify a list of MIDI Buttons to use as G-Controls as well as the Action
+# Lists they should trigger when various gestures are received. The MIDI Buttons you
+# specify here are expected to be momentary (send an on message when pressed and an
+# off message when released).
+
+# The entry format for each control is:
+# NAME = TYPE, CHANNEL, NOTE_OR_CC, OFF_LED, ON_LED, REPEAT
+
+# --------------------------------------------------------------------------------------
+# | ENTRY      |  DESCRIPTION
+# --------------------------------------------------------------------------------------
+# | NAME       |  A unique one-word name for the control.
+# --------------------------------------------------------------------------------------
+# | TYPE       |  The type of MIDI message the control sends (NOTE or CC).
+# --------------------------------------------------------------------------------------
+# | CHANNEL    |  The MIDI Channel number in the range of 1-16.
+# --------------------------------------------------------------------------------------
+# | NOTE_OR_CC |  The Note or CC number in the range of 0-127.
+# --------------------------------------------------------------------------------------
+# | OFF_LED    |  The LED value in the range of 0-127 to use by default and when the
+# |            |  control is not pressed down. If in doubt, use 0.
+# --------------------------------------------------------------------------------------
+# | ON_LED     |  The LED value in the range of 0-127 to use when the control is pressed
+# |            |  down. If in doubt, use 127.
+# --------------------------------------------------------------------------------------
+# | REPEAT     |  TRUE or FALSE to indicate whether the control should repeatedly trigger
+# |            |  an Action List when it's pressed down.
+# --------------------------------------------------------------------------------------
+
+# Example: MY_BTN1 = NOTE, 1, 10, 0, 127, TRUE
+
+
+# After each control specification, you'll list the gestures you want to listen for and
+# the Action List that should be triggered when the gesture is received.
+
+# The entry format for each gesture is:
+# NAME GESTURE_TYPE = ACTION_LIST
+
+# --------------------------------------------------------------------------------------
+# | ENTRY        |  DESCRIPTION
+# --------------------------------------------------------------------------------------
+# | NAME         |  The name specified for the control
+# --------------------------------------------------------------------------------------
+# | GESTURE_TYPE |  The type of gesture to listen for.  These types are listed below.
+# --------------------------------------------------------------------------------------
+# | ACTION_LIST  |  The Action List to trigger when the gesture is received.
+# --------------------------------------------------------------------------------------
+
+# Example: MY_BTN1 PRESSED = METRO
+
+
+#******************************** [GESTURE TYPES] ***************************************
+
+# --------------------------------------------------------------------------------------
+# | TYPE                 |  DESCRIPTION
+# --------------------------------------------------------------------------------------
+# | PRESSED              |  Received when the control is pressed. The Action List
+# |                      |  specified for this gesture is the one that will be repeated
+# |                      |  when REPEAT is TRUE.
+# --------------------------------------------------------------------------------------
+# | PRESSED_DELAYED      |  Received when the control is pressed down for 500 ms or more.
+# --------------------------------------------------------------------------------------
+# | RELEASED             |  Received when the control is released. This will be received
+# |                      |  any time the control is released and will be received before
+# |                      |  the next two gesture types.
+# --------------------------------------------------------------------------------------
+# | RELEASED_IMMEDIATELY |  Received when the control is released after being pressed
+# |                      |  down for less than 500 ms.
+# --------------------------------------------------------------------------------------
+# | RELEASED_DELAYED     |  Received when the control is released after being pressed
+# |                      |  down for 500 ms or more.
+# --------------------------------------------------------------------------------------
+
+# Below is an example list that has been commented out (the # at the beginning of
+# a line makes the line a comment). Your list should be formatted in the same way
+# except without the # at the beginning of each line.
+
+# B1 = NOTE, 9, 9, 25, 52, FALSE
+# B1 PRESSED = MUTE
+# B1 RELEASED_DELAYED = MUTE
+
+# B2 = CC, 1, 1, 0, 127, TRUE
+# B2 PRESSED = VOL <5
+# B2 RELEASED = VOL RESET
+
+
+# When using long Action Lists, it's possible to split the Action List up over multiple
+# lines.  This requires that each additional line is indented by 1 space.
+
+# B1 PRESSED = MON;
+#  ARM;
+#  NAME "My Track"
+
+# --------------------------------------------------------------------------------------
+
+# XTA (Midi Fighter Twister 1) - G-Controls
+# Track names are for reference only
+# CC numbers reference those assigned in the Midi Fighter Utility
+
+# Row 1
+# Encoder default = VU meter (Encoder Bindings)
+# Encoder press+hold = volume (G Controls)
+# Encoder press = toggle mute (G Controls)
+# TODO: Mute LED state not synced, PSEQ didn't work either
+
+MFT_BANK_1_ROW_1_BUTTON_1 = CC, 2, 0, 0, 127, FALSE
+MFT_BANK_1_ROW_1_BUTTON_1 RELEASED = BIND MFT_BANK_1_ROW_1_ENCODER_1 "Meter 1"/DEV("midiAudioToCC") "Envelope L"
+MFT_BANK_1_ROW_1_BUTTON_1 PRESSED_DELAYED = BIND MFT_BANK_1_ROW_1_ENCODER_1 "SAMPLE 1"/DEV(1) "[VOL 0DB]"
+MFT_BANK_1_ROW_1_BUTTON_1 RELEASED_IMMEDIATELY = "SAMPLE 1"/MUTE
+
+MFT_BANK_1_ROW_1_BUTTON_2 = CC, 2, 1, 0, 127, FALSE
+MFT_BANK_1_ROW_1_BUTTON_2 RELEASED = BIND MFT_BANK_1_ROW_1_ENCODER_2 "Meter 2"/DEV("midiAudioToCC") "Envelope L"
+MFT_BANK_1_ROW_1_BUTTON_2 PRESSED_DELAYED  = BIND MFT_BANK_1_ROW_1_ENCODER_2 "SAMPLE 2"/DEV(1) "[VOL 0DB]"
+MFT_BANK_1_ROW_1_BUTTON_2 RELEASED_IMMEDIATELY = "SAMPLE 2"/MUTE
+
+MFT_BANK_1_ROW_1_BUTTON_3 = CC, 2, 2, 0, 127, FALSE
+MFT_BANK_1_ROW_1_BUTTON_3 RELEASED = BIND MFT_BANK_1_ROW_1_ENCODER_3 "Meter 3"/DEV("midiAudioToCC") "Envelope L"
+MFT_BANK_1_ROW_1_BUTTON_3 PRESSED_DELAYED = BIND MFT_BANK_1_ROW_1_ENCODER_3 "SAMPLE 3"/DEV(1) "[VOL 0DB]"
+MFT_BANK_1_ROW_1_BUTTON_3 RELEASED_IMMEDIATELY = "SAMPLE 3"/MUTE
+
+MFT_BANK_1_ROW_1_BUTTON_4 = CC, 2, 3, 0, 127, FALSE
+MFT_BANK_1_ROW_1_BUTTON_4 RELEASED = BIND MFT_BANK_1_ROW_1_ENCODER_4 "Meter 4"/DEV("midiAudioToCC") "Envelope L"
+MFT_BANK_1_ROW_1_BUTTON_4 PRESSED_DELAYED = BIND MFT_BANK_1_ROW_1_ENCODER_4 "SAMPLE 4"/DEV(1) "[VOL 0DB]"
+MFT_BANK_1_ROW_1_BUTTON_4 RELEASED_IMMEDIATELY = "SAMPLE 4"/MUTE
+
+# Row 2
+# Encoder default = EQ high (Encoder Bindings)
+# Encoder press+hold = pan (G Controls)
+# Encoder press = reset pan to center (G Controls)
+
+MFT_BANK_1_ROW_2_BUTTON_1 = CC, 2, 4, 0, 127, FALSE
+MFT_BANK_1_ROW_2_BUTTON_1 RELEASED = BIND MFT_BANK_1_ROW_2_ENCODER_1 "SAMPLE 1"/DEV(1) "EQ High"
+MFT_BANK_1_ROW_2_BUTTON_1 PRESSED_DELAYED = BIND MFT_BANK_1_ROW_2_ENCODER_1 "SAMPLE 1"/DEV(1) "[PAN]"
+MFT_BANK_1_ROW_2_BUTTON_1 RELEASED_IMMEDIATELY = "SAMPLE 1"/DEV(1) "[PAN]" 63
+
+MFT_BANK_1_ROW_2_BUTTON_2 = CC, 2, 5, 0, 127, FALSE
+MFT_BANK_1_ROW_2_BUTTON_2 RELEASED = BIND MFT_BANK_1_ROW_2_ENCODER_2 "SAMPLE 2"/DEV(1) "EQ High"
+MFT_BANK_1_ROW_2_BUTTON_2 PRESSED_DELAYED = BIND MFT_BANK_1_ROW_2_ENCODER_2 "SAMPLE 2"/DEV(1) "[PAN]"
+MFT_BANK_1_ROW_2_BUTTON_2 RELEASED_IMMEDIATELY = "SAMPLE 2"/DEV(1) "[PAN]" 63
+
+MFT_BANK_1_ROW_2_BUTTON_3 = CC, 2, 6, 0, 127, FALSE
+MFT_BANK_1_ROW_2_BUTTON_3 RELEASED = BIND MFT_BANK_1_ROW_2_ENCODER_3 "SAMPLE 3"/DEV(1) "EQ High"
+MFT_BANK_1_ROW_2_BUTTON_3 PRESSED_DELAYED = BIND MFT_BANK_1_ROW_2_ENCODER_3 "SAMPLE 3"/DEV(1) "[PAN]"
+MFT_BANK_1_ROW_2_BUTTON_3 RELEASED_IMMEDIATELY = "SAMPLE 3"/DEV(1) "[PAN]" 63
+
+MFT_BANK_1_ROW_2_BUTTON_4 = CC, 2, 7, 0, 127, FALSE
+MFT_BANK_1_ROW_2_BUTTON_4 RELEASED = BIND MFT_BANK_1_ROW_2_ENCODER_4 "SAMPLE 4"/DEV(1) "EQ High"
+MFT_BANK_1_ROW_2_BUTTON_4 PRESSED_DELAYED = BIND MFT_BANK_1_ROW_2_ENCODER_4 "SAMPLE 4"/DEV(1) "[PAN]"
+MFT_BANK_1_ROW_2_BUTTON_4 RELEASED_IMMEDIATELY = "SAMPLE 4"/DEV(1) "[PAN]" 63
+
+# Row 3
+# Encoder default = EQ Mid (Encoder Bindings)
+# Encoder press+hold = Send A (G Controls)
+# Encoder press = reset Send A (G Controls)
+
+MFT_BANK_1_ROW_3_BUTTON_1 = CC, 2, 8, 0, 127, FALSE
+MFT_BANK_1_ROW_3_BUTTON_1 RELEASED = BIND MFT_BANK_1_ROW_3_ENCODER_1 "SAMPLE 1"/DEV(1) "EQ Mid"
+MFT_BANK_1_ROW_3_BUTTON_1 PRESSED_DELAYED = BIND MFT_BANK_1_ROW_3_ENCODER_1 "SAMPLE 1"/DEV(1) "[SEND A] Delay"
+MFT_BANK_1_ROW_3_BUTTON_1 RELEASED_IMMEDIATELY = "SAMPLE 1"/DEV(1) "[SEND A] Delay" 0
+
+MFT_BANK_1_ROW_3_BUTTON_2 = CC, 2, 9, 0, 127, FALSE
+MFT_BANK_1_ROW_3_BUTTON_2 RELEASED = BIND MFT_BANK_1_ROW_3_ENCODER_2 "SAMPLE 2"/DEV(1) "EQ Mid"
+MFT_BANK_1_ROW_3_BUTTON_2 PRESSED_DELAYED = BIND MFT_BANK_1_ROW_3_ENCODER_2 "SAMPLE 2"/DEV(1) "[SEND A] Delay"
+MFT_BANK_1_ROW_3_BUTTON_2 RELEASED_IMMEDIATELY = "SAMPLE 2"/DEV(1) "[SEND A] Delay" 0
+
+MFT_BANK_1_ROW_3_BUTTON_3 = CC, 2, 10, 0, 127, FALSE
+MFT_BANK_1_ROW_3_BUTTON_3 RELEASED = BIND MFT_BANK_1_ROW_3_ENCODER_3 "SAMPLE 3"/DEV(1) "EQ Mid"
+MFT_BANK_1_ROW_3_BUTTON_3 PRESSED_DELAYED = BIND MFT_BANK_1_ROW_3_ENCODER_3 "SAMPLE 3"/DEV(1) "[SEND A] Delay"
+MFT_BANK_1_ROW_3_BUTTON_3 RELEASED_IMMEDIATELY = "SAMPLE 3"/DEV(1) "[SEND A] Delay" 0
+
+MFT_BANK_1_ROW_3_BUTTON_4 = CC, 2, 11, 0, 127, FALSE
+MFT_BANK_1_ROW_3_BUTTON_4 RELEASED = BIND MFT_BANK_1_ROW_3_ENCODER_4 "SAMPLE 4"/DEV(1) "EQ Mid"
+MFT_BANK_1_ROW_3_BUTTON_4 PRESSED_DELAYED = BIND MFT_BANK_1_ROW_3_ENCODER_4 "SAMPLE 4"/DEV(1) "[SEND A] Delay"
+MFT_BANK_1_ROW_3_BUTTON_4 RELEASED_IMMEDIATELY = "SAMPLE 4"/DEV(1) "[SEND A] Delay" 0
+
+# Row 4
+# Encoder default = EQ Low (Encoder Bindings)
+# Encoder press+hold = Send B (G Controls)
+# Encoder press = reset Send B (G Controls)
+
+MFT_BANK_1_ROW_4_BUTTON_1 = CC, 2, 12, 0, 127, FALSE
+MFT_BANK_1_ROW_4_BUTTON_1 RELEASED = BIND MFT_BANK_1_ROW_4_ENCODER_1 "SAMPLE 1"/DEV(1) "EQ Low"
+MFT_BANK_1_ROW_4_BUTTON_1 PRESSED_DELAYED = BIND MFT_BANK_1_ROW_4_ENCODER_1 "SAMPLE 1"/DEV(1) "[SEND B] Reverb"
+MFT_BANK_1_ROW_4_BUTTON_1 RELEASED_IMMEDIATELY = "SAMPLE 1"/DEV(1) "[SEND B] Reverb" 0
+
+MFT_BANK_1_ROW_4_BUTTON_2 = CC, 2, 13, 0, 127, FALSE
+MFT_BANK_1_ROW_4_BUTTON_2 RELEASED = BIND MFT_BANK_1_ROW_4_ENCODER_2 "SAMPLE 2"/DEV(1) "EQ Low"
+MFT_BANK_1_ROW_4_BUTTON_2 PRESSED_DELAYED = BIND MFT_BANK_1_ROW_4_ENCODER_2 "SAMPLE 2"/DEV(1) "[SEND B] Reverb"
+MFT_BANK_1_ROW_4_BUTTON_2 RELEASED_IMMEDIATELY = "SAMPLE 2"/DEV(1) "[SEND B] Reverb" 0
+
+MFT_BANK_1_ROW_4_BUTTON_3 = CC, 2, 14, 0, 127, FALSE
+MFT_BANK_1_ROW_4_BUTTON_3 RELEASED = BIND MFT_BANK_1_ROW_4_ENCODER_3 "SAMPLE 3"/DEV(1) "EQ Low"
+MFT_BANK_1_ROW_4_BUTTON_3 PRESSED_DELAYED = BIND MFT_BANK_1_ROW_4_ENCODER_3 "SAMPLE 3"/DEV(1) "[SEND B] Reverb"
+MFT_BANK_1_ROW_4_BUTTON_3 RELEASED_IMMEDIATELY = "SAMPLE 3"/DEV(1) "[SEND B] Reverb" 0
+
+MFT_BANK_1_ROW_4_BUTTON_4 = CC, 2, 15, 0, 127, FALSE
+MFT_BANK_1_ROW_4_BUTTON_4 RELEASED = BIND MFT_BANK_1_ROW_4_ENCODER_4 "SAMPLE 4"/DEV(1) "EQ Low"
+MFT_BANK_1_ROW_4_BUTTON_4 PRESSED_DELAYED = BIND MFT_BANK_1_ROW_4_ENCODER_4 "SAMPLE 4"/DEV(1) "[SEND B] Reverb"
+MFT_BANK_1_ROW_4_BUTTON_4 RELEASED_IMMEDIATELY = "SAMPLE 4"/DEV(1) "[SEND B] Reverb" 0
