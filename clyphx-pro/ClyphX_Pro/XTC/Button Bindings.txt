@@ -151,7 +151,7 @@ VERSION = v1.0.5
 
 # --------------------------------------------------------------------------------------
 
-# XTC (Midi Fighter Twister 2) - Button bindings
+# XTC (Midi Fighter Twister B) - Button bindings
 # Track names are for reference only
 # CC numbers reference those assigned in the KORG KONTROL Editor
 

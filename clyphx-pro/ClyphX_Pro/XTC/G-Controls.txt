@@ -108,7 +108,7 @@ VERSION = v1.0.0
 
 # --------------------------------------------------------------------------------------
 
-# XTC (Midi Fighter Twister 2) - G-Controls
+# XTC (Midi Fighter Twister B) - G-Controls
 # Track names are for reference only
 # CC numbers reference those assigned in the Midi Fighter Utility
 

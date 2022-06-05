@@ -146,7 +146,7 @@ VERSION = v1.0.5
 
 # --------------------------------------------------------------------------------------
 
-# XTA (Midi Fighter Twister 1) - Encoder bindings
+# XTA (Midi Fighter Twister A) - Encoder bindings
 # Track names are for reference only
 # CC numbers reference those assigned in the Midi Fighter Utility
 

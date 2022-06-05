@@ -146,7 +146,7 @@ VERSION = v1.0.5
 
 # --------------------------------------------------------------------------------------
 
-# XTC (Midi Fighter Twister 2) - Encoder bindings
+# XTC (Midi Fighter Twister B) - Encoder bindings
 # Track names are for reference only
 # CC numbers reference those assigned in the Midi Fighter Utility
 

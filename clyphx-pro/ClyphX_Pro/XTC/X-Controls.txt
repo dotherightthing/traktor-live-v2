@@ -73,7 +73,7 @@
 
 # --------------------------------------------------------------------------------------
 
-# XTC (Midi Fighter Twister 2) - X-Controls
+# XTC (Midi Fighter Twister B) - X-Controls
 # Track names are for reference only
 # CC numbers reference those assigned in the Midi Fighter Utility
 

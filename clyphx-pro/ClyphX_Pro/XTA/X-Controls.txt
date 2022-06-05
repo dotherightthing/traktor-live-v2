@@ -73,7 +73,7 @@
 
 # --------------------------------------------------------------------------------------
 
-# XTA (Midi Fighter Twister 1) - X-Controls
+# XTA (Midi Fighter Twister A) - X-Controls
 # Track names are for reference only
 # CC numbers reference those assigned in the Midi Fighter Utility
 
