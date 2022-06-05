@@ -57,9 +57,9 @@
 # Controller XT Scripts
 
 %MIDI_TRAKTOR% = 'MIDI'
-%MIDI_MFT_1% = 'MIDIA'
+%MIDI_MFT_A% = 'MIDIA'
 %MIDI_NANOKONTROL% = 'MIDIB'
-%MIDI_MFT_2% = 'MIDIC'
+%MIDI_MFT_B% = 'MIDIC'
 %MIDI_Z1% = 'MIDID'
 
 # MIDI controls

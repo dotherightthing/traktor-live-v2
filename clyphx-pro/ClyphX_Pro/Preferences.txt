@@ -18,7 +18,7 @@ VERSION = 1.0.9
 # Note: this will run when ANY Live project is opened
 
 # Switch second Midi Fighter to 3rd bank (for use of banks 3 + 4) to prevent duplicate CCs
-STARTUP_ACTIONS = %MIDI_MFT_1% $MFT_BANK_1$; %MIDI_MFT_2% $MFT_BANK_3$; WAIT 50; PUSH MODE SESSION
+STARTUP_ACTIONS = %MIDI_MFT_A% $MFT_BANK_1$; WAIT 10; %MIDI_MFT_B% $MFT_BANK_3$; WAIT 50; $PUSH_MODE_SESSION$
 
 # This setting determines whether or not a colored border should be shown around the
 # selected Clip Slot.

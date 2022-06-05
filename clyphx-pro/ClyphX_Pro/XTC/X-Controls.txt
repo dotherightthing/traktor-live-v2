@@ -77,14 +77,13 @@
 # Track names are for reference only
 # CC numbers reference those assigned in the Midi Fighter Utility
 
+# Side buttons
+
 # Slice selected clip
-MFT_BANK_3_RSIDE_1 = CC, 4, 23, 0, 127, $SLICE$
-MFT_BANK_4_RSIDE_1 = CC, 4, 29, 0, 127, $SLICE$
+MFT_RSIDE_1 = CC, 4, 11, 0, 127, $SLICE$
 
 # Toggle between banks 3 & 4
-MFT_BANK_3_RSIDE_1 = CC, 4, 24, 0, 127, $MFT_BANK_4$
-MFT_BANK_4_RSIDE_1 = CC, 4, 30, 0, 127, $MFT_BANK_3$
+MFT_RSIDE_2 = CC, 4, 12, 0, 127, $MFT_BANK_4$ : $MFT_BANK_3$
 
 # Flatten selected clip
-MFT_BANK_3_RSIDE_3 = CC, 4, 25, 0, 127, $FLATTEN$
-MFT_BANK_4_RSIDE_3 = CC, 4, 31, 0, 127, $FLATTEN$
+MFT_RSIDE_3 = CC, 4, 13, 0, 127, $FLATTEN$

@@ -382,17 +382,17 @@ See Clyphx Pro M4L (Max for Live) device on Master track, accessed via User Mode
 
 The project uses two MFTs, but the Midi Fighter Utility only supports one. Therefore the four available banks are split between the MFTs:
 
-* MFT 1 (left): banks 1 and 2
-* MFT 2 (right): banks 3 and 4
+* MFT A (left): banks 1 and 2
+* MFT B (right): banks 3 and 4
 
-On startup and 'Reset', MFT 1 switches to bank 1 and MFT 2 switches to bank 3.
+On startup and 'Reset', MFT A switches to bank 1 and MFT B switches to bank 3.
 
 When configured to send out MIDI messages, the device uses the following;
 
 * Channel 1 = encoder / encoder LEDs
 * Channel 2 = button / RGB indicator
 * Channel 4 = system: side buttons incl bank switching
-* Channel 5 = 'Shift Encoder Hold' / encoder press and turn (but see <https://forum.djtechtools.com/showthread.php?t=95122> - the `PRESSED_DELAYED` *G-Control* (Gesture Control) is used as a substitute)
+* Channel 5 = 'Shift Encoder Hold' / encoder press and turn (note: Factory Reset required - see <https://forum.djtechtools.com/showthread.php?t=95122> and <https://forum.djtechtools.com/showthread.php?t=96642>)
 
 ###### VU Meters
 
