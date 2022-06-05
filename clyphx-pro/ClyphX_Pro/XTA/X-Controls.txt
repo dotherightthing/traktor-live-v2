@@ -87,3 +87,17 @@ MFT_LSIDE_2 = CC, 4, 9, 0, 127, $MFT_BANK_2$ : $MFT_BANK_1$
 
 # Reset mixer
 MFT_LSIDE_3 = CC, 4, 10, 0, 127, $FLATTEN$
+
+# Bank 2 - Row 4
+# Encoder default = X-Fade (Encoder Bindings)
+# Encoder press = X-Fade A/B assign (X-Controls)
+# Notes:
+# - XFade A/B assign, by using both an On Action List and an Off Action List
+# - note: LED is not strictly bidirectional, but subsequent presses will reclaim synchronisation
+# - MFT Switch Actizon Type: CC Toggle
+# - $RESET$ state: XFADE A
+
+MFT_BANK_2_ROW_4_BUTTON_1 = CC, 2, 28, 0, 127, "SAMPLE 1"/XFADE B : "SAMPLE 1"/XFADE A
+MFT_BANK_2_ROW_4_BUTTON_2 = CC, 2, 29, 0, 127, "SAMPLE 2"/XFADE B : "SAMPLE 2"/XFADE A
+MFT_BANK_2_ROW_4_BUTTON_3 = CC, 2, 30, 0, 127, "SAMPLE 3"/XFADE B : "SAMPLE 3"/XFADE A
+MFT_BANK_2_ROW_4_BUTTON_4 = CC, 2, 31, 0, 127, "SAMPLE 4"/XFADE B : "SAMPLE 4"/XFADE A

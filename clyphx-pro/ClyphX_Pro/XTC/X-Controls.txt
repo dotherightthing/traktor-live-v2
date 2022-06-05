@@ -87,3 +87,17 @@ MFT_RSIDE_2 = CC, 4, 12, 0, 127, $MFT_BANK_4$ : $MFT_BANK_3$
 
 # Flatten selected clip
 MFT_RSIDE_3 = CC, 4, 13, 0, 127, $FLATTEN$
+
+# Bank 4 - Row 4
+# Encoder default = X-Fade (Encoder Bindings)
+# Encoder press = X-Fade A/B assign (X-Controls)
+# Notes:
+# - XFade A/B assign, by using both an On Action List and an Off Action List
+# - note: LED is not strictly bidirectional, but subsequent presses will reclaim synchronisation
+# - MFT Switch Actizon Type: CC Toggle
+# - $RESET$ state: XFADE A
+
+MFT_BANK_4_ROW_4_BUTTON_1 = CC, 2, 60, 0, 127, "SAMPLE 5"/XFADE B : "SAMPLE 5"/XFADE A
+MFT_BANK_4_ROW_4_BUTTON_2 = CC, 2, 61, 0, 127, "SAMPLE 6"/XFADE B : "SAMPLE 6"/XFADE A
+MFT_BANK_4_ROW_4_BUTTON_3 = CC, 2, 62, 0, 127, "RESAMPLE"/XFADE B : "RESAMPLE"/XFADE A
+MFT_BANK_4_ROW_4_BUTTON_4 = CC, 2, 63, 0, 127, "CHOP"/XFADE B : "CHOP"/XFADE A
