@@ -13,54 +13,32 @@ VERSION = v1.0.5
 
 #********************************** [SETTINGS] *****************************************
 
-# Below you can specify a list of MIDI Encoder/Knobs/Faders to bind parameters to.
+# Below you can specify a list of MIDI Buttons to bind parameters to.
 
-# The entry format is: NAME = CHANNEL, CC, MAPPING_MODE, NEEDS_TAKEOVER, BINDING
+# The entry format is: NAME = TYPE, CHANNEL, NOTE_OR_CC, OFF_LED, ON_LED, BINDING
 
 # --------------------------------------------------------------------------------------
-# | ENTRY          |  DESCRIPTION      
+# | ENTRY      |  DESCRIPTION
 # --------------------------------------------------------------------------------------
-# | NAME           |  A unique one-word name for the control.
+# | NAME       |  A unique one-word name for the control.
 # --------------------------------------------------------------------------------------
-# | CHANNEL        |  The MIDI Channel number in the range of 1-16.
+# | TYPE       |  The type of MIDI message the control sends (NOTE or CC).
 # --------------------------------------------------------------------------------------
-# | CC             |  The CC number in the range of 0-127.
+# | CHANNEL    |  The MIDI Channel number in the range of 1-16.
 # --------------------------------------------------------------------------------------
-# | MAPPING_MODE   |  The type of mapping mode the control uses.  See the MAPPING MODES
-# |                |  section below for information on mapping modes.
+# | NOTE_OR_CC |  The Note or CC number in the range of 0-127.
 # --------------------------------------------------------------------------------------
-# | NEEDS_TAKEOVER |  Either TRUE or FALSE. This specifies whether the control needs
-# |                |  takeover, which will typically be TRUE for standard knobs and faders
-# |                |  with a fixed range of motion that aren't motorized.
+# | OFF_LED    |  The LED value in the range of 0-127 to use by default and when the
+# |            |  parameter is at its minimum value.  If in doubt, use 0.
 # --------------------------------------------------------------------------------------
-# | BINDING        |  The parameter to bind the control to.  See the BINDING OPTIONS
-# |                |  section below for information on the available bindings.
+# | ON_LED     |  The LED value in the range of 0-127 to use when the parameter is not
+# |            |  at its minimum value.  If in doubt, use 127.
+# --------------------------------------------------------------------------------------
+# | BINDING    |  The parameter to bind the control to.  See the BINDING OPTIONS section
+# |            |  below for information on the available bindings.
 # --------------------------------------------------------------------------------------
 
-# Example: MY_KNOB = 1, 10, ABSOLUTE, TRUE, SEL/VOL
-
-
-#********************************** [MAPPING MODES] ************************************
-
-# This specifies the type of values the control sends. If you're not sure what values
-# your control sends, you can find out like so:
-#   -   In Live's preferences, turn on the Remote switch for the controller.
-#   -   Go into MIDI mapping mode and map the control to a parameter while looking in the
-#       lower left hand corner of Live's window. The mapping mode will be displayed there.
-
-
-# The names of the available mapping modes are as follows:
-
-# ABSOLUTE
-# ABSOLUTE_14_BIT
-# RELATIVE_BINARY_OFFSET
-# RELATIVE_SIGNED_BIT
-# RELATIVE_SIGNED_BIT2
-# RELATIVE_SMOOTH_BINARY_OFFSET
-# RELATIVE_SMOOTH_SIGNED_BIT
-# RELATIVE_SMOOTH_SIGNED_BIT2
-# RELATIVE_SMOOTH_TWO_COMPLIMENT
-# RELATIVE_TWO_COMPLIMENT
+# Example: MY_BTN1 = NOTE, 1, 10, 0, 127, SEL/DEV(SEL) "Filter Type"
 
 
 #********************************** [BINDING OPTIONS] **********************************
@@ -132,101 +110,56 @@ VERSION = v1.0.5
 # by clicking the Unfold Device Parameters button for the Plug-in.
 
 
+# Buttons can also be bound to the following properties.
+
+# --------------------------------------------------------------------------------------
+# | NAME         |  APPLIES TO/DESCRIPTION                       |  EXAMPLE
+# --------------------------------------------------------------------------------------
+# | ARM          |  Regular Tracks.                              |  SEL/ARM
+# --------------------------------------------------------------------------------------
+# | MON x        |  Regular Tracks where x specifies the         |  1/MON IN
+# |              |  monitoring state to set (IN, AUTO or OFF)    |
+# --------------------------------------------------------------------------------------
+# | MUTE         |  Regular Tracks and Return Tracks.            |  A/MUTE
+# --------------------------------------------------------------------------------------
+# | PLAY         |  Regular Tracks. This will launch the Clip/   |  SEL/PLAY
+# |              |  Clip Slot on the selected Scene.             |
+# --------------------------------------------------------------------------------------
+# | SEL          |  Any Track. This will select the Track.       |  6/SEL
+# --------------------------------------------------------------------------------------
+# | SOLO         |  Regular Tracks and Return Tracks.            |  "My Track"/SOLO
+# --------------------------------------------------------------------------------------
+# | STOP         |  Regular Tracks. This will stop any Clips     |  2/STOP
+# |              |  that are playing on the Track.               |
+# --------------------------------------------------------------------------------------
+# | XFADE x      |  Regular Tracks and Return Tracks where x     |  SEL/XFADE B
+# |              |  specifies the crossfade assignment           |
+# |              |  (A, B or OFF).                               |
+# --------------------------------------------------------------------------------------
+
+
 #****************************************************************************************
 # Below is an example list that has been commented out (the #  at the beginning of
 # a line makes the line a comment). Your list should be formatted  in the same way
 # except without the # at the beginning of each line.
 
+# BTN_1 = NOTE, 1, 0, 0, 127, "My Track"/SEND A
 
-# FADER_1 = 1, 0, ABSOLUTE, TRUE, "My Track"/SEND A
+# BTN_2 = NOTE, 1, 1, 25, 15, SELP
 
-# KNOB_1 = 1, 1, ABSOLUTE, TRUE, SELP
-
-# ENC_1 = 9, 2, RELATIVE_TWO_COMPLIMENT, FALSE, SEL/DEV(SEL) CH(SEL) VOL
+# BTN_3 = CC, 9, 2, 127, 0, SEL/DEV(SEL) "Device On"
 
 # --------------------------------------------------------------------------------------
 
-# XTC (Midi Fighter Twister 2) - Encoder bindings
+# XTC (Midi Fighter Twister 2) - Button bindings
 # Track names are for reference only
-# CC numbers reference those assigned in the Midi Fighter Utility
-
-# Track volume
-# CHANNEL, CC, MAPPING_MODE, NEEDS_TAKEOVER, BINDING
-
-# Bank 3 - Row 1
-# Encoder default = VU meter (Encoder Bindings)
-# Encoder press+hold = volume (Encoder Bindings)
-# Encoder press = toggle mute (G-Controls)
-
-MFT_BANK_3_ROW_1_ENCODER_1 = 1, 32, ABSOLUTE, TRUE, "Meter 5"/DEV("midiAudioToCC") "Envelope L"
-MFT_BANK_3_ROW_1_ENCODER_2 = 1, 33, ABSOLUTE, TRUE, "Meter 6"/DEV("midiAudioToCC") "Envelope L"
-MFT_BANK_3_ROW_1_ENCODER_3 = 1, 34, ABSOLUTE, TRUE, "Meter 7"/DEV("midiAudioToCC") "Envelope L"
-MFT_BANK_3_ROW_1_ENCODER_4 = 1, 35, ABSOLUTE, TRUE, "Meter 8"/DEV("midiAudioToCC") "Envelope L"
-
-MFT_BANK_3_ROW_1_ENCODER_1_SHIFTHOLD = 5, 32, ABSOLUTE, TRUE, "SAMPLE 5"/DEV(1) "[VOL]"
-MFT_BANK_3_ROW_1_ENCODER_2_SHIFTHOLD = 5, 33, ABSOLUTE, TRUE, "SAMPLE 6"/DEV(1) "[VOL]"
-MFT_BANK_3_ROW_1_ENCODER_3_SHIFTHOLD = 5, 34, ABSOLUTE, TRUE, "RESAMPLE"/DEV(1) "[VOL]"
-MFT_BANK_3_ROW_1_ENCODER_4_SHIFTHOLD = 5, 35, ABSOLUTE, TRUE, "CHOP"/DEV(1) "[VOL]"
-
-# Bank 3 - Row 2
-# Encoder default = EQ high (Encoder Bindings)
-# Encoder press+hold = pan (Encoder Bindings)
-# Encoder press = reset pan to center (G-Controls)
-
-MFT_BANK_3_ROW_2_ENCODER_1 = 1, 36, ABSOLUTE, TRUE, "SAMPLE 5"/DEV(1) "EQ High"
-MFT_BANK_3_ROW_2_ENCODER_2 = 1, 37, ABSOLUTE, TRUE, "SAMPLE 6"/DEV(1) "EQ High"
-MFT_BANK_3_ROW_2_ENCODER_3 = 1, 38, ABSOLUTE, TRUE, "RESAMPLE"/DEV(1) "EQ High"
-MFT_BANK_3_ROW_2_ENCODER_4 = 1, 39, ABSOLUTE, TRUE, "CHOP"/DEV(1) "EQ High"
-
-MFT_BANK_3_ROW_2_ENCODER_1_SHIFTHOLD = 5, 36, ABSOLUTE, TRUE, "SAMPLE 5"/DEV(1) "[PAN]"
-MFT_BANK_3_ROW_2_ENCODER_2_SHIFTHOLD = 5, 37, ABSOLUTE, TRUE, "SAMPLE 6"/DEV(1) "[PAN]"
-MFT_BANK_3_ROW_2_ENCODER_3_SHIFTHOLD = 5, 38, ABSOLUTE, TRUE, "RESAMPLE"/DEV(1) "[PAN]"
-MFT_BANK_3_ROW_2_ENCODER_4_SHIFTHOLD = 5, 39, ABSOLUTE, TRUE, "CHOP"/DEV(1) "[PAN]"
-
-# Bank 3 - Row 3
-# Encoder default = EQ Mid (Encoder Bindings)
-# Encoder press+hold = Send A (Encoder Bindings)
-# Encoder press = reset Send A (G-Controls)
-
-MFT_BANK_3_ROW_3_ENCODER_1 = 1, 40, ABSOLUTE, TRUE, "SAMPLE 5"/DEV(1) "EQ Mid"
-MFT_BANK_3_ROW_3_ENCODER_2 = 1, 41, ABSOLUTE, TRUE, "SAMPLE 6"/DEV(1) "EQ Mid"
-MFT_BANK_3_ROW_3_ENCODER_3 = 1, 42, ABSOLUTE, TRUE, "RESAMPLE"/DEV(1) "EQ Mid"
-MFT_BANK_3_ROW_3_ENCODER_4 = 1, 43, ABSOLUTE, TRUE, "CHOP"/DEV(1) "EQ Mid"
-
-MFT_BANK_3_ROW_3_ENCODER_1_SHIFTHOLD = 5, 40, ABSOLUTE, TRUE, "SAMPLE 5"/DEV(1) "[SEND A] Delay"
-MFT_BANK_3_ROW_3_ENCODER_2_SHIFTHOLD = 5, 41, ABSOLUTE, TRUE, "SAMPLE 6"/DEV(1) "[SEND A] Delay"
-MFT_BANK_3_ROW_3_ENCODER_3_SHIFTHOLD = 5, 42, ABSOLUTE, TRUE, "RESAMPLE"/DEV(1) "[SEND A] Delay"
-MFT_BANK_3_ROW_3_ENCODER_4_SHIFTHOLD = 5, 43, ABSOLUTE, TRUE, "CHOP"/DEV(1) "[SEND A] Delay"
-
-# Bank 3 - Row 4
-# Encoder default = EQ Low (Encoder Bindings)
-# Encoder press+hold = Send B (Encoder Bindings)
-# Encoder press = reset Send B (G-Controls)
-
-MFT_BANK_3_ROW_4_ENCODER_1 = 1, 44, ABSOLUTE, TRUE, "SAMPLE 5"/DEV(1) "EQ Low"
-MFT_BANK_3_ROW_4_ENCODER_2 = 1, 45, ABSOLUTE, TRUE, "SAMPLE 6"/DEV(1) "EQ Low"
-MFT_BANK_3_ROW_4_ENCODER_3 = 1, 46, ABSOLUTE, TRUE, "RESAMPLE"/DEV(1) "EQ Low"
-MFT_BANK_3_ROW_4_ENCODER_4 = 1, 47, ABSOLUTE, TRUE, "CHOP"/DEV(1) "EQ Low"
-
-MFT_BANK_3_ROW_4_ENCODER_1_SHIFTHOLD = 5, 44, ABSOLUTE, TRUE, "SAMPLE 5"/DEV(1) "[SEND B] Reverb"
-MFT_BANK_3_ROW_4_ENCODER_2_SHIFTHOLD = 5, 45, ABSOLUTE, TRUE, "SAMPLE 6"/DEV(1) "[SEND B] Reverb"
-MFT_BANK_3_ROW_4_ENCODER_3_SHIFTHOLD = 5, 46, ABSOLUTE, TRUE, "RESAMPLE"/DEV(1) "[SEND B] Reverb"
-MFT_BANK_3_ROW_4_ENCODER_4_SHIFTHOLD = 5, 47, ABSOLUTE, TRUE, "CHOP"/DEV(1) "[SEND B] Reverb"
+# CC numbers reference those assigned in the KORG KONTROL Editor
 
 # Bank 4 - Row 3
 # Encoder default = Cue Volume (Encoder Bindings)
 # Encoder press = Cue Toggle (Button Bindings)
 
-MFT_BANK_4_ROW_3_ENCODER_1 = 1, 56, ABSOLUTE, TRUE, MST/CUE
-MFT_BANK_4_ROW_3_ENCODER_2 = 1, 57, ABSOLUTE, TRUE, MST/CUE
-MFT_BANK_4_ROW_3_ENCODER_3 = 1, 58, ABSOLUTE, TRUE, MST/CUE
-MFT_BANK_4_ROW_3_ENCODER_4 = 1, 59, ABSOLUTE, TRUE, MST/CUE
-
-# Bank 4 - Row 4
-# Encoder default = X-Fade (Encoder Bindings)
-# Encoder press = X-Fade A/B assign (X-Controls)
-
-MFT_BANK_4_ROW_4_ENCODER_1 = 1, 60, ABSOLUTE, TRUE, MST/XFADER
-MFT_BANK_4_ROW_4_ENCODER_2 = 1, 61, ABSOLUTE, TRUE, MST/XFADER
-MFT_BANK_4_ROW_4_ENCODER_3 = 1, 62, ABSOLUTE, TRUE, MST/XFADER
-MFT_BANK_4_ROW_4_ENCODER_4 = 1, 63, ABSOLUTE, TRUE, MST/XFADER
+MFT_BANK_4_ROW_3_BUTTON_1 = CC, 2, 56, 0, 127, "SAMPLE 5"/SOLO
+MFT_BANK_4_ROW_3_BUTTON_2 = CC, 2, 57, 0, 127, "SAMPLE 6"/SOLO
+MFT_BANK_4_ROW_3_BUTTON_3 = CC, 2, 58, 0, 127, "RESAMPLE"/SOLO
+MFT_BANK_4_ROW_3_BUTTON_4 = CC, 2, 59, 0, 127, "CHOP"/SOLO

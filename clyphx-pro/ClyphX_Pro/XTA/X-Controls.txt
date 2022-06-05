@@ -94,7 +94,7 @@ MFT_LSIDE_3 = CC, 4, 10, 0, 127, $FLATTEN$
 # Notes:
 # - XFade A/B assign, by using both an On Action List and an Off Action List
 # - note: LED is not strictly bidirectional, but subsequent presses will reclaim synchronisation
-# - MFT Switch Actizon Type: CC Toggle
+# - MFT Switch Action Type: CC Toggle
 # - $RESET$ state: XFADE A
 
 MFT_BANK_2_ROW_4_BUTTON_1 = CC, 2, 28, 0, 127, "SAMPLE 1"/XFADE B : "SAMPLE 1"/XFADE A
