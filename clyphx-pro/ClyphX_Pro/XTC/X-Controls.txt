@@ -88,6 +88,16 @@ MFT_RSIDE_2 = CC, 4, 12, 0, 127, $MFT_BANK_4$ : $MFT_BANK_3$
 # Flatten selected clip
 MFT_RSIDE_3 = CC, 4, 13, 0, 127, $FLATTEN$
 
+# Bank 4 - Row 2
+# Encoder press = Audio from Deck A/B (X-Controls)
+# Notes:
+# - MFT Switch Action Type: CC Toggle
+
+MFT_BANK_4_ROW_2_BUTTON_1 = CC, 2, 52, 0, 127, "SAMPLE 5"/IN "DECK B" : "SAMPLE 5"/IN "DECK A"
+MFT_BANK_4_ROW_2_BUTTON_2 = CC, 2, 53, 0, 127, "SAMPLE 6"/IN "DECK B" : "SAMPLE 6"/IN "DECK A"
+# MFT_BANK_4_ROW_2_BUTTON_3 = CC, 2, 54, 0, 127, "SAMPLE 3"/IN "DECK B" : "SAMPLE 3"/IN "DECK A"
+# MFT_BANK_4_ROW_2_BUTTON_4 = CC, 2, 55, 0, 127, "SAMPLE 4"/IN "DECK B" : "SAMPLE 4"/IN "DECK A"
+
 # Bank 4 - Row 4
 # Encoder default = X-Fade (Encoder Bindings)
 # Encoder press = X-Fade A/B assign (X-Controls)
