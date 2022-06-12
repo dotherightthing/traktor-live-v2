@@ -414,6 +414,8 @@ Inkscape is a cross-platform vector editor.
     * SVG: `svg-overlays/nanokey-inkscape.svg`
 2. Traktor Kontrol X1 Mk2
     * SVG: `svg-overlays/traktor-kontrol-x1.svg` (custom)
+3. Midi Fighter Twister
+    * SVG: `svg-overlays/midi-fighter-twister-outlines.svg` (custom)
 
 ##### Process to create the bundled SVG
 
