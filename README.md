@@ -2,9 +2,7 @@
 
 [![GitHub release](https://img.shields.io/github/v/tag/dotherightthing/push2-traktor-live)](https://github.com/dotherightthing/push2-traktor-live/releases) [![GitHub issues](https://img.shields.io/github/issues/dotherightthing/push2-traktor-live.svg)](https://github.com/dotherightthing/push2-traktor-live/issues)
 
-This is a 'fork' of <https://github.com/dotherightthing/nk-traktor-live/>, which uses Push2 as the main controller, repurposes the two Korg controllers, and adds the Traktor X1 and Z1.
-
-Traktor Pro mix template for the KORG nanoKEY/nanoKONTROL Studio MIDI controllers.
+Traktor Pro mix template using multiple MIDI controllers. This is a 'fork' of <https://github.com/dotherightthing/nk-traktor-live/> and changes the supported MIDI controllers.
 
 Includes Ableton Live starter file.
 
@@ -46,7 +44,6 @@ The Loop Recorder is problematic because it records loops slightly too long. Sam
     * [nativeKONTROL ClyphX Pro](#nativekontrol-clyphx-pro)
     * [Native Instruments Traktor Pro Controller Manager](#native-instruments-traktor-pro-controller-manager)
     * [KORG nanoKEY Studio](#korg-nanokey-studio)
-    * [KORG nanoKONTROL Studio](#korg-nanokontrol-studio)
     * [Native Instruments Traktor Kontrol X1](#native-instruments-traktor-kontrol-x1)
     * [Native Instruments Traktor Kontrol Z1](#native-instruments-traktor-kontrol-z1)
     * [Ableton Push2](#ableton-push2)
@@ -252,45 +249,6 @@ Double-click to open the set files, then select Communication > Write Scene Data
 
 ---
 
-#### KORG nanoKONTROL Studio
-
-* Product: <https://www.korg.com/us/products/computergear/nanokontrol_studio/>
-* Version: 1.05
-* Editor: <https://www.korg.com/us/support/download/software/1/133/1355/>
-
-##### Ableton Live MIDI setup
-
-* Control Surface: `ClyphX Pro XTB`
-* Input: `nanoKONTROL Studio`
-  * Track: `On`
-  * Sync: `Off`
-  * Remote: `On`
-* Output: `nanoKONTROL Studio`
-  * Track: `On`
-  * Sync: `Off`
-  * Remote: `On`
-
-###### Features
-
-* Tracks 1-8: Pan
-* Tracks 1-8: Volume
-
-##### KORG KONTROL Editor configuration files
-
-1. Set: `korg-kontrol-editor/push2-traktor-live.nktrl_st_data`
-2. Data: `korg-kontrol-editor/push2-traktor-live.nktrl_st_data`
-
-Double-click to open the set files, then select Communication > Write Scene Data.
-
-##### nativeKONTROL ClyphX Pro configuration files: XTB
-
-1. `clyphx-pro/ClyphX_Pro/XTB/Button Bindings.txt`
-1. `clyphx-pro/ClyphX_Pro/XTB/Encoder Bindings.txt`
-1. `clyphx-pro/ClyphX_Pro/XTB/G-Controls.txt`
-1. `clyphx-pro/ClyphX_Pro/XTB/X-Controls.txt`
-
----
-
 #### Native Instruments Traktor Kontrol X1
 
 * Product: <https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-x1/>
@@ -454,10 +412,7 @@ Inkscape is a cross-platform vector editor.
 1. KORG nanoKEY Studio
     * Owner manual: <https://www.korg.com/us/support/download/manual/0/551/2967/>
     * SVG: `svg-overlays/nanokey-inkscape.svg`
-2. KORG nanoKONTROL Studio
-    * Owner manual: <https://www.korg.com/us/support/download/manual/0/552/2911/>
-    * SVG: `svg-overlays/nanokontrol-inkscape.svg`
-3. Traktor Kontrol X1 Mk2
+2. Traktor Kontrol X1 Mk2
     * SVG: `svg-overlays/traktor-kontrol-x1.svg` (custom)
 
 ##### Process to create the bundled SVG
