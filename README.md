@@ -531,37 +531,17 @@ In addition Audio Hijack makes it clear *when* it is recording, by optionally di
 
 #### FAQs
 
-##### How do I use the sampler?
-
-1. Press `Select` on Channel `1` or `4` (this sets the recording source to Traktor Pro's Deck `A` or `B`)
-2. Press `Select` on Channel `5`, `6`, `7`, `8` (this sets the target Ableton Live channel for sampling)
-3. Press the `Record` button to start recording immediately
-4. 4 bars of audio will be recorded
-
 ##### Why can't I hear recording clips in Ableton Live?
 
 Press the sync button to sync playback with Traktor Pro.
 
-###### System Events: 'send keystrokes' error message
+##### Why can't I hear FX trails after crossfading
 
-> System Events got an error: NK_Traktor_Live is not allowed to send keystrokes.
-
-System Events are used to send keystrokes to apps and find out how big to make windows when they are 'maximised'.
-
-When prompted to allow NK_Traktor_Live to access System Events.app, click 'OK'.
-
-###### System Events: 'assistive access' error message
-
-> System Events got an error: NK_Traktor_Live is not allowed assistive access.
-
-The *Accessibility* screen in *System Preferences* allows apps to control your computer.
-
-When prompted to give NK_Traktor_Live assistive access:
-
-`System Preferences > Security & Privacy > Privacy > Accessibility > NK_Traktor_Live.app` (add and enable)
+Ensure that both 'A' and 'B' crossfader assigns are unchecked on both FX channels.
 
 #### References
 
 1. [How to Sync Ableton Live and Traktor Pro - The Right Way | DJ Endo](https://www.youtube.com/watch?v=4xzldehIsCE)
 2. [Ableton Live Looping Setup - Hands Free! Ableton and ClyphX-Pro](https://www.youtube.com/watch?v=Yn_ExkefmCQ)
-3. etc..
+3. [nk-traktor-live (original Github project)](https://github.com/dotherightthing/nk-traktor-live/)
+4. etc..
