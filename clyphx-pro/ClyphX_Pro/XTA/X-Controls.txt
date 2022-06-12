@@ -80,13 +80,13 @@
 # Side buttons
 
 # Sync to clock
-MFT_LSIDE_1 = CC, 4, 8, 0, 127, $SLICE$
+MFT_LSIDE_1 = CC, 4, 8, 0, 127, $SYNC$
 
 # Toggle between banks 1 & 2, by using both an On Action List and an Off Action List
 MFT_LSIDE_2 = CC, 4, 9, 0, 127, $MFT_BANK_2$ : $MFT_BANK_1$
 
 # Reset mixer
-MFT_LSIDE_3 = CC, 4, 10, 0, 127, $FLATTEN$
+MFT_LSIDE_3 = CC, 4, 10, 0, 127, $RESET$
 
 # Bank 2 - Row 2
 # Encoder press = Audio from Deck A/B (X-Controls)
