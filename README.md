@@ -539,6 +539,10 @@ Press the sync button to sync playback with Traktor Pro.
 
 Ensure that both 'A' and 'B' crossfader assigns are unchecked on both FX channels.
 
+##### Why can't I hear any sound, or only briefly before it cuts out?
+
+Toggle the On-Off switch in the Monitor column (Z1 device) of Loopback.
+
 #### References
 
 1. [How to Sync Ableton Live and Traktor Pro - The Right Way | DJ Endo](https://www.youtube.com/watch?v=4xzldehIsCE)
