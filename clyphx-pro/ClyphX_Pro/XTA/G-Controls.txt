@@ -110,7 +110,40 @@ VERSION = v1.0.0
 
 # XTA (Midi Fighter Twister A) - G-Controls
 # Track names are for reference only
-# CC numbers reference those assigned in the Midi Fighter Utility
+# CC numbers reference those assigned in the Midifighter Utility
+
+# CC N = channel:
+#    1 = Turn encoder
+#    2 = Push encoder
+#    5 = Push + turn encoder
+#
+# Bank 1
+#
+# CC N  0, CC N  1, CC N  2, CC N  3
+# CC N  4, CC N  5, CC N  6, CC N  7
+# CC N  8, CC N  9, CC N 10, CC N 11
+# CC N 12, CC N 13, CC N 14, CC N 15
+#
+# Bank 2
+#
+# CC N 16, CC N 17, CC N 18, CC N 19
+# CC N 20, CC N 21, CC N 22, CC N 23
+# CC N 24, CC N 25, CC N 26, CC N 27
+# CC N 28, CC N 29, CC N 30, CC N 31
+#
+# Bank 3
+#
+# CC N 32, CC N 33, CC N 34, CC N 35
+# CC N 36, CC N 37, CC N 38, CC N 39
+# CC N 40, CC N 41, CC N 42, CC N 43
+# CC N 44, CC N 45, CC N 46, CC N 47
+#
+# Bank 4
+#
+# CC N 48, CC N 49, CC N 50, CC N 51
+# CC N 52, CC N 53, CC N 54, CC N 55
+# CC N 56, CC N 57, CC N 58, CC N 59
+# CC N 60, CC N 61, CC N 52, CC N 63
 
 # Bank 1 - Row 1
 # Encoder default = VU meter (Encoder Bindings)
