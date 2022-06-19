@@ -117,22 +117,28 @@ VERSION = v1.0.0
 #    2 = Push encoder
 #    5 = Push + turn encoder
 #
-# Bank 1
+# Bank 1: Midi Fighter Twister A
 #
-# CC N  0, CC N  1, CC N  2, CC N  3
-# CC N  4, CC N  5, CC N  6, CC N  7
-# CC N  8, CC N  9, CC N 10, CC N 11
-# CC N 12, CC N 13, CC N 14, CC N 15
+# Trk 1A  | Trk 1B  | Trk 2A  | Trk 2B  
+# ------- | ------- | ------- | -------
+# CC N  0 | CC N  1 | CC N  2 | CC N  3
+# CC N  4 | CC N  5 | CC N  6 | CC N  7
+# CC N  8 | CC N  9 | CC N 10 | CC N 11
+# CC N 12 | CC N 13 | CC N 14 | CC N 15
 #
-# Bank 2
+# Bank 2: Midi Fighter Twister B
 #
-# CC N 16, CC N 17, CC N 18, CC N 19
-# CC N 20, CC N 21, CC N 22, CC N 23
-# CC N 24, CC N 25, CC N 26, CC N 27
-# CC N 28, CC N 29, CC N 30, CC N 31
+# Trk 3A  | Trk 3B  | Trk 4A  | Trk 4B  
+# ------- | ------- | ------- | -------
+# CC N 16 | CC N 17 | CC N 18 | CC N 19
+# CC N 20 | CC N 21 | CC N 22 | CC N 23
+# CC N 24 | CC N 25 | CC N 26 | CC N 27
+# CC N 28 | CC N 29 | CC N 30 | CC N 31
 #
-# Bank 3
+# Bank 3: Midi Fighter Twister C (TM)
 #
+# Trk 5A  | Trk 5B  | Trk 6A  | Trk 6B  
+# ------- | ------- | ------- | -------
 # CC N 32, CC N 33, CC N 34, CC N 35
 # CC N 36, CC N 37, CC N 38, CC N 39
 # CC N 40, CC N 41, CC N 42, CC N 43
@@ -145,71 +151,84 @@ VERSION = v1.0.0
 # CC N 56, CC N 57, CC N 58, CC N 59
 # CC N 60, CC N 61, CC N 52, CC N 63
 
-# Bank 1 - Row 1
+# ---
+
+# Trk 1A - row 1
 # Encoder default = VU meter (Encoder Bindings)
 # Encoder press+hold = volume (Encoder Bindings)
-# Encoder press = toggle mute (G Controls)
-# TODO: BUTTON LED state does not match Mute state, PSEQ didn't work either
-
+# Encoder press = toggle mute (G-Controls)
 MFT_BANK_1_ROW_1_BUTTON_1 = CC, 2, 0, 0, 127, FALSE
 MFT_BANK_1_ROW_1_BUTTON_1 RELEASED_IMMEDIATELY = "SAMPLE 1"/MUTE
 
-MFT_BANK_1_ROW_1_BUTTON_2 = CC, 2, 1, 0, 127, FALSE
-MFT_BANK_1_ROW_1_BUTTON_2 RELEASED_IMMEDIATELY = "SAMPLE 2"/MUTE
-
-MFT_BANK_1_ROW_1_BUTTON_3 = CC, 2, 2, 0, 127, FALSE
-MFT_BANK_1_ROW_1_BUTTON_3 RELEASED_IMMEDIATELY = "SAMPLE 3"/MUTE
-
-MFT_BANK_1_ROW_1_BUTTON_4 = CC, 2, 3, 0, 127, FALSE
-MFT_BANK_1_ROW_1_BUTTON_4 RELEASED_IMMEDIATELY = "SAMPLE 4"/MUTE
-
-# Bank 1 - Row 2
+# Trk 1A - row 2
 # Encoder default = EQ High (Encoder Bindings)
-# Encoder press+hold = pan (Encoder Bindings)
-# Encoder press = reset pan to center (G Controls)
-
+# Encoder press = EQ High reset (G-Controls)
 MFT_BANK_1_ROW_2_BUTTON_1 = CC, 2, 4, 0, 127, FALSE
-MFT_BANK_1_ROW_2_BUTTON_1 RELEASED_IMMEDIATELY = "SAMPLE 1"/DEV(1) "[PAN]" 63
+MFT_BANK_1_ROW_2_BUTTON_1 RELEASED_IMMEDIATELY =  "SAMPLE 1"/DEV(1) P5 107
 
-MFT_BANK_1_ROW_2_BUTTON_2 = CC, 2, 5, 0, 127, FALSE
-MFT_BANK_1_ROW_2_BUTTON_2 RELEASED_IMMEDIATELY = "SAMPLE 2"/DEV(1) "[PAN]" 63
-
-MFT_BANK_1_ROW_2_BUTTON_3 = CC, 2, 6, 0, 127, FALSE
-MFT_BANK_1_ROW_2_BUTTON_3 RELEASED_IMMEDIATELY = "SAMPLE 3"/DEV(1) "[PAN]" 63
-
-MFT_BANK_1_ROW_2_BUTTON_4 = CC, 2, 7, 0, 127, FALSE
-MFT_BANK_1_ROW_2_BUTTON_4 RELEASED_IMMEDIATELY = "SAMPLE 4"/DEV(1) "[PAN]" 63
-
-# Bank 1 - Row 3
+# Trk 1A - row 3
 # Encoder default = EQ Mid (Encoder Bindings)
-# Encoder press+hold = Send A (Encoder Bindings)
-# Encoder press = reset Send A (G-Controls)
-
+# Encoder press = EQ Mid reset (G-Controls)
 MFT_BANK_1_ROW_3_BUTTON_1 = CC, 2, 8, 0, 127, FALSE
-MFT_BANK_1_ROW_3_BUTTON_1 RELEASED_IMMEDIATELY = "SAMPLE 1"/DEV(1) "[SEND A] Delay" 0
+MFT_BANK_1_ROW_3_BUTTON_1 RELEASED_IMMEDIATELY =  "SAMPLE 1"/DEV(1) P4 107
 
-MFT_BANK_1_ROW_3_BUTTON_2 = CC, 2, 9, 0, 127, FALSE
-MFT_BANK_1_ROW_3_BUTTON_2 RELEASED_IMMEDIATELY = "SAMPLE 2"/DEV(1) "[SEND A] Delay" 0
-
-MFT_BANK_1_ROW_3_BUTTON_3 = CC, 2, 10, 0, 127, FALSE
-MFT_BANK_1_ROW_3_BUTTON_3 RELEASED_IMMEDIATELY = "SAMPLE 3"/DEV(1) "[SEND A] Delay" 0
-
-MFT_BANK_1_ROW_3_BUTTON_4 = CC, 2, 11, 0, 127, FALSE
-MFT_BANK_1_ROW_3_BUTTON_4 RELEASED_IMMEDIATELY = "SAMPLE 4"/DEV(1) "[SEND A] Delay" 0
-
-# Bank 1 - Row 4
+# Trk 1A - row 4
 # Encoder default = EQ Low (Encoder Bindings)
-# Encoder press+hold = Send B (Encoder Bindings)
-# Encoder press = reset Send B (G-Controls)
-
+# Encoder press = EQ Low reset (G-Controls)
 MFT_BANK_1_ROW_4_BUTTON_1 = CC, 2, 12, 0, 127, FALSE
-MFT_BANK_1_ROW_4_BUTTON_1 RELEASED_IMMEDIATELY = "SAMPLE 1"/DEV(1) "[SEND B] Reverb" 0
+MFT_BANK_1_ROW_4_BUTTON_1 RELEASED_IMMEDIATELY =  "SAMPLE 1"/DEV(1) P3 107
 
-MFT_BANK_1_ROW_4_BUTTON_2 = CC, 2, 13, 0, 127, FALSE
-MFT_BANK_1_ROW_4_BUTTON_2 RELEASED_IMMEDIATELY = "SAMPLE 2"/DEV(1) "[SEND B] Reverb" 0
+# ---
 
+# Trk 1B - row 2
+# Encoder default = FX1 (Encoder Bindings)
+# Encoder press = FX1 reset (G-Controls)
+MFT_BANK_1_ROW_2_BUTTON_2 = CC, 2, 5, 0, 127, FALSE
+MFT_BANK_1_ROW_2_BUTTON_2 RELEASED_IMMEDIATELY =  "SAMPLE 1"/DEV(1) P6 0
+
+# Trk 1B - row 3
+# Encoder default = FX2 (Encoder Bindings)
+# Encoder press = FX2 reset (G-Controls)
+MFT_BANK_1_ROW_3_BUTTON_2 = CC, 2, 9, 0, 127, FALSE
+MFT_BANK_1_ROW_3_BUTTON_2 RELEASED_IMMEDIATELY =  "SAMPLE 1"/DEV(1) P7 0
+
+# ---
+
+# Trk 2A - row 1
+# Encoder default = VU meter (Encoder Bindings)
+# Encoder press+hold = volume (Encoder Bindings)
+# Encoder press = toggle mute (G-Controls)
+MFT_BANK_1_ROW_1_BUTTON_3 = CC, 2, 2, 0, 127, FALSE
+MFT_BANK_1_ROW_1_BUTTON_3 RELEASED_IMMEDIATELY = "SAMPLE 2"/MUTE
+
+# Trk 2A - row 2
+# Encoder default = EQ High (Encoder Bindings)
+# Encoder press = EQ High reset (G-Controls)
+MFT_BANK_1_ROW_2_BUTTON_3 = CC, 2, 6, 0, 127, FALSE
+MFT_BANK_1_ROW_2_BUTTON_3 RELEASED_IMMEDIATELY =  "SAMPLE 2"/DEV(1) P5 107
+
+# Trk 2A - row 3
+# Encoder default = EQ Mid (Encoder Bindings)
+# Encoder press = EQ Mid reset (G-Controls)
+MFT_BANK_1_ROW_3_BUTTON_3 = CC, 2, 10, 0, 127, FALSE
+MFT_BANK_1_ROW_3_BUTTON_3 RELEASED_IMMEDIATELY =  "SAMPLE 2"/DEV(1) P4 107
+
+# Trk 2A - row 4
+# Encoder default = EQ Low (Encoder Bindings)
+# Encoder press = EQ Low reset (G-Controls)
 MFT_BANK_1_ROW_4_BUTTON_3 = CC, 2, 14, 0, 127, FALSE
-MFT_BANK_1_ROW_4_BUTTON_3 RELEASED_IMMEDIATELY = "SAMPLE 3"/DEV(1) "[SEND B] Reverb" 0
+MFT_BANK_1_ROW_4_BUTTON_3 RELEASED_IMMEDIATELY =  "SAMPLE 2"/DEV(1) P3 107
 
-MFT_BANK_1_ROW_4_BUTTON_4 = CC, 2, 15, 0, 127, FALSE
-MFT_BANK_1_ROW_4_BUTTON_4 RELEASED_IMMEDIATELY = "SAMPLE 4"/DEV(1) "[SEND B] Reverb" 0
+# ---
+
+# Trk 2B - row 2
+# Encoder default = FX1 (Encoder Bindings)
+# Encoder press = FX1 reset (G-Controls)
+MFT_BANK_1_ROW_2_BUTTON_4 = CC, 2, 7, 0, 127, FALSE
+MFT_BANK_1_ROW_2_BUTTON_4 RELEASED_IMMEDIATELY =  "SAMPLE 2"/DEV(1) P6 0
+
+# Trk 2B - row 3
+# Encoder default = FX2 (Encoder Bindings)
+# Encoder press = FX2 reset (G-Controls)
+MFT_BANK_1_ROW_3_BUTTON_4 = CC, 2, 11, 0, 127, FALSE
+MFT_BANK_1_ROW_3_BUTTON_4 RELEASED_IMMEDIATELY =  "SAMPLE 2"/DEV(1) P7 0

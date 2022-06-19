@@ -155,19 +155,23 @@ VERSION = v1.0.5
 #    2 = Push encoder
 #    5 = Push + turn encoder
 #
-# Bank 1
+# Bank 1: Midi Fighter Twister A
 #
-# CC N  0, CC N  1, CC N  2, CC N  3
-# CC N  4, CC N  5, CC N  6, CC N  7
-# CC N  8, CC N  9, CC N 10, CC N 11
-# CC N 12, CC N 13, CC N 14, CC N 15
+# Trk 1A  | Trk 1B  | Trk 2A  | Trk 2B  
+# ------- | ------- | ------- | -------
+# CC N  0 | CC N  1 | CC N  2 | CC N  3
+# CC N  4 | CC N  5 | CC N  6 | CC N  7
+# CC N  8 | CC N  9 | CC N 10 | CC N 11
+# CC N 12 | CC N 13 | CC N 14 | CC N 15
 #
-# Bank 2
+# Bank 2: Midi Fighter Twister B
 #
-# CC N 16, CC N 17, CC N 18, CC N 19
-# CC N 20, CC N 21, CC N 22, CC N 23
-# CC N 24, CC N 25, CC N 26, CC N 27
-# CC N 28, CC N 29, CC N 30, CC N 31
+# Trk 3A  | Trk 3B  | Trk 4A  | Trk 4B  
+# ------- | ------- | ------- | -------
+# CC N 16 | CC N 17 | CC N 18 | CC N 19
+# CC N 20 | CC N 21 | CC N 22 | CC N 23
+# CC N 24 | CC N 25 | CC N 26 | CC N 27
+# CC N 28 | CC N 29 | CC N 30 | CC N 31
 #
 # Bank 3
 #
@@ -183,83 +187,96 @@ VERSION = v1.0.5
 # CC N 56, CC N 57, CC N 58, CC N 59
 # CC N 60, CC N 61, CC N 52, CC N 63
 
-# Track volume
 # CHANNEL, CC, MAPPING_MODE, NEEDS_TAKEOVER, BINDING
 
-# Bank 1 - Row 1
+# ---
+
+# Trk 1A - row 1
 # Encoder default = VU meter (Encoder Bindings)
 # Encoder press+hold = volume (Encoder Bindings)
 # Encoder press = toggle mute (G-Controls)
-
 MFT_BANK_1_ROW_1_ENCODER_1 = 1, 0, ABSOLUTE, TRUE, "Meter 1"/DEV("midiAudioToCC") "Envelope L"
-MFT_BANK_1_ROW_1_ENCODER_2 = 1, 1, ABSOLUTE, TRUE, "Meter 2"/DEV("midiAudioToCC") "Envelope L"
-MFT_BANK_1_ROW_1_ENCODER_3 = 1, 2, ABSOLUTE, TRUE, "Meter 3"/DEV("midiAudioToCC") "Envelope L"
-MFT_BANK_1_ROW_1_ENCODER_4 = 1, 3, ABSOLUTE, TRUE, "Meter 4"/DEV("midiAudioToCC") "Envelope L"
-
 MFT_BANK_1_ROW_1_ENCODER_1_SHIFTHOLD = 5, 0, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "[VOL]"
-MFT_BANK_1_ROW_1_ENCODER_2_SHIFTHOLD = 5, 1, ABSOLUTE, TRUE, "SAMPLE 2"/DEV(1) "[VOL]"
-MFT_BANK_1_ROW_1_ENCODER_3_SHIFTHOLD = 5, 2, ABSOLUTE, TRUE, "SAMPLE 3"/DEV(1) "[VOL]"
-MFT_BANK_1_ROW_1_ENCODER_4_SHIFTHOLD = 5, 3, ABSOLUTE, TRUE, "SAMPLE 4"/DEV(1) "[VOL]"
 
-# Bank 1 - Row 2
-# Encoder default = EQ high (Encoder Bindings)
-# Encoder press+hold = pan (Encoder Bindings)
-# Encoder press = reset pan to center (G-Controls)
-
+# Trk 1A - row 2
+# Encoder default = EQ High (Encoder Bindings)
+# Encoder press = EQ High reset (G-Controls)
 MFT_BANK_1_ROW_2_ENCODER_1 = 1, 4, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "EQ High"
-MFT_BANK_1_ROW_2_ENCODER_2 = 1, 5, ABSOLUTE, TRUE, "SAMPLE 2"/DEV(1) "EQ High"
-MFT_BANK_1_ROW_2_ENCODER_3 = 1, 6, ABSOLUTE, TRUE, "SAMPLE 3"/DEV(1) "EQ High"
-MFT_BANK_1_ROW_2_ENCODER_4 = 1, 7, ABSOLUTE, TRUE, "SAMPLE 4"/DEV(1) "EQ High"
 
-MFT_BANK_1_ROW_2_ENCODER_1_SHIFTHOLD = 5, 4, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "[PAN]"
-MFT_BANK_1_ROW_2_ENCODER_2_SHIFTHOLD = 5, 5, ABSOLUTE, TRUE, "SAMPLE 2"/DEV(1) "[PAN]"
-MFT_BANK_1_ROW_2_ENCODER_3_SHIFTHOLD = 5, 6, ABSOLUTE, TRUE, "SAMPLE 3"/DEV(1) "[PAN]"
-MFT_BANK_1_ROW_2_ENCODER_4_SHIFTHOLD = 5, 7, ABSOLUTE, TRUE, "SAMPLE 4"/DEV(1) "[PAN]"
-
-# Bank 1 - Row 3
+# Trk 1A - row 3
 # Encoder default = EQ Mid (Encoder Bindings)
-# Encoder press+hold = Send A (Encoder Bindings)
-# Encoder press = reset Send A (G-Controls)
-
+# Encoder press = EQ Mid reset (G-Controls)
 MFT_BANK_1_ROW_3_ENCODER_1 = 1, 8, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "EQ Mid"
-MFT_BANK_1_ROW_3_ENCODER_2 = 1, 9, ABSOLUTE, TRUE, "SAMPLE 2"/DEV(1) "EQ Mid"
-MFT_BANK_1_ROW_3_ENCODER_3 = 1, 10, ABSOLUTE, TRUE, "SAMPLE 3"/DEV(1) "EQ Mid"
-MFT_BANK_1_ROW_3_ENCODER_4 = 1, 11, ABSOLUTE, TRUE, "SAMPLE 4"/DEV(1) "EQ Mid"
 
-MFT_BANK_1_ROW_3_ENCODER_1_SHIFTHOLD = 5, 8, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "[SEND A] Delay"
-MFT_BANK_1_ROW_3_ENCODER_2_SHIFTHOLD = 5, 9, ABSOLUTE, TRUE, "SAMPLE 2"/DEV(1) "[SEND A] Delay"
-MFT_BANK_1_ROW_3_ENCODER_3_SHIFTHOLD = 5, 10, ABSOLUTE, TRUE, "SAMPLE 3"/DEV(1) "[SEND A] Delay"
-MFT_BANK_1_ROW_3_ENCODER_4_SHIFTHOLD = 5, 11, ABSOLUTE, TRUE, "SAMPLE 4"/DEV(1) "[SEND A] Delay"
-
-# Bank 1 - Row 4
+# Trk 1A - row 4
 # Encoder default = EQ Low (Encoder Bindings)
-# Encoder press+hold = Send B (Encoder Bindings)
-# Encoder press = reset Send B (G-Controls)
-
+# Encoder press = EQ Low reset (G-Controls)
 MFT_BANK_1_ROW_4_ENCODER_1 = 1, 12, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "EQ Low"
-MFT_BANK_1_ROW_4_ENCODER_2 = 1, 13, ABSOLUTE, TRUE, "SAMPLE 2"/DEV(1) "EQ Low"
-MFT_BANK_1_ROW_4_ENCODER_3 = 1, 14, ABSOLUTE, TRUE, "SAMPLE 3"/DEV(1) "EQ Low"
-MFT_BANK_1_ROW_4_ENCODER_4 = 1, 15, ABSOLUTE, TRUE, "SAMPLE 4"/DEV(1) "EQ Low"
 
-MFT_BANK_1_ROW_4_ENCODER_1_SHIFTHOLD = 5, 12, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "[SEND B] Reverb"
-MFT_BANK_1_ROW_4_ENCODER_2_SHIFTHOLD = 5, 13, ABSOLUTE, TRUE, "SAMPLE 2"/DEV(1) "[SEND B] Reverb"
-MFT_BANK_1_ROW_4_ENCODER_3_SHIFTHOLD = 5, 14, ABSOLUTE, TRUE, "SAMPLE 3"/DEV(1) "[SEND B] Reverb"
-MFT_BANK_1_ROW_4_ENCODER_4_SHIFTHOLD = 5, 15, ABSOLUTE, TRUE, "SAMPLE 4"/DEV(1) "[SEND B] Reverb"
+# ---
 
-# Bank 2 - Row 3
-# Encoder default = Cue Volume (Encoder Bindings)
-# Encoder press = Cue Toggle (Button Bindings)
+# Trk 1B - row 1
+# Encoder default = Pan (Encoder Bindings)
+# Encoder press - Deck In (X-Controls)
+MFT_BANK_1_ROW_1_ENCODER_2 = 1, 1, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "[PAN]"
 
-MFT_BANK_2_ROW_3_ENCODER_1 = 1, 24, ABSOLUTE, TRUE, MST/CUE
-MFT_BANK_2_ROW_3_ENCODER_2 = 1, 25, ABSOLUTE, TRUE, MST/CUE
-MFT_BANK_2_ROW_3_ENCODER_3 = 1, 26, ABSOLUTE, TRUE, MST/CUE
-MFT_BANK_2_ROW_3_ENCODER_4 = 1, 27, ABSOLUTE, TRUE, MST/CUE
+# Trk 1B - row 2
+# Encoder default = FX1 (Encoder Bindings)
+# Encoder press = FX1 reset (G-Controls)
+MFT_BANK_1_ROW_2_ENCODER_2 = 1, 5, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "[SEND A] Delay"
 
-# Bank 2 - Row 4
+# Trk 1B - row 3
+# Encoder default = FX2 (Encoder Bindings)
+# Encoder press = FX2 reset (G-Controls)
+MFT_BANK_1_ROW_3_ENCODER_2 = 1, 9, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "[SEND B] Reverb"
+
+# Trk 1B - row 4
 # Encoder default = X-Fade (Encoder Bindings)
 # Encoder press = X-Fade A/B assign (X-Controls)
+MFT_BANK_2_ROW_4_ENCODER_2 = 1, 13, ABSOLUTE, TRUE, MST/XFADER
 
-MFT_BANK_2_ROW_4_ENCODER_1 = 1, 28, ABSOLUTE, TRUE, MST/XFADER
-MFT_BANK_2_ROW_4_ENCODER_2 = 1, 29, ABSOLUTE, TRUE, MST/XFADER
-MFT_BANK_2_ROW_4_ENCODER_3 = 1, 30, ABSOLUTE, TRUE, MST/XFADER
-MFT_BANK_2_ROW_4_ENCODER_4 = 1, 31, ABSOLUTE, TRUE, MST/XFADER
+# ---
+
+# Trk 2A - row 1
+# Encoder default = VU meter (Encoder Bindings)
+# Encoder press+hold = volume (Encoder Bindings)
+# Encoder press = toggle mute (G-Controls)
+MFT_BANK_1_ROW_1_ENCODER_3 = 1, 2, ABSOLUTE, TRUE, "Meter 2"/DEV("midiAudioToCC") "Envelope L"
+MFT_BANK_1_ROW_1_ENCODER_3_SHIFTHOLD = 5, 2, ABSOLUTE, TRUE, "SAMPLE 2"/DEV(1) "[VOL]"
+
+# Trk 2A - row 2
+# Encoder default = EQ High (Encoder Bindings)
+# Encoder press = EQ High reset (G-Controls)
+MFT_BANK_1_ROW_2_ENCODER_3 = 1, 6, ABSOLUTE, TRUE, "SAMPLE 2"/DEV(1) "EQ High"
+
+# Trk 2A - row 3
+# Encoder default = EQ Mid (Encoder Bindings)
+# Encoder press = EQ Mid reset (G-Controls)
+MFT_BANK_1_ROW_3_ENCODER_3 = 1, 10, ABSOLUTE, TRUE, "SAMPLE 2"/DEV(1) "EQ Mid"
+
+# Trk 2A - row 4
+# Encoder default = EQ Low (Encoder Bindings)
+# Encoder press = EQ Low reset (G-Controls)
+MFT_BANK_1_ROW_4_ENCODER_3 = 1, 14, ABSOLUTE, TRUE, "SAMPLE 2"/DEV(1) "EQ Low"
+
+# ---
+
+# Trk 2B - row 1
+# Encoder default = Pan (Encoder Bindings)
+# Encoder press - Deck In (X-Controls)
+MFT_BANK_1_ROW_1_ENCODER_4 = 1, 3, ABSOLUTE, TRUE, "SAMPLE 2"/DEV(1) "[PAN]"
+
+# Trk 2B - row 2
+# Encoder default = FX1 (Encoder Bindings)
+# Encoder press = FX1 reset (G-Controls)
+MFT_BANK_1_ROW_2_ENCODER_4 = 1, 7, ABSOLUTE, TRUE, "SAMPLE 2"/DEV(1) "[SEND A] Delay"
+
+# Trk 2B - row 3
+# Encoder default = FX2 (Encoder Bindings)
+# Encoder press = FX2 reset (G-Controls)
+MFT_BANK_1_ROW_3_ENCODER_4 = 1, 11, ABSOLUTE, TRUE, "SAMPLE 2"/DEV(1) "[SEND B] Reverb"
+
+# Trk 2B - row 4
+# Encoder default = X-Fade (Encoder Bindings)
+# Encoder press = X-Fade A/B assign (X-Controls)
+MFT_BANK_2_ROW_4_ENCODER_4 = 1, 15, ABSOLUTE, TRUE, MST/XFADER

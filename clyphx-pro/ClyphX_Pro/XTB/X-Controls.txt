@@ -82,19 +82,23 @@
 #    2 = Push encoder
 #    5 = Push + turn encoder
 #
-# Bank 1
+# Bank 1: Midi Fighter Twister A
 #
-# CC N  0, CC N  1, CC N  2, CC N  3
-# CC N  4, CC N  5, CC N  6, CC N  7
-# CC N  8, CC N  9, CC N 10, CC N 11
-# CC N 12, CC N 13, CC N 14, CC N 15
+# Trk 1A  | Trk 1B  | Trk 2A  | Trk 2B  
+# ------- | ------- | ------- | -------
+# CC N  0 | CC N  1 | CC N  2 | CC N  3
+# CC N  4 | CC N  5 | CC N  6 | CC N  7
+# CC N  8 | CC N  9 | CC N 10 | CC N 11
+# CC N 12 | CC N 13 | CC N 14 | CC N 15
 #
-# Bank 2
+# Bank 2: Midi Fighter Twister B
 #
-# CC N 16, CC N 17, CC N 18, CC N 19
-# CC N 20, CC N 21, CC N 22, CC N 23
-# CC N 24, CC N 25, CC N 26, CC N 27
-# CC N 28, CC N 29, CC N 30, CC N 31
+# Trk 3A  | Trk 3B  | Trk 4A  | Trk 4B  
+# ------- | ------- | ------- | -------
+# CC N 16 | CC N 17 | CC N 18 | CC N 19
+# CC N 20 | CC N 21 | CC N 22 | CC N 23
+# CC N 24 | CC N 25 | CC N 26 | CC N 27
+# CC N 28 | CC N 29 | CC N 30 | CC N 31
 #
 # Bank 3
 #
@@ -110,37 +114,42 @@
 # CC N 56, CC N 57, CC N 58, CC N 59
 # CC N 60, CC N 61, CC N 52, CC N 63
 
+# ---
+
 # Side buttons
+
+# Sync to clock
+MFT_LSIDE_1 = CC, 4, 8, 0, 127, $SYNC$
+
+# Reset mixer
+MFT_LSIDE_3 = CC, 4, 10, 0, 127, $RESET$
 
 # Slice selected clip
 MFT_RSIDE_1 = CC, 4, 11, 0, 127, $SLICE$
 
-# Toggle between banks 3 & 4
-MFT_RSIDE_2 = CC, 4, 12, 0, 127, $MFT_BANK_4$ : $MFT_BANK_3$
-
 # Flatten selected clip
 MFT_RSIDE_3 = CC, 4, 13, 0, 127, $FLATTEN$
 
-# Bank 4 - Row 2
-# Encoder press = Audio from Deck A/B (X-Controls)
-# Notes:
-# - MFT Switch Action Type: CC Toggle
+# ---
 
-MFT_BANK_4_ROW_2_BUTTON_1 = CC, 2, 52, 0, 127, "SAMPLE 5"/IN "DECK B" : "SAMPLE 5"/IN "DECK A"
-MFT_BANK_4_ROW_2_BUTTON_2 = CC, 2, 53, 0, 127, "SAMPLE 6"/IN "DECK B" : "SAMPLE 6"/IN "DECK A"
-# MFT_BANK_4_ROW_2_BUTTON_3 = CC, 2, 54, 0, 127, "SAMPLE 3"/IN "DECK B" : "SAMPLE 3"/IN "DECK A"
-# MFT_BANK_4_ROW_2_BUTTON_4 = CC, 2, 55, 0, 127, "SAMPLE 4"/IN "DECK B" : "SAMPLE 4"/IN "DECK A"
+# Trk 3B - row 1
+# Encoder default = Pan (Encoder Bindings)
+# Encoder press - Deck In (X-Controls)
+MFT_BANK_2_ROW_1_BUTTON_2 = CC, 2, 17, 0, 127, "SAMPLE 3"/IN "DECK B" : "SAMPLE 3"/IN "DECK A"
 
-# Bank 4 - Row 4
+# Trk 3B - row 4
 # Encoder default = X-Fade (Encoder Bindings)
 # Encoder press = X-Fade A/B assign (X-Controls)
-# Notes:
-# - XFade A/B assign, by using both an On Action List and an Off Action List
-# - note: LED is not strictly bidirectional, but subsequent presses will reclaim synchronisation
-# - MFT Switch Action Type: CC Toggle
-# - $RESET$ state: XFADE A
+MFT_BANK_2_ROW_4_BUTTON_2 = CC, 2, 29, 0, 127, "SAMPLE 3"/XFADE B : "SAMPLE 3"/XFADE A
 
-MFT_BANK_4_ROW_4_BUTTON_1 = CC, 2, 60, 0, 127, "SAMPLE 5"/XFADE B : "SAMPLE 5"/XFADE A
-MFT_BANK_4_ROW_4_BUTTON_2 = CC, 2, 61, 0, 127, "SAMPLE 6"/XFADE B : "SAMPLE 6"/XFADE A
-MFT_BANK_4_ROW_4_BUTTON_3 = CC, 2, 62, 0, 127, "RESAMPLE"/XFADE B : "RESAMPLE"/XFADE A
-MFT_BANK_4_ROW_4_BUTTON_4 = CC, 2, 63, 0, 127, "CHOP"/XFADE B : "CHOP"/XFADE A
+# ---
+
+# Trk 4B - row 1
+# Encoder default = Pan (Encoder Bindings)
+# Encoder press - Deck In (X-Controls)
+MFT_BANK_2_ROW_1_BUTTON_4 = CC, 2, 19, 0, 127, "SAMPLE 4"/IN "DECK B" : "SAMPLE 4"/IN "DECK A"
+
+# Trk 4B - row 4
+# Encoder default = X-Fade (Encoder Bindings)
+# Encoder press = X-Fade A/B assign (X-Controls)
+MFT_BANK_2_ROW_4_BUTTON_4 = CC, 2, 31, 0, 127, "SAMPLE 4"/XFADE B : "SAMPLE 4"/XFADE A

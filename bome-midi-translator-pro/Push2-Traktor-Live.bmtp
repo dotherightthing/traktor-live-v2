@@ -1,0 +1,66 @@
+; ------- Bome MIDI Translator: signed project file
+; ------- You can modify this file as you like, but that will invalidate the
+; ------- signature so that it cannot be opened in the BomeBox or MT Player anymore.
+;
+[Preset.0]
+Active=1
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Ports><Port>Midi Fighter Twister</Port></Ports><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x0D"/><Value2 var="oo"/></Simple></Incoming>
+Name=Midi Fighter Twister A - CC 13
+Name0=Limit encoder to 0 or 127
+Options0=Actv01Stop00OutO01StMa0017Force value to 0 or 1270002if(oo<=64)oo=0if(oo>64)oo=127
+Outgoing0=None
+PresetSwitchIgnore=0
+
+[Preset.1]
+Active=1
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Ports><Port>Midi Fighter Twister</Port></Ports><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x0F"/><Value2 var="oo"/></Simple></Incoming>
+Name=Midi Fighter Twister A - CC 15
+Name0=Limit encoder to 0 or 127
+Options0=Actv01Stop00OutO01StMa0017Force value to 0 or 1270002if(oo<=64)oo=0if(oo>64)oo=127
+Outgoing0=None
+PresetSwitchIgnore=0
+
+[Preset.2]
+Active=1
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Ports><Port>Midi Fighter Twister (2)</Port></Ports><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x1D"/><Value2 var="oo"/></Simple></Incoming>
+Name=Midi Fighter Twister B - CC 29
+Name0=Limit encoder to 0 or 127
+Options0=Actv01Stop00OutO01StMa0017Force value to 0 or 1270002if(oo<=64)oo=0if(oo>64)oo=127
+Outgoing0=None
+PresetSwitchIgnore=0
+
+[Preset.3]
+Active=1
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Ports><Port>Midi Fighter Twister (2)</Port></Ports><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x1F"/><Value2 var="oo"/></Simple></Incoming>
+Name=Midi Fighter Twister B - CC 31
+Name0=Limit encoder to 0 or 127
+Options0=Actv01Stop00OutO01StMa0017Force value to 0 or 1270002if(oo<=64)oo=0if(oo>64)oo=127
+Outgoing0=None
+PresetSwitchIgnore=0
+
+[Preset.4]
+Active=1
+Comments=
+DefaultInPorts=MIDA00010014Midi Fighter Twister
+DefaultOutPorts=MIDA00010014Midi Fighter Twister
+Incoming0=MID3<Incoming Action="MIDI"><Ports><Port>Midi Fighter Twister</Port></Ports><Simple Type="ControlChange"><Channel num="0"/><Value1 var="oo" Type="SetVar"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Name=Midi Fighter Twister A other
+Name0=New Translator
+Options0=Actv01Stop00OutO00StMa00000001label0014__log>got value %oo%
+Outgoing0=None
+PresetSwitchIgnore=0
+
+[Project]
+DefaultInPorts=MIDA00020014Midi Fighter Twister0018Midi Fighter Twister (2)
+DefaultOutPorts=MIDA00020014Midi Fighter Twister0018Midi Fighter Twister (2)
+Version=2
+
+[Signatures]
+SigName-1=[Midi Translator Pro Internal]
+Signature-1=LYDdSGzlKfbdajtz4Xwy+g+tjQ0hRPH6dJfddQdF5AUhD8i2rrcf4RvGyBVnb5wiU96neNb3N3I+2XzShjbPAEuvB0+X92EdlVQV4GitIqM2QO9qFQiiIQeZN+HUVQX2Yad0IwVCbpfSbygsAgIvnoNIVcV3L/1MjzMfkJs0z+w=
+SignedBy-1=Dan Smith
+

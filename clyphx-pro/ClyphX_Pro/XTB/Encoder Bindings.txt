@@ -37,7 +37,7 @@ VERSION = v1.0.5
 # |                |  section below for information on the available bindings.
 # --------------------------------------------------------------------------------------
 
-# Example: MY_KNOB = 1, 10, ABSOLUTE, TRUE, SEL/VOL
+# Example: MY_KNOB = 1, 10, ABSOLUTE, FALSE, SEL/VOL
 
 
 #********************************** [MAPPING MODES] ************************************
@@ -59,8 +59,8 @@ VERSION = v1.0.5
 # RELATIVE_SMOOTH_BINARY_OFFSET
 # RELATIVE_SMOOTH_SIGNED_BIT
 # RELATIVE_SMOOTH_SIGNED_BIT2
-# RELATIVE_SMOOTH_TWO_COMPLIMENT
 # RELATIVE_TWO_COMPLIMENT
+# RELATIVE
 
 
 #********************************** [BINDING OPTIONS] **********************************
@@ -79,34 +79,34 @@ VERSION = v1.0.5
 # --------------------------------------------------------------------------------------
 # | CUE          |  Master Track.                                |  MST/CUE
 # --------------------------------------------------------------------------------------
-# | DEV(d) CS    |  The Chain Selector of any Rack on any Track  |  1/DEV(SEL) CS
+# | DEV(d) CS    |  The Chain Selector of any Rack on any Track  |  "SAMPLE 3"/DEV(SEL) CS
 # |              |  where d specifies the Device.                |
 # --------------------------------------------------------------------------------------
-# | DEV(d) x     |  Any parameter of any Device on any Track     |  1/DEV(1) "Macro 1"
+# | DEV(d) x     |  Any parameter of any Device on any Track     |  "SAMPLE 3"/DEV(1) "Macro 1"
 # |              |  where d specifies the Device and x specifies |
 # |              |  the name of the parameter. *                 |
 # --------------------------------------------------------------------------------------
-# | DEV(d) Bb Pp |  Device Bank parameter of any Device on any   |  1/DEV(SEL) B4 P5
+# | DEV(d) Bb Pp |  Device Bank parameter of any Device on any   |  "SAMPLE 3"/DEV(SEL) B4 P5
 # |              |  Track where d specifies the Device, b        |
 # |              |  specifies the bank number and p specifies    |
 # |              |  the number of the parameter within the       |
 # |              |  bank. *                                      |
 # --------------------------------------------------------------------------------------
-# | DEV(d) Pp    |  Device Best-of-Bank parameter of any Device  |  1/DEV(SEL) P4
+# | DEV(d) Pp    |  Device Best-of-Bank parameter of any Device  |  "SAMPLE 3"/DEV(SEL) P4
 # |              |  on any Track where d specifies the Device    |
 # |              |  and p specifies the number of the parameter  |
 # |              |  or Macro in the case of Racks. *             |
 # --------------------------------------------------------------------------------------
-# | DEV(d) CH(c) |  Any Chain of any Rack on any Track where d   |  1/DEV(1) CH(1) PAN
+# | DEV(d) CH(c) |  Any Chain of any Rack on any Track where d   |  "SAMPLE 3"/DEV(1) CH(1) PAN
 # | PAN          |  specifies the Device and c specifies the     |
 # |              |  Chain.                                       |
 # --------------------------------------------------------------------------------------
-# | DEV(d) CH(c) |  Any Chain of any Rack on any Track where d   |  1/DEV(1) CH(1) SEND A
+# | DEV(d) CH(c) |  Any Chain of any Rack on any Track where d   |  "SAMPLE 3"/DEV(1) CH(1) SEND A
 # | SEND ltr     |  specifies the Device, c specifies the Chain  |
 # |              |  and ltr specifies the letter of the send to  |
 # |              |  control.                                     |
 # --------------------------------------------------------------------------------------
-# | DEV(d) CH(c) |  Any Chain of any Rack on any Track where d   |  1/DEV(1) CH(1) VOL
+# | DEV(d) CH(c) |  Any Chain of any Rack on any Track where d   |  "SAMPLE 3"/DEV(1) CH(1) VOL
 # | VOL          |  specifies the Device and c specifies the     |
 # |              |  Chain.                                       |
 # --------------------------------------------------------------------------------------
@@ -155,19 +155,23 @@ VERSION = v1.0.5
 #    2 = Push encoder
 #    5 = Push + turn encoder
 #
-# Bank 1
+# Bank 1: Midi Fighter Twister A
 #
-# CC N  0, CC N  1, CC N  2, CC N  3
-# CC N  4, CC N  5, CC N  6, CC N  7
-# CC N  8, CC N  9, CC N 10, CC N 11
-# CC N 12, CC N 13, CC N 14, CC N 15
+# Trk 1A  | Trk 1B  | Trk 2A  | Trk 2B  
+# ------- | ------- | ------- | -------
+# CC N  0 | CC N  1 | CC N  2 | CC N  3
+# CC N  4 | CC N  5 | CC N  6 | CC N  7
+# CC N  8 | CC N  9 | CC N 10 | CC N 11
+# CC N 12 | CC N 13 | CC N 14 | CC N 15
 #
-# Bank 2
+# Bank 2: Midi Fighter Twister B
 #
-# CC N 16, CC N 17, CC N 18, CC N 19
-# CC N 20, CC N 21, CC N 22, CC N 23
-# CC N 24, CC N 25, CC N 26, CC N 27
-# CC N 28, CC N 29, CC N 30, CC N 31
+# Trk 3A  | Trk 3B  | Trk 4A  | Trk 4B  
+# ------- | ------- | ------- | -------
+# CC N 16 | CC N 17 | CC N 18 | CC N 19
+# CC N 20 | CC N 21 | CC N 22 | CC N 23
+# CC N 24 | CC N 25 | CC N 26 | CC N 27
+# CC N 28 | CC N 29 | CC N 30 | CC N 31
 #
 # Bank 3
 #
@@ -183,83 +187,96 @@ VERSION = v1.0.5
 # CC N 56, CC N 57, CC N 58, CC N 59
 # CC N 60, CC N 61, CC N 52, CC N 63
 
-# Track volume
 # CHANNEL, CC, MAPPING_MODE, NEEDS_TAKEOVER, BINDING
 
-# Bank 3 - Row 1
+# ---
+
+# Trk 3A - row 1
 # Encoder default = VU meter (Encoder Bindings)
 # Encoder press+hold = volume (Encoder Bindings)
 # Encoder press = toggle mute (G-Controls)
+MFT_BANK_2_ROW_1_ENCODER_1 = 1, 16, ABSOLUTE, TRUE, "Meter 3"/DEV("midiAudioToCC") "Envelope L"
+MFT_BANK_2_ROW_1_ENCODER_1_SHIFTHOLD = 5, 16, ABSOLUTE, TRUE, "SAMPLE 3"/DEV(1) "[VOL]"
 
-MFT_BANK_3_ROW_1_ENCODER_1 = 1, 32, ABSOLUTE, TRUE, "Meter 5"/DEV("midiAudioToCC") "Envelope L"
-MFT_BANK_3_ROW_1_ENCODER_2 = 1, 33, ABSOLUTE, TRUE, "Meter 6"/DEV("midiAudioToCC") "Envelope L"
-MFT_BANK_3_ROW_1_ENCODER_3 = 1, 34, ABSOLUTE, TRUE, "Meter 7"/DEV("midiAudioToCC") "Envelope L"
-MFT_BANK_3_ROW_1_ENCODER_4 = 1, 35, ABSOLUTE, TRUE, "Meter 8"/DEV("midiAudioToCC") "Envelope L"
+# Trk 3A - row 2
+# Encoder default = EQ High (Encoder Bindings)
+# Encoder press = EQ High reset (G-Controls)
+MFT_BANK_2_ROW_2_ENCODER_1 = 1, 20, ABSOLUTE, TRUE, "SAMPLE 3"/DEV(1) "EQ High"
 
-MFT_BANK_3_ROW_1_ENCODER_1_SHIFTHOLD = 5, 32, ABSOLUTE, TRUE, "SAMPLE 5"/DEV(1) "[VOL]"
-MFT_BANK_3_ROW_1_ENCODER_2_SHIFTHOLD = 5, 33, ABSOLUTE, TRUE, "SAMPLE 6"/DEV(1) "[VOL]"
-MFT_BANK_3_ROW_1_ENCODER_3_SHIFTHOLD = 5, 34, ABSOLUTE, TRUE, "RESAMPLE"/DEV(1) "[VOL]"
-MFT_BANK_3_ROW_1_ENCODER_4_SHIFTHOLD = 5, 35, ABSOLUTE, TRUE, "CHOP"/DEV(1) "[VOL]"
-
-# Bank 3 - Row 2
-# Encoder default = EQ high (Encoder Bindings)
-# Encoder press+hold = pan (Encoder Bindings)
-# Encoder press = reset pan to center (G-Controls)
-
-MFT_BANK_3_ROW_2_ENCODER_1 = 1, 36, ABSOLUTE, TRUE, "SAMPLE 5"/DEV(1) "EQ High"
-MFT_BANK_3_ROW_2_ENCODER_2 = 1, 37, ABSOLUTE, TRUE, "SAMPLE 6"/DEV(1) "EQ High"
-MFT_BANK_3_ROW_2_ENCODER_3 = 1, 38, ABSOLUTE, TRUE, "RESAMPLE"/DEV(1) "EQ High"
-MFT_BANK_3_ROW_2_ENCODER_4 = 1, 39, ABSOLUTE, TRUE, "CHOP"/DEV(1) "EQ High"
-
-MFT_BANK_3_ROW_2_ENCODER_1_SHIFTHOLD = 5, 36, ABSOLUTE, TRUE, "SAMPLE 5"/DEV(1) "[PAN]"
-MFT_BANK_3_ROW_2_ENCODER_2_SHIFTHOLD = 5, 37, ABSOLUTE, TRUE, "SAMPLE 6"/DEV(1) "[PAN]"
-MFT_BANK_3_ROW_2_ENCODER_3_SHIFTHOLD = 5, 38, ABSOLUTE, TRUE, "RESAMPLE"/DEV(1) "[PAN]"
-MFT_BANK_3_ROW_2_ENCODER_4_SHIFTHOLD = 5, 39, ABSOLUTE, TRUE, "CHOP"/DEV(1) "[PAN]"
-
-# Bank 3 - Row 3
+# Trk 3A - row 3
 # Encoder default = EQ Mid (Encoder Bindings)
-# Encoder press+hold = Send A (Encoder Bindings)
-# Encoder press = reset Send A (G-Controls)
+# Encoder press = EQ Mid reset (G-Controls)
+MFT_BANK_2_ROW_3_ENCODER_1 = 1, 24, ABSOLUTE, TRUE, "SAMPLE 3"/DEV(1) "EQ Mid"
 
-MFT_BANK_3_ROW_3_ENCODER_1 = 1, 40, ABSOLUTE, TRUE, "SAMPLE 5"/DEV(1) "EQ Mid"
-MFT_BANK_3_ROW_3_ENCODER_2 = 1, 41, ABSOLUTE, TRUE, "SAMPLE 6"/DEV(1) "EQ Mid"
-MFT_BANK_3_ROW_3_ENCODER_3 = 1, 42, ABSOLUTE, TRUE, "RESAMPLE"/DEV(1) "EQ Mid"
-MFT_BANK_3_ROW_3_ENCODER_4 = 1, 43, ABSOLUTE, TRUE, "CHOP"/DEV(1) "EQ Mid"
-
-MFT_BANK_3_ROW_3_ENCODER_1_SHIFTHOLD = 5, 40, ABSOLUTE, TRUE, "SAMPLE 5"/DEV(1) "[SEND A] Delay"
-MFT_BANK_3_ROW_3_ENCODER_2_SHIFTHOLD = 5, 41, ABSOLUTE, TRUE, "SAMPLE 6"/DEV(1) "[SEND A] Delay"
-MFT_BANK_3_ROW_3_ENCODER_3_SHIFTHOLD = 5, 42, ABSOLUTE, TRUE, "RESAMPLE"/DEV(1) "[SEND A] Delay"
-MFT_BANK_3_ROW_3_ENCODER_4_SHIFTHOLD = 5, 43, ABSOLUTE, TRUE, "CHOP"/DEV(1) "[SEND A] Delay"
-
-# Bank 3 - Row 4
+# Trk 3A - row 4
 # Encoder default = EQ Low (Encoder Bindings)
-# Encoder press+hold = Send B (Encoder Bindings)
-# Encoder press = reset Send B (G-Controls)
+# Encoder press = EQ Low reset (G-Controls)
+MFT_BANK_2_ROW_4_ENCODER_1 = 1, 28, ABSOLUTE, TRUE, "SAMPLE 3"/DEV(1) "EQ Low"
 
-MFT_BANK_3_ROW_4_ENCODER_1 = 1, 44, ABSOLUTE, TRUE, "SAMPLE 5"/DEV(1) "EQ Low"
-MFT_BANK_3_ROW_4_ENCODER_2 = 1, 45, ABSOLUTE, TRUE, "SAMPLE 6"/DEV(1) "EQ Low"
-MFT_BANK_3_ROW_4_ENCODER_3 = 1, 46, ABSOLUTE, TRUE, "RESAMPLE"/DEV(1) "EQ Low"
-MFT_BANK_3_ROW_4_ENCODER_4 = 1, 47, ABSOLUTE, TRUE, "CHOP"/DEV(1) "EQ Low"
+# ---
 
-MFT_BANK_3_ROW_4_ENCODER_1_SHIFTHOLD = 5, 44, ABSOLUTE, TRUE, "SAMPLE 5"/DEV(1) "[SEND B] Reverb"
-MFT_BANK_3_ROW_4_ENCODER_2_SHIFTHOLD = 5, 45, ABSOLUTE, TRUE, "SAMPLE 6"/DEV(1) "[SEND B] Reverb"
-MFT_BANK_3_ROW_4_ENCODER_3_SHIFTHOLD = 5, 46, ABSOLUTE, TRUE, "RESAMPLE"/DEV(1) "[SEND B] Reverb"
-MFT_BANK_3_ROW_4_ENCODER_4_SHIFTHOLD = 5, 47, ABSOLUTE, TRUE, "CHOP"/DEV(1) "[SEND B] Reverb"
+# Trk 3B - row 1
+# Encoder default = Pan (Encoder Bindings)
+# Encoder press - Deck In (X-Controls)
+MFT_BANK_2_ROW_1_ENCODER_2 = 1, 17, ABSOLUTE, TRUE, "SAMPLE 3"/DEV(1) "[PAN]"
 
-# Bank 4 - Row 3
-# Encoder default = Cue Volume (Encoder Bindings)
-# Encoder press = Cue Toggle (Button Bindings)
+# Trk 3B - row 2
+# Encoder default = FX1 (Encoder Bindings)
+# Encoder press = FX1 reset (G-Controls)
+MFT_BANK_2_ROW_2_ENCODER_2 = 1, 21, ABSOLUTE, TRUE, "SAMPLE 3"/DEV(1) "[SEND A] Delay"
 
-MFT_BANK_4_ROW_3_ENCODER_1 = 1, 56, ABSOLUTE, TRUE, MST/CUE
-MFT_BANK_4_ROW_3_ENCODER_2 = 1, 57, ABSOLUTE, TRUE, MST/CUE
-MFT_BANK_4_ROW_3_ENCODER_3 = 1, 58, ABSOLUTE, TRUE, MST/CUE
-MFT_BANK_4_ROW_3_ENCODER_4 = 1, 59, ABSOLUTE, TRUE, MST/CUE
+# Trk 3B - row 3
+# Encoder default = FX2 (Encoder Bindings)
+# Encoder press = FX2 reset (G-Controls)
+MFT_BANK_2_ROW_3_ENCODER_2 = 1, 25, ABSOLUTE, TRUE, "SAMPLE 3"/DEV(1) "[SEND B] Reverb"
 
-# Bank 4 - Row 4
+# Trk 3B - row 4
 # Encoder default = X-Fade (Encoder Bindings)
 # Encoder press = X-Fade A/B assign (X-Controls)
+MFT_BANK_2_ROW_4_ENCODER_2 = 1, 29, ABSOLUTE, TRUE, MST/XFADER
 
-MFT_BANK_4_ROW_4_ENCODER_1 = 1, 60, ABSOLUTE, TRUE, MST/XFADER
-MFT_BANK_4_ROW_4_ENCODER_2 = 1, 61, ABSOLUTE, TRUE, MST/XFADER
-MFT_BANK_4_ROW_4_ENCODER_3 = 1, 62, ABSOLUTE, TRUE, MST/XFADER
-MFT_BANK_4_ROW_4_ENCODER_4 = 1, 63, ABSOLUTE, TRUE, MST/XFADER
+# ---
+
+# Trk 4A - row 1
+# Encoder default = VU meter (Encoder Bindings)
+# Encoder press+hold = volume (Encoder Bindings)
+# Encoder press = toggle mute (G-Controls)
+MFT_BANK_2_ROW_1_ENCODER_3 = 1, 18, ABSOLUTE, TRUE, "Meter 4"/DEV("midiAudioToCC") "Envelope L"
+MFT_BANK_2_ROW_1_ENCODER_3_SHIFTHOLD = 5, 18, ABSOLUTE, TRUE, "SAMPLE 4"/DEV(1) "[VOL]"
+
+# Trk 4A - row 2
+# Encoder default = EQ High (Encoder Bindings)
+# Encoder press = EQ High reset (G-Controls)
+MFT_BANK_2_ROW_2_ENCODER_3 = 1, 22, ABSOLUTE, TRUE, "SAMPLE 4"/DEV(1) "EQ High"
+
+# Trk 4A - row 3
+# Encoder default = EQ Mid (Encoder Bindings)
+# Encoder press = EQ Mid reset (G-Controls)
+MFT_BANK_2_ROW_3_ENCODER_3 = 1, 26, ABSOLUTE, TRUE, "SAMPLE 4"/DEV(1) "EQ Mid"
+
+# Trk 4A - row 4
+# Encoder default = EQ Low (Encoder Bindings)
+# Encoder press = EQ Low reset (G-Controls)
+MFT_BANK_2_ROW_4_ENCODER_3 = 1, 30, ABSOLUTE, TRUE, "SAMPLE 4"/DEV(1) "EQ Low"
+
+# ---
+
+# Trk 4B - row 1
+# Encoder default = Pan (Encoder Bindings)
+# Encoder press - Deck In (X-Controls)
+MFT_BANK_2_ROW_1_ENCODER_4 = 1, 19, ABSOLUTE, TRUE, "SAMPLE 4"/DEV(1) "[PAN]"
+
+# Trk 4B - row 2
+# Encoder default = FX1 (Encoder Bindings)
+# Encoder press = FX1 reset (G-Controls)
+MFT_BANK_2_ROW_2_ENCODER_4 = 1, 23, ABSOLUTE, TRUE, "SAMPLE 4"/DEV(1) "[SEND A] Delay"
+
+# Trk 4B - row 3
+# Encoder default = FX2 (Encoder Bindings)
+# Encoder press = FX2 reset (G-Controls)
+MFT_BANK_2_ROW_3_ENCODER_4 = 1, 27, ABSOLUTE, TRUE, "SAMPLE 4"/DEV(1) "[SEND B] Reverb"
+
+# Trk 4B - row 4
+# Encoder default = X-Fade (Encoder Bindings)
+# Encoder press = X-Fade A/B assign (X-Controls)
+MFT_BANK_2_ROW_4_ENCODER_4 = 1, 31, ABSOLUTE, TRUE, MST/XFADER
