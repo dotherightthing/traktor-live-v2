@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   sodipodi:docname="MFT-v2-A4-1.svg"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm"
+   inkscape:export-filename="MFT-v2-export-plain.png"
+   inkscape:export-xdpi="288"
+   inkscape:export-ydpi="288"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect893"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1"
+       unit="mm"
+       method="auto"
+       mode="F"
+       radius="7"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false"
+       nodesatellites_param="F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect759"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1"
+       unit="mm"
+       method="auto"
+       mode="F"
+       radius="7"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false"
+       nodesatellites_param="F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect9962"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1"
+       unit="mm"
+       method="auto"
+       mode="F"
+       radius="7"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false"
+       nodesatellites_param="F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect7269"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1"
+       unit="mm"
+       method="auto"
+       mode="F"
+       radius="7"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false"
+       nodesatellites_param="F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2137"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1"
+       unit="mm"
+       method="auto"
+       mode="F"
+       radius="7"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false"
+       nodesatellites_param="F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2589"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       unit="mm"
+       method="auto"
+       mode="F"
+       radius="0"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2565"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       unit="mm"
+       method="auto"
+       mode="F"
+       radius="0"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect867"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1"
+       unit="mm"
+       method="auto"
+       mode="F"
+       radius="7"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false"
+       nodesatellites_param="F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1 @ F,0,0,1,0,7,0,1" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7071068"
+     inkscape:cx="1437.548"
+     inkscape:cy="628.61791"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g747"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showborder="true"
+     inkscape:showpageshadow="true"
+     inkscape:window-width="2074"
+     inkscape:window-height="1387"
+     inkscape:window-x="1680"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="1"
+     fit-margin-left="1"
+     fit-margin-right="1"
+     fit-margin-bottom="1"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:lockguides="false">
+    <sodipodi:guide
+       position="11.993988,285.00571"
+       orientation="-1,0"
+       id="guide851"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="11.993988,285.00571"
+       orientation="0,1"
+       id="guide855"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="28,292.50987"
+       orientation="-1,0"
+       id="guide9588"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="49.76558,267"
+       orientation="0,1"
+       id="guide9590"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="158.27701,253.03417"
+       orientation="1,0"
+       id="guide9592"
+       inkscape:locked="false" />
+    <inkscape:page
+       x="0"
+       y="0"
+       width="210"
+       height="297"
+       id="page452" />
+    <inkscape:page
+       x="220"
+       y="0"
+       width="210"
+       height="297"
+       id="page454" />
+    <inkscape:page
+       x="440"
+       y="0"
+       width="210"
+       height="297"
+       id="page895" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g889"
+     inkscape:label="Page 3"
+     transform="translate(439.99961)">
+    <g
+       id="g885"
+       transform="translate(-11.331293,-9.6548839)"
+       inkscape:label="Group">
+      <g
+         inkscape:label="Shapes"
+         inkscape:groupmode="layer"
+         id="g795"
+         style="display:none"
+         transform="translate(5.6963109,5.6963109)"
+         sodipodi:insensitive="true">
+        <path
+           style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path761"
+           width="145"
+           height="145"
+           x="26.803715"
+           y="25.458572"
+           sodipodi:type="rect"
+           d="M 33.803715,25.458572 H 164.80371 a 7,7 45 0 1 7,7 V 163.45857 a 7,7 135 0 1 -7,7 H 33.803715 a 7,7 45 0 1 -7,-7 V 32.458572 a 7,7 135 0 1 7,-7 z"
+           inkscape:path-effect="#path-effect893"
+           inkscape:label="baseplate" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse763"
+           cx="48.497952"
+           cy="49.152523"
+           inkscape:label="encoder 01"
+           rx="14.693967"
+           ry="14.69395" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse765"
+           cx="82.330986"
+           cy="49.152523"
+           inkscape:label="encoder 02"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse767"
+           cx="115.66403"
+           cy="49.152523"
+           inkscape:label="encoder 03"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse769"
+           cx="148.99805"
+           cy="49.152523"
+           inkscape:label="encoder 04"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse771"
+           cx="48.497952"
+           cy="81.985512"
+           inkscape:label="encoder 05"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse773"
+           cx="82.330963"
+           cy="81.985489"
+           inkscape:label="encoder 06"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse775"
+           cx="115.664"
+           cy="81.985489"
+           inkscape:label="encoder 07"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse777"
+           cx="148.99803"
+           cy="81.985489"
+           inkscape:label="encoder 08"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse779"
+           cx="48.497952"
+           cy="114.81893"
+           inkscape:label="encoder 09"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse781"
+           cx="82.330963"
+           cy="114.8189"
+           inkscape:label="encoder 10"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse783"
+           cx="115.664"
+           cy="114.8189"
+           inkscape:label="encoder 11"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse785"
+           cx="148.99803"
+           cy="114.8189"
+           inkscape:label="encoder 12"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse787"
+           cx="48.497952"
+           cy="147.65251"
+           inkscape:label="encoder 13"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse789"
+           cx="82.330963"
+           cy="147.6525"
+           inkscape:label="encoder 14"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse791"
+           cx="115.664"
+           cy="147.6525"
+           inkscape:label="encoder 15"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse793"
+           cx="148.99803"
+           cy="147.6525"
+           inkscape:label="encoder 16"
+           rx="14.693935"
+           ry="14.693918" />
+      </g>
+      <g
+         inkscape:label="Shapes - path &gt; combine, path &gt; difference"
+         inkscape:groupmode="layer"
+         id="g799"
+         style="display:none"
+         transform="translate(5.6963109,5.6963109)">
+        <path
+           id="path797"
+           style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           d="m 33.803805,25.458573 a 7,7 0 0 0 -7.000089,7.000089 V 163.45842 a 7,7 0 0 0 7.000089,7.00009 H 164.80356 a 7,7 0 0 0 7.00009,-7.00009 V 32.458662 a 7,7 0 0 0 -7.00009,-7.000089 z m 14.694194,9.000484 A 14.69395,14.69395 0 0 1 63.191675,49.152734 14.69395,14.69395 0 0 1 48.497999,63.846927 14.69395,14.69395 0 0 1 33.803805,49.152734 14.69395,14.69395 0 0 1 48.497999,34.459057 Z m 33.833077,0 A 14.693918,14.693918 0 0 1 97.024752,49.152734 14.693918,14.693918 0 0 1 82.331076,63.846927 14.693918,14.693918 0 0 1 67.636882,49.152734 14.693918,14.693918 0 0 1 82.331076,34.459057 Z m 33.332844,0 A 14.693918,14.693918 0 0 1 130.3576,49.152734 14.693918,14.693918 0 0 1 115.66392,63.846927 14.693918,14.693918 0 0 1 100.97025,49.152734 14.693918,14.693918 0 0 1 115.66392,34.459057 Z m 33.33389,0 A 14.693918,14.693918 0 0 1 163.692,49.152734 14.693918,14.693918 0 0 1 148.99781,63.846927 14.693918,14.693918 0 0 1 134.30413,49.152734 14.693918,14.693918 0 0 1 148.99781,34.459057 Z M 48.497999,67.291678 A 14.693918,14.693918 0 0 1 63.191675,81.985872 14.693918,14.693918 0 0 1 48.497999,96.679548 14.693918,14.693918 0 0 1 33.803805,81.985872 14.693918,14.693918 0 0 1 48.497999,67.291678 Z m 33.833077,0 A 14.693918,14.693918 0 0 1 97.024752,81.985872 14.693918,14.693918 0 0 1 82.331076,96.679548 14.693918,14.693918 0 0 1 67.636882,81.985872 14.693918,14.693918 0 0 1 82.331076,67.291678 Z m 33.332844,0 A 14.693918,14.693918 0 0 1 130.3576,81.985872 14.693918,14.693918 0 0 1 115.66392,96.679548 14.693918,14.693918 0 0 1 100.96973,81.985872 14.693918,14.693918 0 0 1 115.66392,67.291678 Z m 33.33389,0 A 14.693918,14.693918 0 0 1 163.692,81.985872 14.693918,14.693918 0 0 1 148.99781,96.679548 14.693918,14.693918 0 0 1 134.30413,81.985872 14.693918,14.693918 0 0 1 148.99781,67.291678 Z M 48.497999,100.12533 a 14.693918,14.693918 0 0 1 14.693676,14.69368 14.693918,14.693918 0 0 1 -14.693676,14.6942 14.693918,14.693918 0 0 1 -14.694194,-14.6942 14.693918,14.693918 0 0 1 14.694194,-14.69368 z m 33.833077,0 a 14.693918,14.693918 0 0 1 14.693676,14.69368 14.693918,14.693918 0 0 1 -14.693676,14.6942 14.693918,14.693918 0 0 1 -14.694194,-14.6942 14.693918,14.693918 0 0 1 14.694194,-14.69368 z m 33.332844,0 a 14.693918,14.693918 0 0 1 14.69368,14.69368 14.693918,14.693918 0 0 1 -14.69368,14.6942 14.693918,14.693918 0 0 1 -14.69419,-14.6942 14.693918,14.693918 0 0 1 14.69419,-14.69368 z m 33.33389,0 a 14.693918,14.693918 0 0 1 14.69419,14.69368 14.693918,14.693918 0 0 1 -14.69419,14.6942 14.693918,14.693918 0 0 1 -14.69368,-14.6942 14.693918,14.693918 0 0 1 14.69368,-14.69368 z M 48.497999,132.95899 a 14.693918,14.693918 0 0 1 14.693676,14.69368 14.693918,14.693918 0 0 1 -14.693676,14.69419 14.693918,14.693918 0 0 1 -14.694194,-14.69419 14.693918,14.693918 0 0 1 14.694194,-14.69368 z m 33.833077,0 a 14.693918,14.693918 0 0 1 14.693676,14.69368 14.693918,14.693918 0 0 1 -14.693676,14.69419 14.693918,14.693918 0 0 1 -14.694194,-14.69419 14.693918,14.693918 0 0 1 14.694194,-14.69368 z m 33.332844,0 a 14.693918,14.693918 0 0 1 14.69368,14.69368 14.693918,14.693918 0 0 1 -14.69368,14.69419 14.693918,14.693918 0 0 1 -14.69419,-14.69419 14.693918,14.693918 0 0 1 14.69419,-14.69368 z m 33.33389,0 a 14.693918,14.693918 0 0 1 14.69419,14.69368 14.693918,14.693918 0 0 1 -14.69419,14.69419 14.693918,14.693918 0 0 1 -14.69368,-14.69419 14.693918,14.693918 0 0 1 14.69368,-14.69368 z" />
+      </g>
+      <g
+         inkscape:groupmode="layer"
+         id="g881"
+         inkscape:label="Text - medium"
+         style="display:inline;fill:#000000;fill-opacity:1"
+         transform="translate(5.6963109,5.6963109)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="60.288063"
+           y="31.505859"
+           id="text803"
+           inkscape:label="text a1"><tspan
+             sodipodi:role="line"
+             id="tspan801"
+             x="60.288063"
+             y="31.505859"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">SAMPLE 1</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="127.80338"
+           y="31.505859"
+           id="text807"
+           inkscape:label="text a2"><tspan
+             sodipodi:role="line"
+             id="tspan805"
+             x="127.80338"
+             y="31.505859">SAMPLE 2</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="60.288063"
+           y="31.505859"
+           id="text811"
+           inkscape:label="text b1"><tspan
+             sodipodi:role="line"
+             id="tspan809"
+             x="0"
+             y="0"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">SAMPLE 3</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="127.80338"
+           y="31.505859"
+           id="text815"
+           inkscape:label="text b2"><tspan
+             sodipodi:role="line"
+             id="tspan813"
+             x="0"
+             y="0">SAMPLE 4</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="35.956699"
+           y="66.316711"
+           id="text819"
+           inkscape:label="text 01"><tspan
+             sodipodi:role="line"
+             id="tspan817"
+             x="35.956699"
+             y="66.316711"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">VU Meter / Mute / Volume </tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="73.145706"
+           y="66.316711"
+           id="text823"
+           inkscape:label="text 02"><tspan
+             sodipodi:role="line"
+             id="tspan821"
+             x="73.145706"
+             y="66.316711"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">Pan / Deck  A/B / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="103.12278"
+           y="66.241867"
+           id="text827"
+           inkscape:label="text 03"><tspan
+             sodipodi:role="line"
+             id="tspan825"
+             x="103.12278"
+             y="66.241867"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">VU Meter / Mute / Volume </tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="139.81277"
+           y="66.316711"
+           id="text831"
+           inkscape:label="text 04"><tspan
+             sodipodi:role="line"
+             id="tspan829"
+             x="139.81277"
+             y="66.316711"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">Pan / Deck  A/B / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="39.292568"
+           y="99.125061"
+           id="text835"
+           inkscape:label="text 05"><tspan
+             sodipodi:role="line"
+             id="tspan833"
+             x="39.292568"
+             y="99.125061"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ High / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="74.949089"
+           y="99.125061"
+           id="text839"
+           inkscape:label="text 06"><tspan
+             sodipodi:role="line"
+             id="tspan837"
+             x="74.949089"
+             y="99.125061"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">FX 1 / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="106.45862"
+           y="99.050217"
+           id="text843"
+           inkscape:label="text 07"><tspan
+             sodipodi:role="line"
+             id="tspan841"
+             x="106.45862"
+             y="99.050217"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ High / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="141.61615"
+           y="99.125061"
+           id="text847"
+           inkscape:label="text 08"><tspan
+             sodipodi:role="line"
+             id="tspan845"
+             x="141.61615"
+             y="99.125061"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">FX 1 / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="39.704258"
+           y="131.93341"
+           id="text851"
+           inkscape:label="text 09"><tspan
+             sodipodi:role="line"
+             id="tspan849"
+             x="39.704258"
+             y="131.93341"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ Mid / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="74.949089"
+           y="131.93341"
+           id="text855"
+           inkscape:label="text 10"><tspan
+             sodipodi:role="line"
+             id="tspan853"
+             x="74.949089"
+             y="131.93341"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">FX 2 / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="106.87031"
+           y="131.85855"
+           id="text859"
+           inkscape:label="text 11"><tspan
+             sodipodi:role="line"
+             id="tspan857"
+             x="106.87031"
+             y="131.85855"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ Mid / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="141.61615"
+           y="131.93341"
+           id="text863"
+           inkscape:label="text 12"><tspan
+             sodipodi:role="line"
+             id="tspan861"
+             x="141.61615"
+             y="131.93341"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">FX 2 / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="39.488358"
+           y="164.74176"
+           id="text867"
+           inkscape:label="text 13"><tspan
+             sodipodi:role="line"
+             id="tspan865"
+             x="39.488358"
+             y="164.74176"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ Low / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="72.249283"
+           y="164.74176"
+           id="text871"
+           inkscape:label="text 14"><tspan
+             sodipodi:role="line"
+             id="tspan869"
+             x="72.249283"
+             y="164.74176"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">Xfade / Xfade A/B / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="106.65441"
+           y="164.66692"
+           id="text875"
+           inkscape:label="text 15"><tspan
+             sodipodi:role="line"
+             id="tspan873"
+             x="106.65441"
+             y="164.66692"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ Low / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="138.91635"
+           y="164.74176"
+           id="text879"
+           inkscape:label="text 16"><tspan
+             sodipodi:role="line"
+             id="tspan877"
+             x="138.91635"
+             y="164.74176"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">Xfade / Xfade A/B / -</tspan></text>
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.3, 0.3;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 105.00024,36.127546 -5e-4,137.054164"
+         id="path883"
+         sodipodi:nodetypes="cc"
+         inkscape:label="divider" />
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.50927;stroke-linejoin:round;stroke-dasharray:none;stop-color:#000000"
+       id="rect887"
+       width="161.84943"
+       height="161.84973"
+       x="12.744029"
+       y="12.744029"
+       inkscape:label="print-then-cut-outline" />
+  </g>
+  <g
+     id="g625"
+     inkscape:label="Page 2"
+     transform="translate(219.99961)">
+    <g
+       id="g2155"
+       transform="translate(-11.331293,-9.6548839)"
+       inkscape:label="Group">
+      <g
+         inkscape:label="Shapes"
+         inkscape:groupmode="layer"
+         id="layer1"
+         style="display:none"
+         transform="translate(5.6963109,5.6963109)"
+         sodipodi:insensitive="true">
+        <path
+           style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="rect865"
+           width="145"
+           height="145"
+           x="26.803715"
+           y="25.458572"
+           sodipodi:type="rect"
+           d="M 33.803715,25.458572 H 164.80371 a 7,7 45 0 1 7,7 V 163.45857 a 7,7 135 0 1 -7,7 H 33.803715 a 7,7 45 0 1 -7,-7 V 32.458572 a 7,7 135 0 1 7,-7 z"
+           inkscape:path-effect="#path-effect867"
+           inkscape:label="baseplate" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path859"
+           cx="48.497952"
+           cy="49.152523"
+           inkscape:label="encoder 01"
+           rx="14.693967"
+           ry="14.69395" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path859-9"
+           cx="82.330986"
+           cy="49.152523"
+           inkscape:label="encoder 02"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path859-9-0"
+           cx="115.66403"
+           cy="49.152523"
+           inkscape:label="encoder 03"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path859-9-0-4"
+           cx="148.99805"
+           cy="49.152523"
+           inkscape:label="encoder 04"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path859-2"
+           cx="48.497952"
+           cy="81.985512"
+           inkscape:label="encoder 05"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path859-9-1"
+           cx="82.330963"
+           cy="81.985489"
+           inkscape:label="encoder 06"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path859-9-0-8"
+           cx="115.664"
+           cy="81.985489"
+           inkscape:label="encoder 07"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path859-9-0-4-7"
+           cx="148.99803"
+           cy="81.985489"
+           inkscape:label="encoder 08"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path859-2-5"
+           cx="48.497952"
+           cy="114.81893"
+           inkscape:label="encoder 09"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path859-9-1-6"
+           cx="82.330963"
+           cy="114.8189"
+           inkscape:label="encoder 10"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path859-9-0-8-7"
+           cx="115.664"
+           cy="114.8189"
+           inkscape:label="encoder 11"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path859-9-0-4-7-9"
+           cx="148.99803"
+           cy="114.8189"
+           inkscape:label="encoder 12"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path859-2-5-2"
+           cx="48.497952"
+           cy="147.65251"
+           inkscape:label="encoder 13"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path859-9-1-6-0"
+           cx="82.330963"
+           cy="147.6525"
+           inkscape:label="encoder 14"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path859-9-0-8-7-4"
+           cx="115.664"
+           cy="147.6525"
+           inkscape:label="encoder 15"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path859-9-0-4-7-9-4"
+           cx="148.99803"
+           cy="147.6525"
+           inkscape:label="encoder 16"
+           rx="14.693935"
+           ry="14.693918" />
+      </g>
+      <g
+         inkscape:label="Shapes - path &gt; combine, path &gt; difference"
+         inkscape:groupmode="layer"
+         id="g9958"
+         style="display:none"
+         transform="translate(5.6963109,5.6963109)">
+        <path
+           id="path9924"
+           style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           d="m 33.803805,25.458573 a 7,7 0 0 0 -7.000089,7.000089 V 163.45842 a 7,7 0 0 0 7.000089,7.00009 H 164.80356 a 7,7 0 0 0 7.00009,-7.00009 V 32.458662 a 7,7 0 0 0 -7.00009,-7.000089 z m 14.694194,9.000484 A 14.69395,14.69395 0 0 1 63.191675,49.152734 14.69395,14.69395 0 0 1 48.497999,63.846927 14.69395,14.69395 0 0 1 33.803805,49.152734 14.69395,14.69395 0 0 1 48.497999,34.459057 Z m 33.833077,0 A 14.693918,14.693918 0 0 1 97.024752,49.152734 14.693918,14.693918 0 0 1 82.331076,63.846927 14.693918,14.693918 0 0 1 67.636882,49.152734 14.693918,14.693918 0 0 1 82.331076,34.459057 Z m 33.332844,0 A 14.693918,14.693918 0 0 1 130.3576,49.152734 14.693918,14.693918 0 0 1 115.66392,63.846927 14.693918,14.693918 0 0 1 100.97025,49.152734 14.693918,14.693918 0 0 1 115.66392,34.459057 Z m 33.33389,0 A 14.693918,14.693918 0 0 1 163.692,49.152734 14.693918,14.693918 0 0 1 148.99781,63.846927 14.693918,14.693918 0 0 1 134.30413,49.152734 14.693918,14.693918 0 0 1 148.99781,34.459057 Z M 48.497999,67.291678 A 14.693918,14.693918 0 0 1 63.191675,81.985872 14.693918,14.693918 0 0 1 48.497999,96.679548 14.693918,14.693918 0 0 1 33.803805,81.985872 14.693918,14.693918 0 0 1 48.497999,67.291678 Z m 33.833077,0 A 14.693918,14.693918 0 0 1 97.024752,81.985872 14.693918,14.693918 0 0 1 82.331076,96.679548 14.693918,14.693918 0 0 1 67.636882,81.985872 14.693918,14.693918 0 0 1 82.331076,67.291678 Z m 33.332844,0 A 14.693918,14.693918 0 0 1 130.3576,81.985872 14.693918,14.693918 0 0 1 115.66392,96.679548 14.693918,14.693918 0 0 1 100.96973,81.985872 14.693918,14.693918 0 0 1 115.66392,67.291678 Z m 33.33389,0 A 14.693918,14.693918 0 0 1 163.692,81.985872 14.693918,14.693918 0 0 1 148.99781,96.679548 14.693918,14.693918 0 0 1 134.30413,81.985872 14.693918,14.693918 0 0 1 148.99781,67.291678 Z M 48.497999,100.12533 a 14.693918,14.693918 0 0 1 14.693676,14.69368 14.693918,14.693918 0 0 1 -14.693676,14.6942 14.693918,14.693918 0 0 1 -14.694194,-14.6942 14.693918,14.693918 0 0 1 14.694194,-14.69368 z m 33.833077,0 a 14.693918,14.693918 0 0 1 14.693676,14.69368 14.693918,14.693918 0 0 1 -14.693676,14.6942 14.693918,14.693918 0 0 1 -14.694194,-14.6942 14.693918,14.693918 0 0 1 14.694194,-14.69368 z m 33.332844,0 a 14.693918,14.693918 0 0 1 14.69368,14.69368 14.693918,14.693918 0 0 1 -14.69368,14.6942 14.693918,14.693918 0 0 1 -14.69419,-14.6942 14.693918,14.693918 0 0 1 14.69419,-14.69368 z m 33.33389,0 a 14.693918,14.693918 0 0 1 14.69419,14.69368 14.693918,14.693918 0 0 1 -14.69419,14.6942 14.693918,14.693918 0 0 1 -14.69368,-14.6942 14.693918,14.693918 0 0 1 14.69368,-14.69368 z M 48.497999,132.95899 a 14.693918,14.693918 0 0 1 14.693676,14.69368 14.693918,14.693918 0 0 1 -14.693676,14.69419 14.693918,14.693918 0 0 1 -14.694194,-14.69419 14.693918,14.693918 0 0 1 14.694194,-14.69368 z m 33.833077,0 a 14.693918,14.693918 0 0 1 14.693676,14.69368 14.693918,14.693918 0 0 1 -14.693676,14.69419 14.693918,14.693918 0 0 1 -14.694194,-14.69419 14.693918,14.693918 0 0 1 14.694194,-14.69368 z m 33.332844,0 a 14.693918,14.693918 0 0 1 14.69368,14.69368 14.693918,14.693918 0 0 1 -14.69368,14.69419 14.693918,14.693918 0 0 1 -14.69419,-14.69419 14.693918,14.693918 0 0 1 14.69419,-14.69368 z m 33.33389,0 a 14.693918,14.693918 0 0 1 14.69419,14.69368 14.693918,14.693918 0 0 1 -14.69419,14.69419 14.693918,14.693918 0 0 1 -14.69368,-14.69419 14.693918,14.693918 0 0 1 14.69368,-14.69368 z" />
+      </g>
+      <g
+         inkscape:groupmode="layer"
+         id="layer2"
+         inkscape:label="Text - medium"
+         style="display:inline;fill:#000000;fill-opacity:1"
+         transform="translate(5.6963109,5.6963109)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="60.288063"
+           y="31.505859"
+           id="text763"
+           inkscape:label="text b1"><tspan
+             sodipodi:role="line"
+             id="tspan761"
+             x="0"
+             y="0"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">SAMPLE 3</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="127.80338"
+           y="31.505859"
+           id="text767"
+           inkscape:label="text b2"><tspan
+             sodipodi:role="line"
+             id="tspan765"
+             x="0"
+             y="0">SAMPLE 4</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="35.956699"
+           y="66.316711"
+           id="text864"
+           inkscape:label="text 01"><tspan
+             sodipodi:role="line"
+             id="tspan862"
+             x="35.956699"
+             y="66.316711"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">VU Meter / Mute / Volume </tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="73.145706"
+           y="66.316711"
+           id="text864-2"
+           inkscape:label="text 02"><tspan
+             sodipodi:role="line"
+             id="tspan862-7"
+             x="73.145706"
+             y="66.316711"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">Pan / Deck  A/B / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="103.12278"
+           y="66.241867"
+           id="text864-7"
+           inkscape:label="text 03"><tspan
+             sodipodi:role="line"
+             id="tspan862-4"
+             x="103.12278"
+             y="66.241867"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">VU Meter / Mute / Volume </tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="139.81277"
+           y="66.316711"
+           id="text864-2-0"
+           inkscape:label="text 04"><tspan
+             sodipodi:role="line"
+             id="tspan862-7-3"
+             x="139.81277"
+             y="66.316711"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">Pan / Deck  A/B / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="39.292568"
+           y="99.125061"
+           id="text864-6"
+           inkscape:label="text 05"><tspan
+             sodipodi:role="line"
+             id="tspan862-74"
+             x="39.292568"
+             y="99.125061"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ High / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="74.949089"
+           y="99.125061"
+           id="text864-2-8"
+           inkscape:label="text 06"><tspan
+             sodipodi:role="line"
+             id="tspan862-7-7"
+             x="74.949089"
+             y="99.125061"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">FX 1 / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="106.45862"
+           y="99.050217"
+           id="text864-7-0"
+           inkscape:label="text 07"><tspan
+             sodipodi:role="line"
+             id="tspan862-4-0"
+             x="106.45862"
+             y="99.050217"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ High / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="141.61615"
+           y="99.125061"
+           id="text864-2-0-6"
+           inkscape:label="text 08"><tspan
+             sodipodi:role="line"
+             id="tspan862-7-3-4"
+             x="141.61615"
+             y="99.125061"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">FX 1 / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="39.704258"
+           y="131.93341"
+           id="text864-6-6"
+           inkscape:label="text 09"><tspan
+             sodipodi:role="line"
+             id="tspan862-74-2"
+             x="39.704258"
+             y="131.93341"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ Mid / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="74.949089"
+           y="131.93341"
+           id="text864-2-8-6"
+           inkscape:label="text 10"><tspan
+             sodipodi:role="line"
+             id="tspan862-7-7-1"
+             x="74.949089"
+             y="131.93341"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">FX 2 / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="106.87031"
+           y="131.85855"
+           id="text864-7-0-5"
+           inkscape:label="text 11"><tspan
+             sodipodi:role="line"
+             id="tspan862-4-0-8"
+             x="106.87031"
+             y="131.85855"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ Mid / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="141.61615"
+           y="131.93341"
+           id="text864-2-0-6-4"
+           inkscape:label="text 12"><tspan
+             sodipodi:role="line"
+             id="tspan862-7-3-4-7"
+             x="141.61615"
+             y="131.93341"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">FX 2 / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="39.488358"
+           y="164.74176"
+           id="text864-6-6-6"
+           inkscape:label="text 13"><tspan
+             sodipodi:role="line"
+             id="tspan862-74-2-5"
+             x="39.488358"
+             y="164.74176"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ Low / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="72.249283"
+           y="164.74176"
+           id="text864-2-8-6-9"
+           inkscape:label="text 14"><tspan
+             sodipodi:role="line"
+             id="tspan862-7-7-1-7"
+             x="72.249283"
+             y="164.74176"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">Xfade / Xfade A/B / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="106.65441"
+           y="164.66692"
+           id="text864-7-0-5-1"
+           inkscape:label="text 15"><tspan
+             sodipodi:role="line"
+             id="tspan862-4-0-8-9"
+             x="106.65441"
+             y="164.66692"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ Low / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="138.91635"
+           y="164.74176"
+           id="text864-2-0-6-4-9"
+           inkscape:label="text 16"><tspan
+             sodipodi:role="line"
+             id="tspan862-7-3-4-7-0"
+             x="138.91635"
+             y="164.74176"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">Xfade / Xfade A/B / -</tspan></text>
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.3, 0.3;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 105.00024,36.127546 -5e-4,137.054164"
+         id="path4885"
+         sodipodi:nodetypes="cc"
+         inkscape:label="divider" />
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.50927;stroke-linejoin:round;stroke-dasharray:none;stop-color:#000000"
+       id="rect3658"
+       width="161.84943"
+       height="161.84973"
+       x="12.744029"
+       y="12.744029"
+       inkscape:label="print-then-cut-outline" />
+  </g>
+  <g
+     id="g755"
+     inkscape:label="Page 1">
+    <g
+       id="g751"
+       transform="translate(-11.331293,-9.6548839)"
+       inkscape:label="Group">
+      <g
+         inkscape:label="Shapes"
+         inkscape:groupmode="layer"
+         id="g661"
+         style="display:none"
+         transform="translate(5.6963109,5.6963109)"
+         sodipodi:insensitive="true">
+        <path
+           style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="path627"
+           width="145"
+           height="145"
+           x="26.803715"
+           y="25.458572"
+           sodipodi:type="rect"
+           d="M 33.803715,25.458572 H 164.80371 a 7,7 45 0 1 7,7 V 163.45857 a 7,7 135 0 1 -7,7 H 33.803715 a 7,7 45 0 1 -7,-7 V 32.458572 a 7,7 135 0 1 7,-7 z"
+           inkscape:path-effect="#path-effect759"
+           inkscape:label="baseplate" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse629"
+           cx="48.497952"
+           cy="49.152523"
+           inkscape:label="encoder 01"
+           rx="14.693967"
+           ry="14.69395" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse631"
+           cx="82.330986"
+           cy="49.152523"
+           inkscape:label="encoder 02"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse633"
+           cx="115.66403"
+           cy="49.152523"
+           inkscape:label="encoder 03"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse635"
+           cx="148.99805"
+           cy="49.152523"
+           inkscape:label="encoder 04"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse637"
+           cx="48.497952"
+           cy="81.985512"
+           inkscape:label="encoder 05"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse639"
+           cx="82.330963"
+           cy="81.985489"
+           inkscape:label="encoder 06"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse641"
+           cx="115.664"
+           cy="81.985489"
+           inkscape:label="encoder 07"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse643"
+           cx="148.99803"
+           cy="81.985489"
+           inkscape:label="encoder 08"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse645"
+           cx="48.497952"
+           cy="114.81893"
+           inkscape:label="encoder 09"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse647"
+           cx="82.330963"
+           cy="114.8189"
+           inkscape:label="encoder 10"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse649"
+           cx="115.664"
+           cy="114.8189"
+           inkscape:label="encoder 11"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse651"
+           cx="148.99803"
+           cy="114.8189"
+           inkscape:label="encoder 12"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse653"
+           cx="48.497952"
+           cy="147.65251"
+           inkscape:label="encoder 13"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse655"
+           cx="82.330963"
+           cy="147.6525"
+           inkscape:label="encoder 14"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse657"
+           cx="115.664"
+           cy="147.6525"
+           inkscape:label="encoder 15"
+           rx="14.693935"
+           ry="14.693918" />
+        <ellipse
+           style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           id="ellipse659"
+           cx="148.99803"
+           cy="147.6525"
+           inkscape:label="encoder 16"
+           rx="14.693935"
+           ry="14.693918" />
+      </g>
+      <g
+         inkscape:label="Shapes - path &gt; combine, path &gt; difference"
+         inkscape:groupmode="layer"
+         id="g665"
+         style="display:none"
+         transform="translate(5.6963109,5.6963109)">
+        <path
+           id="path663"
+           style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stop-color:#000000"
+           d="m 33.803805,25.458573 a 7,7 0 0 0 -7.000089,7.000089 V 163.45842 a 7,7 0 0 0 7.000089,7.00009 H 164.80356 a 7,7 0 0 0 7.00009,-7.00009 V 32.458662 a 7,7 0 0 0 -7.00009,-7.000089 z m 14.694194,9.000484 A 14.69395,14.69395 0 0 1 63.191675,49.152734 14.69395,14.69395 0 0 1 48.497999,63.846927 14.69395,14.69395 0 0 1 33.803805,49.152734 14.69395,14.69395 0 0 1 48.497999,34.459057 Z m 33.833077,0 A 14.693918,14.693918 0 0 1 97.024752,49.152734 14.693918,14.693918 0 0 1 82.331076,63.846927 14.693918,14.693918 0 0 1 67.636882,49.152734 14.693918,14.693918 0 0 1 82.331076,34.459057 Z m 33.332844,0 A 14.693918,14.693918 0 0 1 130.3576,49.152734 14.693918,14.693918 0 0 1 115.66392,63.846927 14.693918,14.693918 0 0 1 100.97025,49.152734 14.693918,14.693918 0 0 1 115.66392,34.459057 Z m 33.33389,0 A 14.693918,14.693918 0 0 1 163.692,49.152734 14.693918,14.693918 0 0 1 148.99781,63.846927 14.693918,14.693918 0 0 1 134.30413,49.152734 14.693918,14.693918 0 0 1 148.99781,34.459057 Z M 48.497999,67.291678 A 14.693918,14.693918 0 0 1 63.191675,81.985872 14.693918,14.693918 0 0 1 48.497999,96.679548 14.693918,14.693918 0 0 1 33.803805,81.985872 14.693918,14.693918 0 0 1 48.497999,67.291678 Z m 33.833077,0 A 14.693918,14.693918 0 0 1 97.024752,81.985872 14.693918,14.693918 0 0 1 82.331076,96.679548 14.693918,14.693918 0 0 1 67.636882,81.985872 14.693918,14.693918 0 0 1 82.331076,67.291678 Z m 33.332844,0 A 14.693918,14.693918 0 0 1 130.3576,81.985872 14.693918,14.693918 0 0 1 115.66392,96.679548 14.693918,14.693918 0 0 1 100.96973,81.985872 14.693918,14.693918 0 0 1 115.66392,67.291678 Z m 33.33389,0 A 14.693918,14.693918 0 0 1 163.692,81.985872 14.693918,14.693918 0 0 1 148.99781,96.679548 14.693918,14.693918 0 0 1 134.30413,81.985872 14.693918,14.693918 0 0 1 148.99781,67.291678 Z M 48.497999,100.12533 a 14.693918,14.693918 0 0 1 14.693676,14.69368 14.693918,14.693918 0 0 1 -14.693676,14.6942 14.693918,14.693918 0 0 1 -14.694194,-14.6942 14.693918,14.693918 0 0 1 14.694194,-14.69368 z m 33.833077,0 a 14.693918,14.693918 0 0 1 14.693676,14.69368 14.693918,14.693918 0 0 1 -14.693676,14.6942 14.693918,14.693918 0 0 1 -14.694194,-14.6942 14.693918,14.693918 0 0 1 14.694194,-14.69368 z m 33.332844,0 a 14.693918,14.693918 0 0 1 14.69368,14.69368 14.693918,14.693918 0 0 1 -14.69368,14.6942 14.693918,14.693918 0 0 1 -14.69419,-14.6942 14.693918,14.693918 0 0 1 14.69419,-14.69368 z m 33.33389,0 a 14.693918,14.693918 0 0 1 14.69419,14.69368 14.693918,14.693918 0 0 1 -14.69419,14.6942 14.693918,14.693918 0 0 1 -14.69368,-14.6942 14.693918,14.693918 0 0 1 14.69368,-14.69368 z M 48.497999,132.95899 a 14.693918,14.693918 0 0 1 14.693676,14.69368 14.693918,14.693918 0 0 1 -14.693676,14.69419 14.693918,14.693918 0 0 1 -14.694194,-14.69419 14.693918,14.693918 0 0 1 14.694194,-14.69368 z m 33.833077,0 a 14.693918,14.693918 0 0 1 14.693676,14.69368 14.693918,14.693918 0 0 1 -14.693676,14.69419 14.693918,14.693918 0 0 1 -14.694194,-14.69419 14.693918,14.693918 0 0 1 14.694194,-14.69368 z m 33.332844,0 a 14.693918,14.693918 0 0 1 14.69368,14.69368 14.693918,14.693918 0 0 1 -14.69368,14.69419 14.693918,14.693918 0 0 1 -14.69419,-14.69419 14.693918,14.693918 0 0 1 14.69419,-14.69368 z m 33.33389,0 a 14.693918,14.693918 0 0 1 14.69419,14.69368 14.693918,14.693918 0 0 1 -14.69419,14.69419 14.693918,14.693918 0 0 1 -14.69368,-14.69419 14.693918,14.693918 0 0 1 14.69368,-14.69368 z" />
+      </g>
+      <g
+         inkscape:groupmode="layer"
+         id="g747"
+         inkscape:label="Text - medium"
+         style="display:inline;fill:#000000;fill-opacity:1"
+         transform="translate(5.6963109,5.6963109)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="60.288063"
+           y="31.505859"
+           id="text669"
+           inkscape:label="text a1"><tspan
+             sodipodi:role="line"
+             id="tspan667"
+             x="0"
+             y="0"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">SAMPLE 1</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="127.80338"
+           y="31.505859"
+           id="text673"
+           inkscape:label="text a2"><tspan
+             sodipodi:role="line"
+             id="tspan671"
+             x="0"
+             y="0">SAMPLE 2</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="35.956699"
+           y="66.316711"
+           id="text685"
+           inkscape:label="text 01"><tspan
+             sodipodi:role="line"
+             id="tspan683"
+             x="35.956699"
+             y="66.316711"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">VU Meter / Mute / Volume </tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="73.145706"
+           y="66.316711"
+           id="text689"
+           inkscape:label="text 02"><tspan
+             sodipodi:role="line"
+             id="tspan687"
+             x="73.145706"
+             y="66.316711"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">Pan / Deck  A/B / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="103.12278"
+           y="66.241867"
+           id="text693"
+           inkscape:label="text 03"><tspan
+             sodipodi:role="line"
+             id="tspan691"
+             x="103.12278"
+             y="66.241867"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">VU Meter / Mute / Volume </tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="139.81277"
+           y="66.316711"
+           id="text697"
+           inkscape:label="text 04"><tspan
+             sodipodi:role="line"
+             id="tspan695"
+             x="139.81277"
+             y="66.316711"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">Pan / Deck  A/B / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="39.292568"
+           y="99.125061"
+           id="text701"
+           inkscape:label="text 05"><tspan
+             sodipodi:role="line"
+             id="tspan699"
+             x="39.292568"
+             y="99.125061"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ High / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="74.949089"
+           y="99.125061"
+           id="text705"
+           inkscape:label="text 06"><tspan
+             sodipodi:role="line"
+             id="tspan703"
+             x="74.949089"
+             y="99.125061"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">FX 1 / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="106.45862"
+           y="99.050217"
+           id="text709"
+           inkscape:label="text 07"><tspan
+             sodipodi:role="line"
+             id="tspan707"
+             x="106.45862"
+             y="99.050217"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ High / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="141.61615"
+           y="99.125061"
+           id="text713"
+           inkscape:label="text 08"><tspan
+             sodipodi:role="line"
+             id="tspan711"
+             x="141.61615"
+             y="99.125061"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">FX 1 / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="39.704258"
+           y="131.93341"
+           id="text717"
+           inkscape:label="text 09"><tspan
+             sodipodi:role="line"
+             id="tspan715"
+             x="39.704258"
+             y="131.93341"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ Mid / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="74.949089"
+           y="131.93341"
+           id="text721"
+           inkscape:label="text 10"><tspan
+             sodipodi:role="line"
+             id="tspan719"
+             x="74.949089"
+             y="131.93341"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">FX 2 / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="106.87031"
+           y="131.85855"
+           id="text725"
+           inkscape:label="text 11"><tspan
+             sodipodi:role="line"
+             id="tspan723"
+             x="106.87031"
+             y="131.85855"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ Mid / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="141.61615"
+           y="131.93341"
+           id="text729"
+           inkscape:label="text 12"><tspan
+             sodipodi:role="line"
+             id="tspan727"
+             x="141.61615"
+             y="131.93341"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">FX 2 / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="39.488358"
+           y="164.74176"
+           id="text733"
+           inkscape:label="text 13"><tspan
+             sodipodi:role="line"
+             id="tspan731"
+             x="39.488358"
+             y="164.74176"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ Low / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="72.249283"
+           y="164.74176"
+           id="text737"
+           inkscape:label="text 14"><tspan
+             sodipodi:role="line"
+             id="tspan735"
+             x="72.249283"
+             y="164.74176"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">Xfade / Xfade A/B / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="106.65441"
+           y="164.66692"
+           id="text741"
+           inkscape:label="text 15"><tspan
+             sodipodi:role="line"
+             id="tspan739"
+             x="106.65441"
+             y="164.66692"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">EQ Low / Reset / -</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="138.91635"
+           y="164.74176"
+           id="text745"
+           inkscape:label="text 16"><tspan
+             sodipodi:role="line"
+             id="tspan743"
+             x="138.91635"
+             y="164.74176"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.11667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">Xfade / Xfade A/B / -</tspan></text>
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.3, 0.3;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 105.00024,36.127546 -5e-4,137.054164"
+         id="path749"
+         sodipodi:nodetypes="cc"
+         inkscape:label="divider" />
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.50927;stroke-linejoin:round;stroke-dasharray:none;stop-color:#000000"
+       id="rect753"
+       width="161.84943"
+       height="161.84973"
+       x="12.744029"
+       y="12.744029"
+       inkscape:label="print-then-cut-outline" />
+  </g>
+</svg>
