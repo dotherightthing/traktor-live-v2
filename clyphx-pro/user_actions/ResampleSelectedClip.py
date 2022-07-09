@@ -87,8 +87,6 @@ class ResampleSelectedClip(UserActionsBase):
                 action_list += '; "SAMPLE 2"/ARM OFF'
                 action_list += '; "SAMPLE 3"/ARM OFF'
                 action_list += '; "SAMPLE 4"/ARM OFF'
-                action_list += '; "SAMPLE 5"/ARM OFF'
-                action_list += '; "SAMPLE 6"/ARM OFF'
                 action_list += '; "RESAMPLE"/ARM OFF'
 
                 # Trigger fixed-length Session Record on all armed Tracks where x is the length to record in Bars
