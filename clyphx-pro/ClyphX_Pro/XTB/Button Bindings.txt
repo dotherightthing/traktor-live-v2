@@ -151,7 +151,7 @@ VERSION = v1.0.5
 
 # --------------------------------------------------------------------------------------
 
-# XTB (Midi Fighter Twister B) - Button bindings
+# XTB (Midi Fighter Twister #2) - Button bindings
 # Track names are for reference only
 # CC numbers reference those assigned in the Midifighter Utility
 

@@ -146,7 +146,7 @@ VERSION = v1.0.5
 
 # --------------------------------------------------------------------------------------
 
-# XTB (Midi Fighter Twister B) - Encoder bindings
+# XTB (Midi Fighter Twister #2) - Encoder bindings
 # Track names are for reference only
 # CC numbers reference those assigned in the Midifighter Utility
 

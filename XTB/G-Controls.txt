@@ -108,7 +108,7 @@ VERSION = v1.0.0
 
 # --------------------------------------------------------------------------------------
 
-# XTB (Midi Fighter Twister #2) - G-Controls
+# XTB (Midi Fighter Twister B) - G-Controls
 # Track names are for reference only
 # CC numbers reference those assigned in the Midifighter Utility
 

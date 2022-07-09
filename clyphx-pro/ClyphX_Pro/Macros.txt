@@ -180,11 +180,12 @@ $RESET$ =
  %MIDI_MFT_A% %MIDI_CC_MFT_BANK_1_ROW_1_ENCODER_2% 0;
  %MIDI_MFT_A% %MIDI_CC_MFT_BANK_1_ROW_1_ENCODER_3% 0;
  %MIDI_MFT_A% %MIDI_CC_MFT_BANK_1_ROW_1_ENCODER_4% 0;
- %MIDI_MFT_B% $MFT_BANK_3$;
+ %MIDI_MFT_B% $MFT_BANK_2$;
  %MIDI_MFT_B% %MIDI_CC_MFT_BANK_3_ROW_1_ENCODER_1% 0;
  %MIDI_MFT_B% %MIDI_CC_MFT_BANK_3_ROW_1_ENCODER_2% 0;
  %MIDI_MFT_B% %MIDI_CC_MFT_BANK_3_ROW_1_ENCODER_3% 0;
  %MIDI_MFT_B% %MIDI_CC_MFT_BANK_3_ROW_1_ENCODER_4% 0;
+ %MIDI_MFT_C% $MFT_BANK_3$;
  RESTART;
  MSG "Reset mixer";
  PUSH MSG "Reset mixer"
@@ -200,19 +201,14 @@ $MFT_BANK_1$ =
  PUSH MSG "Midi Fighter A in Bank 1"
 
 $MFT_BANK_2$ =
- %MIDI_MFT_A% CC 4 1 127;
- MSG "Midi Fighter A in Bank 2";
- PUSH MSG "Midi Fighter A in Bank 2"
+ %MIDI_MFT_B% CC 4 1 127;
+ MSG "Midi Fighter B in Bank 2";
+ PUSH MSG "Midi Fighter B in Bank 2"
 
 $MFT_BANK_3$ =
- %MIDI_MFT_B% CC 4 2 127;
- MSG "Midi Fighter B in Bank 3";
- PUSH MSG "Midi Fighter B in Bank 3"
-
-$MFT_BANK_4$ =
- %MIDI_MFT_B% CC 4 3 127;
- MSG "Midi Fighter B in Bank 4";
- PUSH MSG "Midi Fighter B in Bank 4"
+ %MIDI_MFT_C% CC 4 2 127;
+ MSG "Midi Fighter C in Bank 3";
+ PUSH MSG "Midi Fighter C in Bank 3"
 
 $PUSH_MODE_SESSION$ =
  PUSH MODE SESSION;

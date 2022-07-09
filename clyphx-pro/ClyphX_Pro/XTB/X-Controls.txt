@@ -73,7 +73,7 @@
 
 # --------------------------------------------------------------------------------------
 
-# XTB (Midi Fighter Twister B) - X-Controls
+# XTB (Midi Fighter Twister #2) - X-Controls
 # Track names are for reference only
 # CC numbers reference those assigned in the Midifighter Utility
 
@@ -113,22 +113,6 @@
 # CC N 52, CC N 53, CC N 54, CC N 55
 # CC N 56, CC N 57, CC N 58, CC N 59
 # CC N 60, CC N 61, CC N 52, CC N 63
-
-# ---
-
-# Side buttons
-
-# Sync to clock
-MFT_LSIDE_1 = CC, 4, 8, 0, 127, $SYNC$
-
-# Reset mixer
-MFT_LSIDE_3 = CC, 4, 10, 0, 127, $RESET$
-
-# Slice selected clip
-MFT_RSIDE_1 = CC, 4, 11, 0, 127, $SLICE$
-
-# Flatten selected clip
-MFT_RSIDE_3 = CC, 4, 13, 0, 127, $FLATTEN$
 
 # ---
 

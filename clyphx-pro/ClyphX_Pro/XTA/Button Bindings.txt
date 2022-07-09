@@ -151,7 +151,7 @@ VERSION = v1.0.5
 
 # --------------------------------------------------------------------------------------
 
-# XTA (Midi Fighter Twister A) - Button bindings
+# XTA (Midi Fighter Twister) - Button bindings
 # Track names are for reference only
 # CC numbers reference those assigned in the Midifighter Utility
 
