@@ -62,32 +62,58 @@ $TRAKTOR_SELECT_DECK_B$ =
  MSG "Selected Traktor Deck B"
 
 # https://www.youtube.com/watch?v=rjSTTO3f4_Y
-# TODO check Gain amt
+# TODO check Gain amt - seems hotter than sample track when flattening
 # TODO renaming not working
 # TODD need to select Note on Push2 to see slices and do sequencing
 # TODO insert the simpler at track 8
 # - moving a track is not possible: https://nativekontrol.proboards.com/thread/4480/move-track
 # - CMD + <> will move track, but only if track header is selected first
 # TODO possible to put all the slices into the sequencer automatically?
-$SLICE$ =
- "CHOP"/DEL;
- SEL/CLIP(SEL) TOSIMP;
+$SLICE_SAMPLE_1_TO_QUARTERS$ =
+ "SAMPLE 1 SLICED 4"/DEL;
+ "SAMPLE 1"/CLIP(SEL) TOSIMP;
  WAIT 5;
- SEL/NAME "CHOP";
+ SEL/NAME "SAMPLE 1 SLICED 4";
  SEL/DEV SIMP PLAYMODE SLICE;
  SEL/DEV SIMP SMODE BEAT;
- SEL/DEV SIMP MULT 4;
+ SEL/DEV SIMP MULT 8;
  SEL/DEV SIMP GAIN 108;
  ADDCLIP SEL 1;
- SEL "CHOP";
- SEL/CLIP NAMED "CHOP";
+ SEL "SAMPLE 1 SLICED 4";
+ SEL/CLIP NAME "SLICED 4";
+ "SAMPLE 1"/MUTE ON;
  SEL/PLAY;
- MSG "Sliced selected clip";
- PUSH MSG "Sliced selected clip"
+ MSG "Sliced Sample 1 to quarters";
+ PUSH MSG "Sliced Sample 1 to quarters"
 
-$FLATTEN$ =
- MSG "Flatten selected clip (TODO)";
- PUSH MSG "Flatten selected clip (TODO)"
+# NOTE: ARM OFF doesn't work if that track is selected
+$FLATTEN_SAMPLE_1_FROM_QUARTERS$ =
+ "SAMPLE 1"/SEL;
+ "SAMPLE 1"/IN "SAMPLE 1 SLICED 4";
+ ALL/ARM OFF;
+ "SAMPLE 1"/ARM ON;
+ "SAMPLE 1"/MUTE ON;
+ SRECFIX 4 LAST;
+ WAITS 5B;
+ "SAMPLE 2"/ARM ON;
+ "SAMPLE 3"/ARM ON;
+ "SAMPLE 4"/ARM ON;
+ "RESAMPLE"/ARM ON;
+ "SAMPLE 1"/CLIP NAME "SLICED";
+ "SAMPLE 1"/PLAY LAST;
+ "SAMPLE 1"/DEV(1) P1 127;
+ "SAMPLE 1"/DEV(1) P2 63;
+ "SAMPLE 1"/DEV(1) P3 107;
+ "SAMPLE 1"/DEV(1) P4 107;
+ "SAMPLE 1"/DEV(1) P5 107;
+ "SAMPLE 1"/DEV(1) P6 0;
+ "SAMPLE 1"/DEV(1) P7 0;
+ "SAMPLE 1"/DEV(1) P8 63;
+ "SAMPLE 1"/IN "DECK A";
+ "SAMPLE 1"/MUTE OFF;
+ "SAMPLE 1 SLICED 4"/MUTE ON;
+ MSG "Flattened Sample 1 from quarters";
+ PUSH MSG "Flattened Sample 1 from quarters"
 
 # Set VU Meters to 0 so that no-signal displays as 0 rather than 64
 $RESET$ =
