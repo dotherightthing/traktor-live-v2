@@ -120,22 +120,6 @@
 
 # ---
 
-# Side buttons
-
-# Sync to clock
-MFT_LSIDE_1 = CC, 4, 8, 0, 127, $SYNC$
-
-# Reset mixer
-MFT_LSIDE_3 = CC, 4, 10, 0, 127, $RESET$
-
-# Slice selected clip
-MFT_RSIDE_1 = CC, 4, 11, 0, 127, $SLICE$
-
-# Flatten selected clip
-MFT_RSIDE_3 = CC, 4, 13, 0, 127, $FLATTEN$
-
-# ---
-
 # Trk 1B - row 1
 # Encoder default = Pan (Encoder Bindings)
 # Encoder press - Deck In (X-Controls)
