@@ -20,6 +20,10 @@ set -e
 # install project files
 cd $INIT_CWD \
 && echo "Installing configuration files" \
+&& rm -rf clyphx-pro/ClyphX_Pro/XTB \
+&& cp -R clyphx-pro/ClyphX_Pro/XTA clyphx-pro/ClyphX_Pro/XTB \
+&& rm -rf clyphx-pro/ClyphX_Pro/XTC \
+&& cp -R clyphx-pro/ClyphX_Pro/XTA clyphx-pro/ClyphX_Pro/XTC \
 && rm -rf ~/NativeKONTROL/ClyphX_Pro \
 && rm -rf '/Applications/Ableton Live 10 Standard.app/Contents/App-Resources/MIDI Remote Scripts/ClyphX_Pro/clyphx_pro/user_actions' \
 && cp -R 'clyphx-pro/ClyphX_Pro' ~/NativeKONTROL \
