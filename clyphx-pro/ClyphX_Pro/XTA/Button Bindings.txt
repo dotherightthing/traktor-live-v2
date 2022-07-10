@@ -162,7 +162,7 @@ VERSION = v1.0.5
 #
 # Bank 1: Midi Fighter Twister A
 #
-# Trk 1A  | Trk 1B  | Trk 2A  | Trk 2B  
+# Sam 1A  | Sam 1B  | Sam 2A  | Sam 2B  
 # ------- | ------- | ------- | -------
 # CC N  0 | CC N  1 | CC N  2 | CC N  3
 # CC N  4 | CC N  5 | CC N  6 | CC N  7
@@ -171,7 +171,7 @@ VERSION = v1.0.5
 #
 # Bank 2: Midi Fighter Twister B
 #
-# Trk 3A  | Trk 3B  | Trk 4A  | Trk 4B  
+# Sam 3A  | Sam 3B  | Sam 4A  | Sam 4B  
 # ------- | ------- | ------- | -------
 # CC N 16 | CC N 17 | CC N 18 | CC N 19
 # CC N 20 | CC N 21 | CC N 22 | CC N 23

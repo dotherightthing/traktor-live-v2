@@ -84,7 +84,7 @@
 #
 # Bank 1: Midi Fighter Twister A
 #
-# Trk 1A  | Trk 1B  | Trk 2A  | Trk 2B  
+# Sam 1A  | Sam 1B  | Sam 2A  | Sam 2B  
 # ------- | ------- | ------- | -------
 # CC N  0 | CC N  1 | CC N  2 | CC N  3
 # CC N  4 | CC N  5 | CC N  6 | CC N  7
@@ -93,7 +93,7 @@
 #
 # Bank 2: Midi Fighter Twister B
 #
-# Trk 3A  | Trk 3B  | Trk 4A  | Trk 4B  
+# Sam 3A  | Sam 3B  | Sam 4A  | Sam 4B  
 # ------- | ------- | ------- | -------
 # CC N 16 | CC N 17 | CC N 18 | CC N 19
 # CC N 20 | CC N 21 | CC N 22 | CC N 23
@@ -120,48 +120,49 @@
 
 # ---
 
-# Trk 1B - row 1
+# Sample 1A - row 3
+# Sample 1B - row 1
 # Encoder default = Pan (Encoder Bindings)
 # Encoder press - Deck In (X-Controls)
 MFT_BANK_1_ROW_1_BUTTON_2 = CC, 2, 1, 0, 127, "SAMPLE 1"/IN "DECK B" : "SAMPLE 1"/IN "DECK A"
 
-# Trk 1B - row 4
+# Sample 1B - row 4
 # Encoder default = X-Fade (Encoder Bindings)
 # Encoder press = X-Fade A/B assign (X-Controls)
 MFT_BANK_1_ROW_4_BUTTON_2 = CC, 2, 13, 0, 127, "SAMPLE 1"/XFADE B : "SAMPLE 1"/XFADE A
 
 # ---
 
-# Trk 2B - row 1
+# Sample 2B - row 1
 # Encoder default = Pan (Encoder Bindings)
 # Encoder press - Deck In (X-Controls)
 MFT_BANK_1_ROW_1_BUTTON_4 = CC, 2, 3, 0, 127, "SAMPLE 2"/IN "DECK B" : "SAMPLE 2"/IN "DECK A"
 
-# Trk 2B - row 4
+# Sample 2B - row 4
 # Encoder default = X-Fade (Encoder Bindings)
 # Encoder press = X-Fade A/B assign (X-Controls)
 MFT_BANK_1_ROW_4_BUTTON_4 = CC, 2, 15, 0, 127, "SAMPLE 2"/XFADE B : "SAMPLE 2"/XFADE A
 
 # ---
 
-# Trk 3B - row 1
+# Sample 3B - row 1
 # Encoder default = Pan (Encoder Bindings)
 # Encoder press - Deck In (X-Controls)
 MFT_BANK_2_ROW_1_BUTTON_2 = CC, 2, 17, 0, 127, "SAMPLE 3"/IN "DECK B" : "SAMPLE 3"/IN "DECK A"
 
-# Trk 3B - row 4
+# Sample 3B - row 4
 # Encoder default = X-Fade (Encoder Bindings)
 # Encoder press = X-Fade A/B assign (X-Controls)
 MFT_BANK_2_ROW_4_BUTTON_2 = CC, 2, 29, 0, 127, "SAMPLE 3"/XFADE B : "SAMPLE 3"/XFADE A
 
 # ---
 
-# Trk 4B - row 1
+# Sample 4B - row 1
 # Encoder default = Pan (Encoder Bindings)
 # Encoder press - Deck In (X-Controls)
 MFT_BANK_2_ROW_1_BUTTON_4 = CC, 2, 19, 0, 127, "SAMPLE 4"/IN "DECK B" : "SAMPLE 4"/IN "DECK A"
 
-# Trk 4B - row 4
+# Sample 4B - row 4
 # Encoder default = X-Fade (Encoder Bindings)
 # Encoder press = X-Fade A/B assign (X-Controls)
 MFT_BANK_2_ROW_4_BUTTON_4 = CC, 2, 31, 0, 127, "SAMPLE 4"/XFADE B : "SAMPLE 4"/XFADE A
