@@ -171,25 +171,25 @@ VERSION = v1.0.0
 
 # Sample 1A - row 4
 # Encoder default = EQ Low (Encoder Bindings)
-# Encoder press = Reset (X-Controls)
+# Encoder press = Resample (X-Controls)
 
 # ---
 
 # Sample 1B - row 1
-# Encoder default = Pan (Encoder Bindings)
+# Encoder default = Volume (Encoder Bindings)
 # Encoder press - Cue (X-Controls)
 
 # Sample 1B - row 2
-# Encoder default = FX1 (Encoder Bindings)
-# Encoder press = Deck In (X-Controls)
+# Encoder default = Pan (Encoder Bindings)
+# Encoder press = Reset (X-Controls)
 
 # Sample 1B - row 3
-# Encoder default = FX2 (Encoder Bindings)
-# Encoder press = X-Fade A/B assign (X-Controls)
+# Encoder default = FX1 (Encoder Bindings)
+# Encoder press = Source Deck (X-Controls)
 
 # Sample 1B - row 4
-# Encoder default = Volume (Encoder Bindings)
-# Encoder press = Resample (X-Controls)
+# Encoder default = FX2 (Encoder Bindings)
+# Encoder press = X-Fade assign (X-Controls)
 
 # ---
 
