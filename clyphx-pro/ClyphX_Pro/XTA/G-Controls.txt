@@ -108,7 +108,7 @@ VERSION = v1.0.0
 
 # --------------------------------------------------------------------------------------
 
-# XTA (Midi Fighter Twister) - G-Controls
+# XTA/XTB/XTC (Midi Fighter Twister) - G-Controls
 # Track names are for reference only
 # CC numbers reference those assigned in the Midifighter Utility
 
@@ -135,7 +135,7 @@ VERSION = v1.0.0
 # CC N 24 | CC N 25 | CC N 26 | CC N 27
 # CC N 28 | CC N 29 | CC N 30 | CC N 31
 #
-# Bank 3: Midi Fighter Twister C (TM)
+# Bank 3: Midi Fighter Twister C: Midi Fighter Twister C (TM)
 #
 # Trk 5A  | Trk 5B  | Trk 6A  | Trk 6B  
 # ------- | ------- | ------- | -------
@@ -150,6 +150,10 @@ VERSION = v1.0.0
 # CC N 52, CC N 53, CC N 54, CC N 55
 # CC N 56, CC N 57, CC N 58, CC N 59
 # CC N 60, CC N 61, CC N 52, CC N 63
+
+# ---
+
+# NOTE! This file can be used by any MFT so should also be copied to the XTB and XTC folders
 
 # ---
 
@@ -232,3 +236,85 @@ MFT_BANK_1_ROW_2_BUTTON_4 RELEASED_IMMEDIATELY =  "SAMPLE 2"/DEV(1) P6 0
 # Encoder press = FX2 reset (G-Controls)
 MFT_BANK_1_ROW_3_BUTTON_4 = CC, 2, 11, 0, 127, FALSE
 MFT_BANK_1_ROW_3_BUTTON_4 RELEASED_IMMEDIATELY =  "SAMPLE 2"/DEV(1) P7 0
+
+# ---
+
+# Trk 3A - row 1
+# Encoder default = VU meter (Encoder Bindings)
+# Encoder press+hold = volume (Encoder Bindings)
+# Encoder press = toggle mute (G-Controls)
+MFT_BANK_2_ROW_1_BUTTON_1 = CC, 2, 16, 0, 127, FALSE
+MFT_BANK_2_ROW_1_BUTTON_1 RELEASED_IMMEDIATELY = "SAMPLE 3"/MUTE
+
+# Trk 3A - row 2
+# Encoder default = EQ High (Encoder Bindings)
+# Encoder press = EQ High reset (G-Controls)
+MFT_BANK_2_ROW_2_BUTTON_1 = CC, 2, 20, 0, 127, FALSE
+MFT_BANK_2_ROW_2_BUTTON_1 RELEASED_IMMEDIATELY =  "SAMPLE 3"/DEV(1) P5 107
+
+# Trk 3A - row 3
+# Encoder default = EQ Mid (Encoder Bindings)
+# Encoder press = EQ Mid reset (G-Controls)
+MFT_BANK_2_ROW_3_BUTTON_1 = CC, 2, 24, 0, 127, FALSE
+MFT_BANK_2_ROW_3_BUTTON_1 RELEASED_IMMEDIATELY =  "SAMPLE 3"/DEV(1) P4 107
+
+# Trk 3A - row 4
+# Encoder default = EQ Low (Encoder Bindings)
+# Encoder press = EQ Low reset (G-Controls)
+MFT_BANK_2_ROW_4_BUTTON_1 = CC, 2, 28, 0, 127, FALSE
+MFT_BANK_2_ROW_4_BUTTON_1 RELEASED_IMMEDIATELY =  "SAMPLE 3"/DEV(1) P3 107
+
+# ---
+
+# Trk 3B - row 2
+# Encoder default = FX1 (Encoder Bindings)
+# Encoder press = FX1 reset (G-Controls)
+MFT_BANK_2_ROW_2_BUTTON_2 = CC, 2, 21, 0, 127, FALSE
+MFT_BANK_2_ROW_2_BUTTON_2 RELEASED_IMMEDIATELY =  "SAMPLE 3"/DEV(1) P6 0
+
+# Trk 3B - row 3
+# Encoder default = FX2 (Encoder Bindings)
+# Encoder press = FX2 reset (G-Controls)
+MFT_BANK_2_ROW_3_BUTTON_2 = CC, 2, 25, 0, 127, FALSE
+MFT_BANK_2_ROW_3_BUTTON_2 RELEASED_IMMEDIATELY =  "SAMPLE 3"/DEV(1) P7 0
+
+# ---
+
+# Trk 4A - row 1
+# Encoder default = VU meter (Encoder Bindings)
+# Encoder press+hold = volume (Encoder Bindings)
+# Encoder press = toggle mute (G-Controls)
+MFT_BANK_2_ROW_1_BUTTON_3 = CC, 2, 18, 0, 127, FALSE
+MFT_BANK_2_ROW_1_BUTTON_3 RELEASED_IMMEDIATELY = "SAMPLE 4"/MUTE
+
+# Trk 4A - row 2
+# Encoder default = EQ High (Encoder Bindings)
+# Encoder press = EQ High reset (G-Controls)
+MFT_BANK_2_ROW_2_BUTTON_3 = CC, 2, 22, 0, 127, FALSE
+MFT_BANK_2_ROW_2_BUTTON_3 RELEASED_IMMEDIATELY =  "SAMPLE 4"/DEV(1) P5 107
+
+# Trk 4A - row 3
+# Encoder default = EQ Mid (Encoder Bindings)
+# Encoder press = EQ Mid reset (G-Controls)
+MFT_BANK_2_ROW_3_BUTTON_3 = CC, 2, 26, 0, 127, FALSE
+MFT_BANK_2_ROW_3_BUTTON_3 RELEASED_IMMEDIATELY =  "SAMPLE 4"/DEV(1) P4 107
+
+# Trk 4A - row 4
+# Encoder default = EQ Low (Encoder Bindings)
+# Encoder press = EQ Low reset (G-Controls)
+MFT_BANK_2_ROW_4_BUTTON_3 = CC, 2, 30, 0, 127, FALSE
+MFT_BANK_2_ROW_4_BUTTON_3 RELEASED_IMMEDIATELY =  "SAMPLE 4"/DEV(1) P3 107
+
+# ---
+
+# Trk 4B - row 2
+# Encoder default = FX1 (Encoder Bindings)
+# Encoder press = FX1 reset (G-Controls)
+MFT_BANK_2_ROW_2_BUTTON_4 = CC, 2, 23, 0, 127, FALSE
+MFT_BANK_2_ROW_2_BUTTON_4 RELEASED_IMMEDIATELY =  "SAMPLE 4"/DEV(1) P6 0
+
+# Trk 4B - row 3
+# Encoder default = FX2 (Encoder Bindings)
+# Encoder press = FX2 reset (G-Controls)
+MFT_BANK_2_ROW_3_BUTTON_4 = CC, 2, 27, 0, 127, FALSE
+MFT_BANK_2_ROW_3_BUTTON_4 RELEASED_IMMEDIATELY =  "SAMPLE 4"/DEV(1) P7 0

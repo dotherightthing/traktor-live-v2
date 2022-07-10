@@ -73,7 +73,7 @@
 
 # --------------------------------------------------------------------------------------
 
-# XTC (Midi Fighter Twister #3) - X-Controls
+# XTA/XTB/XTC (Midi Fighter Twister) - X-Controls
 # Track names are for reference only
 # CC numbers reference those assigned in the Midifighter Utility
 
@@ -100,7 +100,7 @@
 # CC N 24 | CC N 25 | CC N 26 | CC N 27
 # CC N 28 | CC N 29 | CC N 30 | CC N 31
 #
-# Bank 3
+# Bank 3: Midi Fighter Twister C
 #
 # CC N 32, CC N 33, CC N 34, CC N 35
 # CC N 36, CC N 37, CC N 38, CC N 39
@@ -113,6 +113,74 @@
 # CC N 52, CC N 53, CC N 54, CC N 55
 # CC N 56, CC N 57, CC N 58, CC N 59
 # CC N 60, CC N 61, CC N 52, CC N 63
+
+# ---
+
+# NOTE! This file can be used by any MFT so should also be copied to the XTB and XTC folders
+
+# ---
+
+# Side buttons
+
+# Sync to clock
+MFT_LSIDE_1 = CC, 4, 8, 0, 127, $SYNC$
+
+# Reset mixer
+MFT_LSIDE_3 = CC, 4, 10, 0, 127, $RESET$
+
+# Slice selected clip
+MFT_RSIDE_1 = CC, 4, 11, 0, 127, $SLICE$
+
+# Flatten selected clip
+MFT_RSIDE_3 = CC, 4, 13, 0, 127, $FLATTEN$
+
+# ---
+
+# Trk 1B - row 1
+# Encoder default = Pan (Encoder Bindings)
+# Encoder press - Deck In (X-Controls)
+MFT_BANK_1_ROW_1_BUTTON_2 = CC, 2, 1, 0, 127, "SAMPLE 1"/IN "DECK B" : "SAMPLE 1"/IN "DECK A"
+
+# Trk 1B - row 4
+# Encoder default = X-Fade (Encoder Bindings)
+# Encoder press = X-Fade A/B assign (X-Controls)
+MFT_BANK_1_ROW_4_BUTTON_2 = CC, 2, 13, 0, 127, "SAMPLE 1"/XFADE B : "SAMPLE 1"/XFADE A
+
+# ---
+
+# Trk 2B - row 1
+# Encoder default = Pan (Encoder Bindings)
+# Encoder press - Deck In (X-Controls)
+MFT_BANK_1_ROW_1_BUTTON_4 = CC, 2, 3, 0, 127, "SAMPLE 2"/IN "DECK B" : "SAMPLE 2"/IN "DECK A"
+
+# Trk 2B - row 4
+# Encoder default = X-Fade (Encoder Bindings)
+# Encoder press = X-Fade A/B assign (X-Controls)
+MFT_BANK_1_ROW_4_BUTTON_4 = CC, 2, 15, 0, 127, "SAMPLE 2"/XFADE B : "SAMPLE 2"/XFADE A
+
+# ---
+
+# Trk 3B - row 1
+# Encoder default = Pan (Encoder Bindings)
+# Encoder press - Deck In (X-Controls)
+MFT_BANK_2_ROW_1_BUTTON_2 = CC, 2, 17, 0, 127, "SAMPLE 3"/IN "DECK B" : "SAMPLE 3"/IN "DECK A"
+
+# Trk 3B - row 4
+# Encoder default = X-Fade (Encoder Bindings)
+# Encoder press = X-Fade A/B assign (X-Controls)
+MFT_BANK_2_ROW_4_BUTTON_2 = CC, 2, 29, 0, 127, "SAMPLE 3"/XFADE B : "SAMPLE 3"/XFADE A
+
+# ---
+
+# Trk 4B - row 1
+# Encoder default = Pan (Encoder Bindings)
+# Encoder press - Deck In (X-Controls)
+MFT_BANK_2_ROW_1_BUTTON_4 = CC, 2, 19, 0, 127, "SAMPLE 4"/IN "DECK B" : "SAMPLE 4"/IN "DECK A"
+
+# Trk 4B - row 4
+# Encoder default = X-Fade (Encoder Bindings)
+# Encoder press = X-Fade A/B assign (X-Controls)
+MFT_BANK_2_ROW_4_BUTTON_4 = CC, 2, 31, 0, 127, "SAMPLE 4"/XFADE B : "SAMPLE 4"/XFADE A
 
 # ---
 

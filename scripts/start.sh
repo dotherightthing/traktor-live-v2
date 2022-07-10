@@ -29,6 +29,7 @@ cd $INIT_CWD \
 && echo "3. Ableton Live       - click: Options > External Sync (Ext button)" \
 && echo "4. Audio Hijack       - click: COMMAND + R (Record)" \
 && echo "5. Traktor Kontrol Z1 - push: MODE + A + B (MIDI mode)" \
+&& echo "6. Midi Fighter Twisters - push: one of the three side buttons (CC Bank Select, if STARTUP_ACTIONS fail)" \
 && echo "" \
 && echo "Enjoy!" \
 && echo ""

@@ -73,7 +73,7 @@
 
 # --------------------------------------------------------------------------------------
 
-# XTA (Midi Fighter Twister) - X-Controls
+# XTA/XTB/XTC (Midi Fighter Twister) - X-Controls
 # Track names are for reference only
 # CC numbers reference those assigned in the Midifighter Utility
 
@@ -100,7 +100,7 @@
 # CC N 24 | CC N 25 | CC N 26 | CC N 27
 # CC N 28 | CC N 29 | CC N 30 | CC N 31
 #
-# Bank 3
+# Bank 3: Midi Fighter Twister C
 #
 # CC N 32, CC N 33, CC N 34, CC N 35
 # CC N 36, CC N 37, CC N 38, CC N 39
@@ -113,6 +113,10 @@
 # CC N 52, CC N 53, CC N 54, CC N 55
 # CC N 56, CC N 57, CC N 58, CC N 59
 # CC N 60, CC N 61, CC N 52, CC N 63
+
+# ---
+
+# NOTE! This file can be used by any MFT so should also be copied to the XTB and XTC folders
 
 # ---
 
@@ -153,3 +157,41 @@ MFT_BANK_1_ROW_1_BUTTON_4 = CC, 2, 3, 0, 127, "SAMPLE 2"/IN "DECK B" : "SAMPLE 2
 # Encoder default = X-Fade (Encoder Bindings)
 # Encoder press = X-Fade A/B assign (X-Controls)
 MFT_BANK_1_ROW_4_BUTTON_4 = CC, 2, 15, 0, 127, "SAMPLE 2"/XFADE B : "SAMPLE 2"/XFADE A
+
+# ---
+
+# Trk 3B - row 1
+# Encoder default = Pan (Encoder Bindings)
+# Encoder press - Deck In (X-Controls)
+MFT_BANK_2_ROW_1_BUTTON_2 = CC, 2, 17, 0, 127, "SAMPLE 3"/IN "DECK B" : "SAMPLE 3"/IN "DECK A"
+
+# Trk 3B - row 4
+# Encoder default = X-Fade (Encoder Bindings)
+# Encoder press = X-Fade A/B assign (X-Controls)
+MFT_BANK_2_ROW_4_BUTTON_2 = CC, 2, 29, 0, 127, "SAMPLE 3"/XFADE B : "SAMPLE 3"/XFADE A
+
+# ---
+
+# Trk 4B - row 1
+# Encoder default = Pan (Encoder Bindings)
+# Encoder press - Deck In (X-Controls)
+MFT_BANK_2_ROW_1_BUTTON_4 = CC, 2, 19, 0, 127, "SAMPLE 4"/IN "DECK B" : "SAMPLE 4"/IN "DECK A"
+
+# Trk 4B - row 4
+# Encoder default = X-Fade (Encoder Bindings)
+# Encoder press = X-Fade A/B assign (X-Controls)
+MFT_BANK_2_ROW_4_BUTTON_4 = CC, 2, 31, 0, 127, "SAMPLE 4"/XFADE B : "SAMPLE 4"/XFADE A
+
+# ---
+
+# Slice selected clip
+MFT_BANK_3_ROW_1_BUTTON_1 = CC, 2, 32, 0, 127, $SLICE_SAMPLE_1_TO_QUARTERS$
+
+# Flatten selected clip
+MFT_BANK_3_ROW_3_BUTTON_1 = CC, 2, 40, 0, 127, $FLATTEN_SAMPLE_1_FROM_QUARTERS$
+
+# Reset mixer
+MFT_BANK_3_ROW_4_BUTTON_3 = CC, 2, 46, 0, 127, $RESET$
+
+# Sync to clock
+MFT_BANK_3_ROW_4_BUTTON_4 = CC, 2, 47, 0, 127, $SYNC$

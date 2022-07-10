@@ -332,20 +332,33 @@ See Clyphx Pro M4L (Max for Live) device on Master track, accessed via User Mode
 
 ---
 
-#### Midi Fighter Twister (MFT)
+#### Midi Fighter Twister
 
 * Product: <https://store.djtechtools.com/products/midi-fighter-twister>
 
 ##### Ableton Live MIDI setup
 
-The project uses two MFTs, but the Midi Fighter Utility only supports one. Therefore the four available banks are split between the MFTs:
+* Control Surface: `ClyphX Pro XTA`, `ClyphX Pro XTB`, `ClyphX Pro XTC`
+* Input: `Midi Fighter Twister`, `Midi Fighter Twister #1`, `Midi Fighter Twister #2` (each in any slot, see [#6](https://github.com/dotherightthing/push2-traktor-live/issues/6))
+  * Track: `Off`
+  * Sync: `Off`
+  * Remote: `On`
+* Output: `Midi Fighter Twister`, `Midi Fighter Twister #1`, `Midi Fighter Twister #2` (each in any slot, see [#6](https://github.com/dotherightthing/push2-traktor-live/issues/6))
+  * Track: `Off`
+  * Sync: `Off`
+  * Remote: `On`
 
-* MFT A (left): banks 1 and 2
-* MFT B (right): banks 3 and 4
+The project uses three MFTs (Midi Fighter Twisters), but the Midi Fighter Utility only supports one. Therefore the four available banks of stock CCs are split between the MFTs:
 
-On startup and 'Reset', MFT A switches to bank 1 and MFT B switches to bank 3.
+* MFT A (Sample 1 and Sample 2): Bank 1
+* MFT B (Sample 3 and Sample 4): Bank 2
+* MFT C (Resample and Utilities): Bank 3
 
-When configured to send out MIDI messages, the device uses the following;
+Each MFT does identify itself uniquely (`Midi Fighter Twister`, `Midi Fighter Twister #1`, `Midi Fighter Twister #2`) but these identities are not locked to the physical hardware and can shift and change. Therefore the mappings for each MFT are shared with every MFT - i.e. the XTA/XTB/XTC folders are clones.
+
+At the launch of the project, each MFT should be switched to Bank 1, 2 or 3. This should happen automatically via the `STARTUP_ACTIONS`, or press one of the 3 buttons on each MFT's side.
+
+When configured to send out MIDI messages, each MFT uses the following;
 
 * Channel 1 = encoder / encoder LEDs
 * Channel 2 = button / RGB indicator
