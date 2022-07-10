@@ -207,7 +207,7 @@ MFT_BANK_1_ROW_2_ENCODER_1 = 1, 4, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "EQ High"
 
 # Sample 1A - row 3
 # Encoder default = EQ Mid (Encoder Bindings)
-# Encoder press = Flatten (X-Controls)
+# Encoder press = Merge (X-Controls)
 MFT_BANK_1_ROW_3_ENCODER_1 = 1, 8, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "EQ Mid"
 
 # Sample 1A - row 4

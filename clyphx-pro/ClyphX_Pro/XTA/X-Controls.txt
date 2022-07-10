@@ -132,8 +132,8 @@ MFT_BANK_1_ROW_2_BUTTON_1 = CC, 2, 4, 0, 127, $SLICE_SAMPLE_1_TO_QUARTERS$
 
 # Sample 1A - row 3
 # Encoder default = EQ Mid (Encoder Bindings)
-# Encoder press = Flatten (X-Controls)
-MFT_BANK_1_ROW_3_BUTTON_1 = CC, 2, 8, 0, 127, $FLATTEN_SAMPLE_1_FROM_QUARTERS$
+# Encoder press = Merge (X-Controls)
+MFT_BANK_1_ROW_3_BUTTON_1 = CC, 2, 8, 0, 127, $MERGE_SAMPLE_1_FROM_QUARTERS$
 
 # Sample 1A - row 4
 # Encoder default = EQ Low (Encoder Bindings)

@@ -167,7 +167,7 @@ VERSION = v1.0.0
 
 # Sample 1A - row 3
 # Encoder default = EQ Mid (Encoder Bindings)
-# Encoder press = Flatten (X-Controls)
+# Encoder press = Merge (X-Controls)
 
 # Sample 1A - row 4
 # Encoder default = EQ Low (Encoder Bindings)
