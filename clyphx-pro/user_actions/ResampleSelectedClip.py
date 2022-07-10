@@ -136,8 +136,6 @@ class ResampleSelectedClip(UserActionsBase):
                 action_list += '; "SAMPLE 2"/ARM ON'
                 action_list += '; "SAMPLE 3"/ARM ON'
                 action_list += '; "SAMPLE 4"/ARM ON'
-                action_list += '; "SAMPLE 5"/ARM ON'
-                action_list += '; "SAMPLE 6"/ARM ON'
                 action_list += '; "RESAMPLE"/ARM ON'
             else:
                 msg += 'no clip playing'
