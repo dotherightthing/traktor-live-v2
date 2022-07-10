@@ -197,47 +197,45 @@ VERSION = v1.0.5
 
 # Sample 1A - row 1
 # Encoder default = VU meter (Encoder Bindings)
-# Encoder press+hold = volume (Encoder Bindings)
-# Encoder press = toggle mute (G-Controls)
+# Encoder press = Mute (X-Controls)
 MFT_BANK_1_ROW_1_ENCODER_1 = 1, 0, ABSOLUTE, TRUE, "Meter 1"/DEV("midiAudioToCC") "Envelope L"
-MFT_BANK_1_ROW_1_ENCODER_1_SHIFTHOLD = 5, 0, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "[VOL]"
 
 # Sample 1A - row 2
 # Encoder default = EQ High (Encoder Bindings)
-# Encoder press = EQ High reset (G-Controls)
+# Encoder press = Slice (X-Controls)
 MFT_BANK_1_ROW_2_ENCODER_1 = 1, 4, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "EQ High"
 
 # Sample 1A - row 3
 # Encoder default = EQ Mid (Encoder Bindings)
-# Encoder press = EQ Mid reset (G-Controls)
+# Encoder press = Flatten (X-Controls)
 MFT_BANK_1_ROW_3_ENCODER_1 = 1, 8, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "EQ Mid"
 
 # Sample 1A - row 4
 # Encoder default = EQ Low (Encoder Bindings)
-# Encoder press = EQ Low reset (G-Controls)
+# Encoder press = Reset (X-Controls)
 MFT_BANK_1_ROW_4_ENCODER_1 = 1, 12, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "EQ Low"
 
 # ---
 
 # Sample 1B - row 1
 # Encoder default = Pan (Encoder Bindings)
-# Encoder press - Deck In (X-Controls)
+# Encoder press - Cue (X-Controls)
 MFT_BANK_1_ROW_1_ENCODER_2 = 1, 1, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "[PAN]"
 
 # Sample 1B - row 2
 # Encoder default = FX1 (Encoder Bindings)
-# Encoder press = FX1 reset (G-Controls)
+# Encoder press = Deck In (X-Controls)
 MFT_BANK_1_ROW_2_ENCODER_2 = 1, 5, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "[SEND A] Delay"
 
 # Sample 1B - row 3
 # Encoder default = FX2 (Encoder Bindings)
-# Encoder press = FX2 reset (G-Controls)
+# Encoder press = X-Fade A/B assign (X-Controls)
 MFT_BANK_1_ROW_3_ENCODER_2 = 1, 9, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "[SEND B] Reverb"
 
 # Sample 1B - row 4
-# Encoder default = X-Fade (Encoder Bindings)
-# Encoder press = X-Fade A/B assign (X-Controls)
-MFT_BANK_2_ROW_4_ENCODER_2 = 1, 13, ABSOLUTE, TRUE, MST/XFADER
+# Encoder default = Volume (Encoder Bindings)
+# Encoder press = Resample (X-Controls)
+MFT_BANK_1_ROW_4_ENCODER_2 = 1, 13, ABSOLUTE, TRUE, "SAMPLE 1"/DEV(1) "[VOL]"
 
 # ---
 

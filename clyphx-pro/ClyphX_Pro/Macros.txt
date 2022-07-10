@@ -69,6 +69,7 @@ $TRAKTOR_SELECT_DECK_B$ =
 # - moving a track is not possible: https://nativekontrol.proboards.com/thread/4480/move-track
 # - CMD + <> will move track, but only if track header is selected first
 # TODO possible to put all the slices into the sequencer automatically?
+# TODO make this a user action which takes the target track name as a parameter
 $SLICE_SAMPLE_1_TO_QUARTERS$ =
  "SAMPLE 1 SLICED 4"/DEL;
  "SAMPLE 1"/CLIP(SEL) TOSIMP;
@@ -87,6 +88,7 @@ $SLICE_SAMPLE_1_TO_QUARTERS$ =
  PUSH MSG "Sliced Sample 1 to quarters"
 
 # NOTE: ARM OFF doesn't work if that track is selected
+# TODO make this a user action which takes the source and target track names as parameters
 $FLATTEN_SAMPLE_1_FROM_QUARTERS$ =
  "SAMPLE 1"/SEL;
  "SAMPLE 1"/IN "SAMPLE 1 SLICED 4";
@@ -114,6 +116,18 @@ $FLATTEN_SAMPLE_1_FROM_QUARTERS$ =
  "SAMPLE 1 SLICED 4"/MUTE ON;
  MSG "Flattened Sample 1 from quarters";
  PUSH MSG "Flattened Sample 1 from quarters"
+
+# TODO make this a user action which takes the target track name as a parameter
+$RESET_SAMPLE_1$ = "SAMPLE 1"/DEV(1) P1 127;
+ "SAMPLE 1"/DEV(1) P2 63;
+ "SAMPLE 1"/DEV(1) P3 107;
+ "SAMPLE 1"/DEV(1) P4 107;
+ "SAMPLE 1"/DEV(1) P5 107;
+ "SAMPLE 1"/DEV(1) P6 0;
+ "SAMPLE 1"/DEV(1) P7 0;
+ "SAMPLE 1"/DEV(1) P8 63;
+ MSG "Reset Sample 1";
+ PUSH MSG "Reset Sample 1"
 
 # Set VU Meters to 0 so that no-signal displays as 0 rather than 64
 $RESET$ =

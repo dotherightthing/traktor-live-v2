@@ -159,48 +159,42 @@ VERSION = v1.0.0
 
 # Sample 1A - row 1
 # Encoder default = VU meter (Encoder Bindings)
-# Encoder press+hold = volume (Encoder Bindings)
-# Encoder press = toggle mute (G-Controls)
-MFT_BANK_1_ROW_1_BUTTON_1 = CC, 2, 0, 0, 127, FALSE
-MFT_BANK_1_ROW_1_BUTTON_1 RELEASED_IMMEDIATELY = "SAMPLE 1"/MUTE
+# Encoder press = Mute (X-Controls)
 
 # Sample 1A - row 2
 # Encoder default = EQ High (Encoder Bindings)
-# Encoder press = EQ High reset (G-Controls)
-MFT_BANK_1_ROW_2_BUTTON_1 = CC, 2, 4, 0, 127, FALSE
-MFT_BANK_1_ROW_2_BUTTON_1 RELEASED_IMMEDIATELY =  "SAMPLE 1"/DEV(1) P5 107
+# Encoder press = Slice (G-Controls)
 
 # Sample 1A - row 3
 # Encoder default = EQ Mid (Encoder Bindings)
-# Encoder press = EQ Mid reset (G-Controls)
-MFT_BANK_1_ROW_3_BUTTON_1 = CC, 2, 8, 0, 127, FALSE
-MFT_BANK_1_ROW_3_BUTTON_1 RELEASED_IMMEDIATELY =  "SAMPLE 1"/DEV(1) P4 107
+# Encoder press = Flatten (X-Controls)
 
 # Sample 1A - row 4
 # Encoder default = EQ Low (Encoder Bindings)
-# Encoder press = EQ Low reset (G-Controls)
-MFT_BANK_1_ROW_4_BUTTON_1 = CC, 2, 12, 0, 127, FALSE
-MFT_BANK_1_ROW_4_BUTTON_1 RELEASED_IMMEDIATELY =  "SAMPLE 1"/DEV(1) P3 107
+# Encoder press = Reset (X-Controls)
 
 # ---
 
+# Sample 1B - row 1
+# Encoder default = Pan (Encoder Bindings)
+# Encoder press - Cue (X-Controls)
+
 # Sample 1B - row 2
 # Encoder default = FX1 (Encoder Bindings)
-# Encoder press = FX1 reset (G-Controls)
-MFT_BANK_1_ROW_2_BUTTON_2 = CC, 2, 5, 0, 127, FALSE
-MFT_BANK_1_ROW_2_BUTTON_2 RELEASED_IMMEDIATELY =  "SAMPLE 1"/DEV(1) P6 0
+# Encoder press = Deck In (X-Controls)
 
 # Sample 1B - row 3
 # Encoder default = FX2 (Encoder Bindings)
-# Encoder press = FX2 reset (G-Controls)
-MFT_BANK_1_ROW_3_BUTTON_2 = CC, 2, 9, 0, 127, FALSE
-MFT_BANK_1_ROW_3_BUTTON_2 RELEASED_IMMEDIATELY =  "SAMPLE 1"/DEV(1) P7 0
+# Encoder press = X-Fade A/B assign (X-Controls)
+
+# Sample 1B - row 4
+# Encoder default = Volume (Encoder Bindings)
+# Encoder press = Resample (X-Controls)
 
 # ---
 
 # Sample 2A - row 1
 # Encoder default = VU meter (Encoder Bindings)
-# Encoder press+hold = volume (Encoder Bindings)
 # Encoder press = toggle mute (G-Controls)
 MFT_BANK_1_ROW_1_BUTTON_3 = CC, 2, 2, 0, 127, FALSE
 MFT_BANK_1_ROW_1_BUTTON_3 RELEASED_IMMEDIATELY = "SAMPLE 2"/MUTE
