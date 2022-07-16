@@ -227,20 +227,12 @@ $SYNC$ =
  MSG "Synced to Traktor";
  PUSH MSG "Synced to Traktor"
 
-$MFT_BANK_1$ =
- %MIDI_MFT_A% CC 4 0 127;
- MSG "Midi Fighter A in Bank 1";
- PUSH MSG "Midi Fighter A in Bank 1"
-
-$MFT_BANK_2$ =
+$MFTS_BANK_2$ =
+ %MIDI_MFT_A% CC 4 1 127;
  %MIDI_MFT_B% CC 4 1 127;
- MSG "Midi Fighter B in Bank 2";
- PUSH MSG "Midi Fighter B in Bank 2"
-
-$MFT_BANK_3$ =
- %MIDI_MFT_C% CC 4 2 127;
- MSG "Midi Fighter C in Bank 3";
- PUSH MSG "Midi Fighter C in Bank 3"
+ %MIDI_MFT_C% CC 4 1 127;
+ MSG "All MFTs in Bank 2 - use top left button to set Bank 1 & bottom right button to set Bank 3";
+ PUSH MSG "All MFTs in Bank 2 - use top left button to set Bank 1 & bottom right button to set Bank 3"
 
 $PUSH_MODE_SESSION$ =
  PUSH MODE SESSION;
