@@ -102,6 +102,8 @@
 #
 # Bank 3: Midi Fighter Twister C
 #
+# Sam 5A  | Sam 5B  | Util 1  | Util 2 
+# ------- | ------- | ------- | -------
 # CC N 32, CC N 33, CC N 34, CC N 35
 # CC N 36, CC N 37, CC N 38, CC N 39
 # CC N 40, CC N 41, CC N 42, CC N 43
@@ -165,44 +167,203 @@ MFT_BANK_1_ROW_4_BUTTON_2 = CC, 2, 13, 0, 127, "SAMPLE 1"/XFADE B : "SAMPLE 1"/X
 
 # ---
 
+# Sample 2A - row 1
+# Encoder default = VU meter (Encoder Bindings)
+# Encoder press = Mute (X-Controls)
+# TODO Mute toggling requires 2 button presses per state
+MFT_BANK_1_ROW_1_BUTTON_3 = CC, 2, 2, 0, 127, "SAMPLE 2"/MUTE
+
+# Sample 2A - row 2
+# Encoder default = EQ High (Encoder Bindings)
+# Encoder press = Slice (G-Controls)
+MFT_BANK_1_ROW_2_BUTTON_3 = CC, 2, 6, 0, 127, $SLICE_SAMPLE_2_TO_QUARTERS$
+
+# Sample 2A - row 3
+# Encoder default = EQ Mid (Encoder Bindings)
+# Encoder press = Merge (X-Controls)
+MFT_BANK_1_ROW_3_BUTTON_3 = CC, 2, 10, 0, 127, $MERGE_SAMPLE_2_FROM_QUARTERS$
+
+# Sample 2A - row 4
+# Encoder default = EQ Low (Encoder Bindings)
+# Encoder press = Resample (X-Controls)
+MFT_BANK_1_ROW_4_BUTTON_3 = CC, 2, 14, 0, 127, user_clip id_playing_clip
+
+# ---
+
 # Sample 2B - row 1
+# Encoder default = Volume (Encoder Bindings)
+# Encoder press - Cue (X-Controls)
+MFT_BANK_1_ROW_1_BUTTON_4 = CC, 2, 3, 0, 127, "SAMPLE 2"/SOLO ON : "SAMPLE 2"/SOLO OFF
+
+# Sample 2B - row 2
 # Encoder default = Pan (Encoder Bindings)
-# Encoder press - Deck In (X-Controls)
-MFT_BANK_1_ROW_1_BUTTON_4 = CC, 2, 3, 0, 127, "SAMPLE 2"/IN "DECK B" : "SAMPLE 2"/IN "DECK A"
+# Encoder press = Reset (X-Controls)
+MFT_BANK_1_ROW_2_BUTTON_4 = CC, 2, 7, 0, 127, $RESET_SAMPLE_2$
+
+# Sample 2B - row 3
+# Encoder default = FX1 (Encoder Bindings)
+# Encoder press = Source Deck (X-Controls)
+MFT_BANK_1_ROW_3_BUTTON_4 = CC, 2, 11, 0, 127, "SAMPLE 2"/IN "DECK B" : "SAMPLE 2"/IN "DECK A"
 
 # Sample 2B - row 4
-# Encoder default = X-Fade (Encoder Bindings)
-# Encoder press = X-Fade A/B assign (X-Controls)
+# Encoder default = FX2 (Encoder Bindings)
+# Encoder press = X-Fade assign (X-Controls)
 MFT_BANK_1_ROW_4_BUTTON_4 = CC, 2, 15, 0, 127, "SAMPLE 2"/XFADE B : "SAMPLE 2"/XFADE A
 
 # ---
 
+# Sample 3A - row 1
+# Encoder default = VU meter (Encoder Bindings)
+# Encoder press = Mute (X-Controls)
+# TODO Mute toggling requires 2 button presses per state
+MFT_BANK_2_ROW_1_BUTTON_1 = CC, 2, 16, 0, 127, "SAMPLE 3"/MUTE
+
+# Sample 3A - row 2
+# Encoder default = EQ High (Encoder Bindings)
+# Encoder press = Slice (G-Controls)
+MFT_BANK_2_ROW_2_BUTTON_1 = CC, 2, 20, 0, 127, $SLICE_SAMPLE_3_TO_QUARTERS$
+
+# Sample 3A - row 3
+# Encoder default = EQ Mid (Encoder Bindings)
+# Encoder press = Merge (X-Controls)
+MFT_BANK_2_ROW_3_BUTTON_1 = CC, 2, 24, 0, 127, $MERGE_SAMPLE_3_FROM_QUARTERS$
+
+# Sample 3A - row 4
+# Encoder default = EQ Low (Encoder Bindings)
+# Encoder press = Resample (X-Controls)
+MFT_BANK_2_ROW_4_BUTTON_1 = CC, 2, 28, 0, 127, user_clip id_playing_clip
+
+# ---
+
 # Sample 3B - row 1
+# Encoder default = Volume (Encoder Bindings)
+# Encoder press - Cue (X-Controls)
+MFT_BANK_2_ROW_1_BUTTON_2 = CC, 2, 17, 0, 127, "SAMPLE 3"/SOLO ON : "SAMPLE 3"/SOLO OFF
+
+# Sample 3B - row 2
 # Encoder default = Pan (Encoder Bindings)
-# Encoder press - Deck In (X-Controls)
-MFT_BANK_2_ROW_1_BUTTON_2 = CC, 2, 17, 0, 127, "SAMPLE 3"/IN "DECK B" : "SAMPLE 3"/IN "DECK A"
+# Encoder press = Reset (X-Controls)
+MFT_BANK_2_ROW_2_BUTTON_2 = CC, 2, 21, 0, 127, $RESET_SAMPLE_3$
+
+# Sample 3B - row 3
+# Encoder default = FX1 (Encoder Bindings)
+# Encoder press = Source Deck (X-Controls)
+MFT_BANK_2_ROW_3_BUTTON_2 = CC, 2, 25, 0, 127, "SAMPLE 3"/IN "DECK B" : "SAMPLE 3"/IN "DECK A"
 
 # Sample 3B - row 4
-# Encoder default = X-Fade (Encoder Bindings)
-# Encoder press = X-Fade A/B assign (X-Controls)
+# Encoder default = FX2 (Encoder Bindings)
+# Encoder press = X-Fade assign (X-Controls)
 MFT_BANK_2_ROW_4_BUTTON_2 = CC, 2, 29, 0, 127, "SAMPLE 3"/XFADE B : "SAMPLE 3"/XFADE A
 
 # ---
 
+# Sample 4A - row 1
+# Encoder default = VU meter (Encoder Bindings)
+# Encoder press = Mute (X-Controls)
+# TODO Mute toggling requires 2 button presses per state
+MFT_BANK_2_ROW_1_BUTTON_3 = CC, 2, 18, 0, 127, "SAMPLE 4"/MUTE
+
+# Sample 4A - row 2
+# Encoder default = EQ High (Encoder Bindings)
+# Encoder press = Slice (G-Controls)
+MFT_BANK_2_ROW_2_BUTTON_3 = CC, 2, 22, 0, 127, $SLICE_SAMPLE_4_TO_QUARTERS$
+
+# Sample 4A - row 3
+# Encoder default = EQ Mid (Encoder Bindings)
+# Encoder press = Merge (X-Controls)
+MFT_BANK_2_ROW_3_BUTTON_3 = CC, 2, 26, 0, 127, $MERGE_SAMPLE_4_FROM_QUARTERS$
+
+# Sample 4A - row 4
+# Encoder default = EQ Low (Encoder Bindings)
+# Encoder press = Resample (X-Controls)
+MFT_BANK_2_ROW_4_BUTTON_3 = CC, 2, 30, 0, 127, user_clip id_playing_clip
+
+# ---
+
 # Sample 4B - row 1
+# Encoder default = Volume (Encoder Bindings)
+# Encoder press - Cue (X-Controls)
+MFT_BANK_2_ROW_1_BUTTON_4 = CC, 2, 19, 0, 127, "SAMPLE 4"/SOLO ON : "SAMPLE 4"/SOLO OFF
+
+# Sample 4B - row 2
 # Encoder default = Pan (Encoder Bindings)
-# Encoder press - Deck In (X-Controls)
-MFT_BANK_2_ROW_1_BUTTON_4 = CC, 2, 19, 0, 127, "SAMPLE 4"/IN "DECK B" : "SAMPLE 4"/IN "DECK A"
+# Encoder press = Reset (X-Controls)
+MFT_BANK_2_ROW_2_BUTTON_4 = CC, 2, 23, 0, 127, $RESET_SAMPLE_4$
+
+# Sample 4B - row 3
+# Encoder default = FX1 (Encoder Bindings)
+# Encoder press = Source Deck (X-Controls)
+MFT_BANK_2_ROW_3_BUTTON_4 = CC, 2, 27, 0, 127, "SAMPLE 4"/IN "DECK B" : "SAMPLE 4"/IN "DECK A"
 
 # Sample 4B - row 4
-# Encoder default = X-Fade (Encoder Bindings)
-# Encoder press = X-Fade A/B assign (X-Controls)
+# Encoder default = FX2 (Encoder Bindings)
+# Encoder press = X-Fade assign (X-Controls)
 MFT_BANK_2_ROW_4_BUTTON_4 = CC, 2, 31, 0, 127, "SAMPLE 4"/XFADE B : "SAMPLE 4"/XFADE A
 
 # ---
 
-# Reset mixer
-MFT_BANK_3_ROW_4_BUTTON_3 = CC, 2, 46, 0, 127, $RESET$
+# Sample 5A - row 1
+# Encoder default = VU meter (Encoder Bindings)
+# Encoder press = Mute (X-Controls)
+# TODO Mute toggling requires 2 button presses per state
+MFT_BANK_3_ROW_1_BUTTON_1 = CC, 2, 32, 0, 127, "SAMPLE 5"/MUTE
 
-# Sync to clock
+# Sample 5A - row 2
+# Encoder default = EQ High (Encoder Bindings)
+# Encoder press = Slice (G-Controls)
+MFT_BANK_3_ROW_2_BUTTON_1 = CC, 2, 36, 0, 127, $SLICE_SAMPLE_5_TO_QUARTERS$
+
+# Sample 5A - row 3
+# Encoder default = EQ Mid (Encoder Bindings)
+# Encoder press = Merge (X-Controls)
+MFT_BANK_3_ROW_3_BUTTON_1 = CC, 2, 40, 0, 127, $MERGE_SAMPLE_5_FROM_QUARTERS$
+
+# Sample 5A - row 4
+# Encoder default = EQ Low (Encoder Bindings)
+# Encoder press = Resample (X-Controls)
+MFT_BANK_3_ROW_4_BUTTON_1 = CC, 2, 44, 0, 127, user_clip id_playing_clip
+
+# ---
+
+# Sample 5B - row 1
+# Encoder default = Volume (Encoder Bindings)
+# Encoder press - Cue (X-Controls)
+MFT_BANK_3_ROW_1_BUTTON_2 = CC, 2, 33, 0, 127, "SAMPLE 5"/SOLO ON : "SAMPLE 5"/SOLO OFF
+
+# Sample 5B - row 2
+# Encoder default = Pan (Encoder Bindings)
+# Encoder press = Reset (X-Controls)
+MFT_BANK_3_ROW_2_BUTTON_2 = CC, 2, 37, 0, 127, $RESET_SAMPLE_5$
+
+# Sample 5B - row 3
+# Encoder default = FX1 (Encoder Bindings)
+# Encoder press = Source Deck (X-Controls)
+MFT_BANK_3_ROW_3_BUTTON_2 = CC, 2, 41, 0, 127, "SAMPLE 5"/IN "DECK B" : "SAMPLE 5"/IN "DECK A"
+
+# Sample 5B - row 4
+# Encoder default = FX2 (Encoder Bindings)
+# Encoder press = X-Fade assign (X-Controls)
+MFT_BANK_3_ROW_4_BUTTON_2 = CC, 2, 45, 0, 127, "SAMPLE 5"/XFADE B : "SAMPLE 5"/XFADE A
+
+# ---
+
+# Utilities 1 - row 1
+# Utilities 1 - row 2
+# Utilities 1 - row 3
+# Utilities 1 - row 4
+
+# ---
+
+# Utilities 2 - row 1
+# Encoder press = Rec in Audio Hijack (X-Controls) - TODO
+MFT_BANK_3_ROW_1_BUTTON_4 = CC, 2, 32, 0, 127, "SAMPLE 5"/MUTE
+
+# Utilities 2 - row 2
+
+# Utilities 2 - row 3
+# Encoder press = Reset (X-Controls)
+MFT_BANK_3_ROW_3_BUTTON_4 = CC, 2, 46, 0, 127, $RESET$
+
+# Utilities 2 - row 4
+# Encoder press = Sync (X-Controls)
 MFT_BANK_3_ROW_4_BUTTON_4 = CC, 2, 47, 0, 127, $SYNC$

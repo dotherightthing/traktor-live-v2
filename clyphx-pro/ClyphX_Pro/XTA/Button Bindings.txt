@@ -180,6 +180,8 @@ VERSION = v1.0.5
 #
 # Bank 3: Midi Fighter Twister C
 #
+# Sam 5A  | Sam 5B  | Util 1  | Util 2 
+# ------- | ------- | ------- | -------
 # CC N 32, CC N 33, CC N 34, CC N 35
 # CC N 36, CC N 37, CC N 38, CC N 39
 # CC N 40, CC N 41, CC N 42, CC N 43
