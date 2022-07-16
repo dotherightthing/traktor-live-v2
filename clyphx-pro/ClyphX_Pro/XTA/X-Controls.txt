@@ -345,7 +345,7 @@ MFT_BANK_3_ROW_4_BUTTON_2 = CC, 2, 45, 0, 127, "GLOBAL RESAMPLE"/XFADE B : "GLOB
 
 # Utilities 2 - row 3
 # Encoder press = Reset (X-Controls)
-MFT_BANK_3_ROW_3_BUTTON_4 = CC, 2, 46, 0, 127, $RESET$
+MFT_BANK_3_ROW_3_BUTTON_4 = CC, 2, 43, 0, 127, $RESET$
 
 # Utilities 2 - row 4
 # Encoder press = Sync (X-Controls)
