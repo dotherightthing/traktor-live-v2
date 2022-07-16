@@ -118,7 +118,9 @@ $MERGE_SAMPLE_1_FROM_QUARTERS$ =
  PUSH MSG "Merged Sample 1 from quarters"
 
 # TODO make this a user action which takes the target track name as a parameter
-$RESET_SAMPLE_1$ = "SAMPLE 1"/DEV(1) P1 127;
+# TODO reset does not reliably reset all listed controls
+$RESET_SAMPLE_1$ = WAIT 10;
+ "SAMPLE 1"/DEV(1) P1 127;
  "SAMPLE 1"/DEV(1) P2 63;
  "SAMPLE 1"/DEV(1) P3 107;
  "SAMPLE 1"/DEV(1) P4 107;
@@ -128,6 +130,54 @@ $RESET_SAMPLE_1$ = "SAMPLE 1"/DEV(1) P1 127;
  "SAMPLE 1"/DEV(1) P8 63;
  MSG "Reset Sample 1";
  PUSH MSG "Reset Sample 1"
+
+$RESET_SAMPLE_2$ = WAIT 10;
+ "SAMPLE 2"/DEV(1) P1 127;
+ "SAMPLE 2"/DEV(1) P2 63;
+ "SAMPLE 2"/DEV(1) P3 107;
+ "SAMPLE 2"/DEV(1) P4 107;
+ "SAMPLE 2"/DEV(1) P5 107;
+ "SAMPLE 2"/DEV(1) P6 0;
+ "SAMPLE 2"/DEV(1) P7 0;
+ "SAMPLE 2"/DEV(1) P8 63;
+ MSG "Reset Sample 2";
+ PUSH MSG "Reset Sample 2"
+
+$RESET_SAMPLE_3$ = WAIT 10;
+ "SAMPLE 3"/DEV(1) P1 127;
+ "SAMPLE 3"/DEV(1) P2 63;
+ "SAMPLE 3"/DEV(1) P3 107;
+ "SAMPLE 3"/DEV(1) P4 107;
+ "SAMPLE 3"/DEV(1) P5 107;
+ "SAMPLE 3"/DEV(1) P6 0;
+ "SAMPLE 3"/DEV(1) P7 0;
+ "SAMPLE 3"/DEV(1) P8 63;
+ MSG "Reset Sample 3";
+ PUSH MSG "Reset Sample 3"
+
+$RESET_SAMPLE_4$ = WAIT 10;
+ "SAMPLE 4"/DEV(1) P1 127;
+ "SAMPLE 4"/DEV(1) P2 63;
+ "SAMPLE 4"/DEV(1) P3 107;
+ "SAMPLE 4"/DEV(1) P4 107;
+ "SAMPLE 4"/DEV(1) P5 107;
+ "SAMPLE 4"/DEV(1) P6 0;
+ "SAMPLE 4"/DEV(1) P7 0;
+ "SAMPLE 4"/DEV(1) P8 63;
+ MSG "Reset Sample 4";
+ PUSH MSG "Reset Sample 4"
+
+$RESET_GLOBAL_RESAMPLE$ = WAIT 10;
+ "GLOBAL RESAMPLE"/DEV(1) P1 127;
+ "GLOBAL RESAMPLE"/DEV(1) P2 63;
+ "GLOBAL RESAMPLE"/DEV(1) P3 107;
+ "GLOBAL RESAMPLE"/DEV(1) P4 107;
+ "GLOBAL RESAMPLE"/DEV(1) P5 107;
+ "GLOBAL RESAMPLE"/DEV(1) P6 0;
+ "GLOBAL RESAMPLE"/DEV(1) P7 0;
+ "GLOBAL RESAMPLE"/DEV(1) P8 63;
+ MSG "Reset Global Resample";
+ PUSH MSG "Reset Global Resample"
 
 # Set VU Meters to 0 so that no-signal displays as 0 rather than 64
 $RESET$ =
