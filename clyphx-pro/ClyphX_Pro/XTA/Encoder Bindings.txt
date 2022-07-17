@@ -281,7 +281,7 @@ MFT_BANK_1_ROW_3_ENCODER_4 = 1, 11, ABSOLUTE, TRUE, "SAMPLE 2"/DEV(1) "[SEND A] 
 # Sample 2B - row 4
 # Encoder default = FX2 (Encoder Bindings)
 # Encoder press = X-Fade assign (X-Controls)
-MFT_BANK_2_ROW_4_ENCODER_4 = 1, 15, ABSOLUTE, TRUE, "SAMPLE 2"/DEV(1) "[SEND B] Reverb" 
+MFT_BANK_1_ROW_4_ENCODER_4 = 1, 15, ABSOLUTE, TRUE, "SAMPLE 2"/DEV(1) "[SEND B] Reverb" 
 
 # ---
 
