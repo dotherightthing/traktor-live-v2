@@ -19,8 +19,6 @@ ________________________________________________________________________________
 # Import UserActionsBase to extend it.
 from ClyphX_Pro.clyphx_pro.UserActionsBase import UserActionsBase
 
-# import datetime
-
 # Your class must extend UserActionsBase.
 class MidiFighterTwister(UserActionsBase):
 	# Your class must implement this method.
@@ -175,6 +173,8 @@ class MidiFighterTwister(UserActionsBase):
 		action_list += 'WAIT 1;'
 
 		# name the recorded clip
+
+
 		action_list += '"' + track_name + '"/CLIP NAME "SLICED";'
 		action_list += 'WAIT 1;'
 
