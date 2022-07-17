@@ -297,7 +297,7 @@ MFT_BANK_2_ROW_4_BUTTON_4 = CC, 2, 31, 0, 127, "SAMPLE 4"/XFADE B : "SAMPLE 4"/X
 # Sample 5A - row 2
 # Encoder default = EQ High (Encoder Bindings)
 # Encoder press = Slice (X-Controls)
-MFT_BANK_3_ROW_2_BUTTON_1 = CC, 2, 36, 0, 127, $SLICE_SAMPLE_5_TO_QUARTERS$
+MFT_BANK_3_ROW_2_BUTTON_1 = CC, 2, 36, 0, 127, $SLICE_GLOBAL_RESAMPLE_TO_QUARTERS$
 
 # Sample 5A - row 3
 # Encoder default = EQ Mid (Encoder Bindings)

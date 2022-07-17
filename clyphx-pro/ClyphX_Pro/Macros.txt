@@ -61,31 +61,15 @@ $TRAKTOR_SELECT_DECK_B$ =
  %MIDI_TRAKTOR% %MIDI_CC_TRAKTOR_SELECT_DECK_B% 127;
  MSG "Selected Traktor Deck B"
 
-# https://www.youtube.com/watch?v=rjSTTO3f4_Y
-# TODO check Gain amt - seems hotter than sample track when flattening
-# TODO renaming not working
-# TODD need to select Note on Push2 to see slices and do sequencing
-# TODO insert the simpler at track 8
-# - moving a track is not possible: https://nativekontrol.proboards.com/thread/4480/move-track
-# - CMD + <> will move track, but only if track header is selected first
-# TODO possible to put all the slices into the sequencer automatically?
-# TODO make this a user action which takes the target track name as a parameter
-$SLICE_SAMPLE_1_TO_QUARTERS$ =
- "SAMPLE 1 SLICED 4"/DEL;
- "SAMPLE 1"/CLIP(SEL) TOSIMP;
- WAIT 5;
- SEL/NAME "SAMPLE 1 SLICED 4";
- SEL/DEV SIMP PLAYMODE SLICE;
- SEL/DEV SIMP SMODE BEAT;
- SEL/DEV SIMP MULT 8;
- SEL/DEV SIMP GAIN 108;
- ADDCLIP SEL 1;
- SEL "SAMPLE 1 SLICED 4";
- SEL/CLIP NAME "SLICED 4";
- "SAMPLE 1"/MUTE ON;
- SEL/PLAY;
- MSG "Sliced Sample 1 to quarters";
- PUSH MSG "Sliced Sample 1 to quarters"
+$SLICE_SAMPLE_1_TO_QUARTERS$ = user_clip slice_track_clip_to_quarters SAMPLE 1
+
+$SLICE_SAMPLE_2_TO_QUARTERS$ = user_clip slice_track_clip_to_quarters SAMPLE 2
+
+$SLICE_SAMPLE_3_TO_QUARTERS$ = user_clip slice_track_clip_to_quarters SAMPLE 3
+
+$SLICE_SAMPLE_4_TO_QUARTERS$ = user_clip slice_track_clip_to_quarters SAMPLE 4
+
+$SLICE_GLOBAL_RESAMPLE_TO_QUARTERS$ = user_clip slice_track_clip_to_quarters GLOBAL RESAMPLE
 
 # NOTE: ARM OFF doesn't work if that track is selected
 # TODO make this a user action which takes the source and target track names as parameters
@@ -117,67 +101,16 @@ $MERGE_SAMPLE_1_FROM_QUARTERS$ =
  MSG "Merged Sample 1 from quarters";
  PUSH MSG "Merged Sample 1 from quarters"
 
-# TODO make this a user action which takes the target track name as a parameter
 # TODO reset does not reliably reset all listed controls
-$RESET_SAMPLE_1$ = WAIT 10;
- "SAMPLE 1"/DEV(1) P1 127;
- "SAMPLE 1"/DEV(1) P2 63;
- "SAMPLE 1"/DEV(1) P3 107;
- "SAMPLE 1"/DEV(1) P4 107;
- "SAMPLE 1"/DEV(1) P5 107;
- "SAMPLE 1"/DEV(1) P6 0;
- "SAMPLE 1"/DEV(1) P7 0;
- "SAMPLE 1"/DEV(1) P8 63;
- MSG "Reset Sample 1";
- PUSH MSG "Reset Sample 1"
+$RESET_SAMPLE_1$ = user_clip reset_mapped_track_controls SAMPLE 1
 
-$RESET_SAMPLE_2$ = WAIT 10;
- "SAMPLE 2"/DEV(1) P1 127;
- "SAMPLE 2"/DEV(1) P2 63;
- "SAMPLE 2"/DEV(1) P3 107;
- "SAMPLE 2"/DEV(1) P4 107;
- "SAMPLE 2"/DEV(1) P5 107;
- "SAMPLE 2"/DEV(1) P6 0;
- "SAMPLE 2"/DEV(1) P7 0;
- "SAMPLE 2"/DEV(1) P8 63;
- MSG "Reset Sample 2";
- PUSH MSG "Reset Sample 2"
+$RESET_SAMPLE_2$ = user_clip reset_mapped_track_controls SAMPLE 2
 
-$RESET_SAMPLE_3$ = WAIT 10;
- "SAMPLE 3"/DEV(1) P1 127;
- "SAMPLE 3"/DEV(1) P2 63;
- "SAMPLE 3"/DEV(1) P3 107;
- "SAMPLE 3"/DEV(1) P4 107;
- "SAMPLE 3"/DEV(1) P5 107;
- "SAMPLE 3"/DEV(1) P6 0;
- "SAMPLE 3"/DEV(1) P7 0;
- "SAMPLE 3"/DEV(1) P8 63;
- MSG "Reset Sample 3";
- PUSH MSG "Reset Sample 3"
+$RESET_SAMPLE_3$ = user_clip reset_mapped_track_controls SAMPLE 3
 
-$RESET_SAMPLE_4$ = WAIT 10;
- "SAMPLE 4"/DEV(1) P1 127;
- "SAMPLE 4"/DEV(1) P2 63;
- "SAMPLE 4"/DEV(1) P3 107;
- "SAMPLE 4"/DEV(1) P4 107;
- "SAMPLE 4"/DEV(1) P5 107;
- "SAMPLE 4"/DEV(1) P6 0;
- "SAMPLE 4"/DEV(1) P7 0;
- "SAMPLE 4"/DEV(1) P8 63;
- MSG "Reset Sample 4";
- PUSH MSG "Reset Sample 4"
+$RESET_SAMPLE_4$ = user_clip reset_mapped_track_controls SAMPLE 4
 
-$RESET_GLOBAL_RESAMPLE$ = WAIT 10;
- "GLOBAL RESAMPLE"/DEV(1) P1 127;
- "GLOBAL RESAMPLE"/DEV(1) P2 63;
- "GLOBAL RESAMPLE"/DEV(1) P3 107;
- "GLOBAL RESAMPLE"/DEV(1) P4 107;
- "GLOBAL RESAMPLE"/DEV(1) P5 107;
- "GLOBAL RESAMPLE"/DEV(1) P6 0;
- "GLOBAL RESAMPLE"/DEV(1) P7 0;
- "GLOBAL RESAMPLE"/DEV(1) P8 63;
- MSG "Reset Global Resample";
- PUSH MSG "Reset Global Resample"
+$RESET_GLOBAL_RESAMPLE$ = ser_clip reset_mapped_track_controls GLOBAL RESAMPLE
 
 # Set VU Meters to 0 so that no-signal displays as 0 rather than 64
 $RESET$ =
