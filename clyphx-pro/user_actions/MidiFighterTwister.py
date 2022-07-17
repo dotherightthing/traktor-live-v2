@@ -66,6 +66,9 @@ class MidiFighterTwister(UserActionsBase):
 		# delete any existing slice tracks
 		action_list += '"' + track_name + ' SLICED"/DEL;'
 
+		# delete any existing slice resampling tracks
+		action_list += '"From ' + track_name + ' SLICED"/DEL;'
+
 		# create a new MIDI Track with a Simpler device containing the Audio Clip
 		# as well as any other Devices that were on the Clip's Track.
 		action_list += '"' + track_name + '"/CLIP(SEL) TOSIMP;'
@@ -74,6 +77,10 @@ class MidiFighterTwister(UserActionsBase):
 		# name the new track
 		action_list += 'SEL/NAME "' + track_name + ' SLICED";'
 		action_list += 'WAIT 5;'
+
+		# color the new track to make it easy to distinguish on Push
+		action_list += 'SEL/COLOR 70;'
+		action_list += 'WAIT 1;'
 
 		# use simpler's slice mode
 		action_list += 'SEL/DEV SIMP PLAYMODE SLICE;'
@@ -104,14 +111,6 @@ class MidiFighterTwister(UserActionsBase):
 		action_list += 'SEL/CLIP NAME "SLICED";'
 		action_list += 'WAIT 1;'
 
-		# mute the slice track
-		action_list += '"' + track_name + ' SLICED"/MUTE ON;'
-		action_list += 'WAIT 1;'
-
-		# cue the slice track, to prevent sequencing from being heard in the mix
-		action_list += '"' + track_name + ' SLICED"/SOLO ON;'
-		action_list += 'WAIT 1;'
-
 		# play the midi clip
 		action_list += 'SEL/PLAY;'
 		action_list += 'WAIT 1;'
@@ -120,7 +119,35 @@ class MidiFighterTwister(UserActionsBase):
 		action_list += '"' + track_name + ' SLICED"/ARM OFF;'
 		action_list += 'WAIT 1;'
 
+		# create an Audio Track to the right of the selected track, which monitors the sliced track
+		# for the purpose of resampling the slice track during the merge action
+		# this is named 'From SAMPLE N SLICED'
+		# we can't use the source track for this purpose as we need to mute the resampling track
+		# as the resampling process only works when the sliced track is not muted during playback
+		action_list += 'INSAUDIO;'
+		action_list += 'WAIT 1;'
+		
+		# color the resampling track to make it easy to distinguish on Push
+		action_list += '"From ' + track_name + ' SLICED"/COLOR 70;'
+		action_list += 'WAIT 1;'
+
+		# disable recording on the resampling track
+		action_list += '"From ' + track_name + ' SLICED"/ARM OFF;'
+
+		# mute the resampling track
+		action_list += '"From ' + track_name + ' SLICED"/MUTE ON;'
+		action_list += 'WAIT 1;'
+
+		# cue the resampling track, to prevent sequencing from being heard in the mix
+		action_list += '"From ' + track_name + ' SLICED"/SOLO ON;'
+		action_list += 'WAIT 1;'
+
+		# select the slice track to begin resampling
+		action_list += '"' + track_name + ' SLICED"/SEL;'
+		action_list += 'WAIT 10;'
+
 		# active step sequencer mode
+		# TODO not working anymore
 		action_list += 'PUSH MODE DRUM;'
 		action_list += 'WAIT 1;'
 
@@ -136,27 +163,23 @@ class MidiFighterTwister(UserActionsBase):
 		track_name = args.upper()
 		action_list = ''
 
-		# select the target track
-		action_list += '"' + track_name + '"/SEL;'
-		action_list += 'WAIT 1;'
-
-		# monitor the source track
-		action_list += '"' + track_name + '"/IN "' + track_name + ' SLICED";'
+		# select the resampling track
+		action_list += '"From ' + track_name + ' SLICED"/SEL;'
 		action_list += 'WAIT 1;'
 
 		# disarm all tracks
 		action_list += 'ALL/ARM OFF;'
 		action_list += 'WAIT 1;'
 
-		# arm the target track
-		action_list += '"' + track_name + '"/ARM ON;'
+		# arm the resampling track
+		action_list += '"From ' + track_name + ' SLICED"/ARM ON;'
 		action_list += 'WAIT 1;'
 
-		# mute the target track
-		action_list += '"' + track_name + '"/MUTE ON;'
+		# mute the resampling track (if necessary?)
+		action_list += '"From ' + track_name + ' SLICED"/MUTE ON;'
 		action_list += 'WAIT 1;'
 		
-		# record a new clip in the last slot of the target track
+		# record a new clip in the last slot of the resampling track
 		action_list += 'SRECFIX 4 LAST;'
 		action_list += 'WAIT 1;'
 		
@@ -173,18 +196,28 @@ class MidiFighterTwister(UserActionsBase):
 		action_list += 'WAIT 1;'
 
 		# name the recorded clip
-
-
-		action_list += '"' + track_name + '"/CLIP NAME "SLICED";'
-		action_list += 'WAIT 1;'
+		# action_list += '"From ' + track_name + ' SLICED"/CLIP NAME "' + track_name + ' SLICED";'
+		# action_list += 'WAIT 1;'
 
 		# color the recorded clip purple to differentiate it from clips that haven't been sliced
-		action_list += '"' + track_name + '"/CLIP COLOR 10;'
+		action_list += '"From ' + track_name + ' SLICED"/CLIP COLOR 10;'
+		action_list += 'WAIT 1;'
+
+		# move the clip to the source track
+		action_list += '"From ' + track_name + ' SLICED"/COPYCLIP SEL;'
+		action_list += 'WAIT 1;'
+
+		action_list += '"' + track_name + '"/SEL;'
+		action_list += '"' + track_name + '"/PASTECLIP EMPTY;'
+		action_list += 'WAIT 1;'
+
+		# uncue the resampling track
+		action_list += '"From ' + track_name + ' SLICED"/SOLO OFF;'
 		action_list += 'WAIT 1;'
 
 		# play the recorded clip
-		action_list += '"' + track_name + '"/PLAY LAST;'
-		action_list += 'WAIT 1;'
+		# action_list += '"' + track_name + '"/PLAY LAST;'
+		# action_list += 'WAIT 1;'
 
 		# reset the target track
 		action_list += '"' + track_name + '"/DEV(1) P1 127;'
