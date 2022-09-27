@@ -8,6 +8,7 @@
   },
   "scripts": {
     "install": "./scripts/install.sh $npm_package_config_live_version",
+    "postinstall": "chmod a+x scripts/*sh",
     "quit": "./scripts/quit.sh",
     "reload": "npm run install && ./scripts/reload.sh",
     "start": "./scripts/start.sh",
