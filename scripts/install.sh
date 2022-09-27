@@ -14,8 +14,6 @@
 # v: print shell input lines as they are read (including all comments!)
 set -e
 
-# Removed:
-# cp 'clyphx-pro/user_actions/' '/Applications/Ableton Live 10 Standard.app/Contents/App-Resources/MIDI Remote Scripts/ClyphX_Pro/clyphx_pro/' \
 
 # install project files
 cd $INIT_CWD \
