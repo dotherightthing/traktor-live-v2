@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Traktor Pro mix template for the Push2 and other MIDI controllers.",
   "main": "README.md",
+  "config": {
+    "live_version": "11.2"
+  },
   "scripts": {
-    "install": "./scripts/install.sh",
+    "install": "./scripts/install.sh $npm_package_config_live_version",
     "quit": "./scripts/quit.sh",
     "reload": "npm run install && ./scripts/reload.sh",
     "start": "./scripts/start.sh",
