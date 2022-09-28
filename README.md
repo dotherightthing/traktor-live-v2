@@ -48,7 +48,7 @@ The Loop Recorder is problematic because it records loops slightly too long. Sam
     * [Native Instruments Traktor Kontrol Z1](#native-instruments-traktor-kontrol-z1)
     * [Ableton Push2](#ableton-push2)
     * [Midi Fighter Twister](#midi-fighter-twister)
-    * [Native Instruments Maschine Mk 1](#native-instruments-maschine-mk1)
+    * [Native Instruments Maschine Mk 1](#native-instruments-maschine-mk-1)
 6. **[Controller Overlay](#6-controller-overlay):**
     * [Inkscape](#inkscape)
     * [Cricut](#cricut)
