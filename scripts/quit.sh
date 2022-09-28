@@ -21,6 +21,6 @@ cd $INIT_CWD \
 && osascript -e 'quit app "Traktor.app"' \
 && osascript -e 'quit app "Ableton Live 10 Standard.app"' \
 && osascript -e 'quit app "Audio Hijack.app"' \
-&& open ~/Websites/push2-traktor-live/_admin/Recordings\ from\ Audio\ Hijack \
+&& open ~/Websites/traktor-live-v2/_admin/Recordings\ from\ Audio\ Hijack \
 && echo "Goodnight!" \
 && echo ""

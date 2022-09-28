@@ -16,5 +16,5 @@ set -e
 
 # open files to run apps
 cd $INIT_CWD \
-&& open ableton-live/push2-traktor-live\ Project/push2-traktor-live.als \
+&& open ableton-live/traktor-live-v2\ Project/traktor-live-v2.als \
 && echo ""

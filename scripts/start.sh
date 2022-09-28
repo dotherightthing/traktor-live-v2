@@ -18,9 +18,9 @@ set -e
 cd $INIT_CWD \
 && echo "Running applications..." \
 && open /Applications/Loopback.app \
-&& open traktor-pro/push2-traktor-live.tsi \
-&& open ableton-live/push2-traktor-live\ Project/push2-traktor-live.als \
-&& open audio-hijack/push2-traktor-live.ahsession \
+&& open traktor-pro/traktor-live-v2.tsi \
+&& open ableton-live/traktor-live-v2\ Project/traktor-live-v2.als \
+&& open audio-hijack/traktor-live-v2.ahsession \
 && echo "" \
 && echo "To complete the installation please do the following:" \
 && echo "" \

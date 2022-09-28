@@ -1,13 +1,13 @@
 manuals
 .vscode
-ableton-live/push2-traktor-live Project/Ableton Project Info/Project8_1.cfg
-ableton-live/push2-traktor-live Project/Icon?
-ableton-live/push2-traktor-live Project/Backup
-ableton-live/push2-traktor-live Project/Samples
-ableton-live/push2-traktor-live Project/*.als
-!ableton-live/push2-traktor-live Project/push2-traktor-live.als
+ableton-live/traktor-live-v2 Project/Ableton Project Info/Project8_1.cfg
+ableton-live/traktor-live-v2 Project/Icon?
+ableton-live/traktor-live-v2 Project/Backup
+ableton-live/traktor-live-v2 Project/Samples
+ableton-live/traktor-live-v2 Project/*.als
+!ableton-live/traktor-live-v2 Project/traktor-live-v2.als
 !*.code-workspace
-ableton-live/push2-traktor-live Project/Recordings from Audio Hijack
-ableton-live/push2-traktor-live Project/Samples
+ableton-live/traktor-live-v2 Project/Recordings from Audio Hijack
+ableton-live/traktor-live-v2 Project/Samples
 clyphx-pro/ClyphX_Pro/XTB
 clyphx-pro/ClyphX_Pro/XTC
