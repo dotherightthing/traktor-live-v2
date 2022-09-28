@@ -2,7 +2,7 @@
 
 [![GitHub release](https://img.shields.io/github/v/tag/dotherightthing/traktor-live-v2)](https://github.com/dotherightthing/traktor-live-v2/releases) [![GitHub issues](https://img.shields.io/github/issues/dotherightthing/traktor-live-v2.svg)](https://github.com/dotherightthing/traktor-live-v2/issues)
 
-Traktor Pro mix template using multiple MIDI controllers. This is a 'fork' of <https://github.com/dotherightthing/nk-traktor-live/> and changes the supported MIDI controllers.
+Traktor Pro mix template using multiple MIDI controllers. This is a 'fork' of <https://github.com/dotherightthing/traktor-live-v1/> and changes the supported MIDI controllers.
 
 Includes Ableton Live starter file.
 
@@ -120,8 +120,8 @@ Contains a 2 channel mixer and an 8 channel sampler (Deck A x3 + Deck B x3 + Res
 <img src="ableton-live/screenshots/output-config.png" alt="Screenshot of Ableton Live's Output Config window" width="500">
 
 1. Driver Type: `CoreAudio`
-2. Audio Input Device: `NK Traktor Live (8 In, 8 Out)`
-3. Audio Output Device: `NK Traktor Live (8 In, 8 Out)`
+2. Audio Input Device: `Traktor Live v1 (8 In, 8 Out)`
+3. Audio Output Device: `Traktor Live v1 (8 In, 8 Out)`
 4. Channel Configuration
    1. Input Config:
       * `3/4: Traktor Pro Deck A`
@@ -586,5 +586,5 @@ Toggle the On-Off switch in the Monitor column (Z1 device) of Loopback.
 
 1. [How to Sync Ableton Live and Traktor Pro - The Right Way | DJ Endo](https://www.youtube.com/watch?v=4xzldehIsCE)
 2. [Ableton Live Looping Setup - Hands Free! Ableton and ClyphX-Pro](https://www.youtube.com/watch?v=Yn_ExkefmCQ)
-3. [nk-traktor-live (original Github project)](https://github.com/dotherightthing/nk-traktor-live/)
+3. [traktor-live-v1 (original Github project)](https://github.com/dotherightthing/traktor-live-v1/)
 4. etc..
