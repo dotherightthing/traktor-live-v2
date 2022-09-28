@@ -19,8 +19,6 @@ set -e
 # install project files
 cd $INIT_CWD \
 && echo "Installing configuration files" \
-&& cp 'ni-controller-editor/Ableton_Resampler.ncm' ~/Documents/Native\ Instruments/Controller\ Editor/ \
-&& cp 'ni-maschine-mk1/user-remote-scripts/UserConfiguration.txt' ~/Library/Preferences/Ableton/Live\ $1/User\ Remote\ Scripts/Maschine\ Mk1\ User\ Remote\ Script/ \
 && rm -rf clyphx-pro/ClyphX_Pro/XTB \
 && cp -R clyphx-pro/ClyphX_Pro/XTA clyphx-pro/ClyphX_Pro/XTB \
 && rm -rf clyphx-pro/ClyphX_Pro/XTC \
