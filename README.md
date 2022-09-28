@@ -10,6 +10,10 @@ I've documented this for my own benefit, but please help yourself to any part yo
 
 ---
 
+> **This project is no longer maintained - please see [version 3](https://github.com/dotherightthing/traktor-live-v3/).**
+
+---
+
 ## Purpose
 
 The purpose of this setup is to replace Traktor Pro’s Remix Decks and Loop Recorder with Ableton Live.
