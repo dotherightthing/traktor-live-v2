@@ -1,6 +1,8 @@
 # NI Maschine Mk1: Ableton Resampler
 
-Repurposing this old controller as a dedicated control surface for custom M4L Devices and Traktor DJing
+Repurposing the MIDI mode of this old controller as a dedicated control surface for custom M4L Devices and Traktor DJing.
+
+I'm also aiming to replace the functionality of the recently purchased MIDI Fighter Twisters. The Maschine Mk1 has screens which allows controls to be organised and labelled, even without the use of Python, and this is far more usable than printing overlays for controllers without screens. It's also a snap to change templates and I don't need to worry about the controller being in the wrong bank on startup as I do with the MFTs.
 
 ## M4L Devices
 
@@ -16,8 +18,9 @@ Repurposing this old controller as a dedicated control surface for custom M4L De
 
 * Provides pages of MIDI controls
 * Page and name display on controller
-* Control name displays on controller (text entered into static name fields in template, so labels look like "DEVICE" for Device Parameter 1, 2, 3, etc)
+* Control name displays on controller (text entered into static name fields in template)
 * Control values display as slider positions
+* Unneeded controls can be visually disabled
 
 **Files:**
 

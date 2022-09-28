@@ -48,6 +48,7 @@ The Loop Recorder is problematic because it records loops slightly too long. Sam
     * [Native Instruments Traktor Kontrol Z1](#native-instruments-traktor-kontrol-z1)
     * [Ableton Push2](#ableton-push2)
     * [Midi Fighter Twister](#midi-fighter-twister)
+    * [Native Instruments Maschine Mk 1](#native-instruments-maschine-mk1)
 6. **[Controller Overlay](#6-controller-overlay):**
     * [Inkscape](#inkscape)
     * [Cricut](#cricut)
@@ -381,6 +382,10 @@ In order to display a VU Meter on a Midi Fighter encoder:
 Default settings are applied on `$RESET$`. Live's *Save as Default Configuration* function does not appear to work properly with this device.
 
 ---
+
+#### Native Instruments Maschine Mk 1
+
+See [ni-maschine-mk1/README.md](https://github.com/dotherightthing/push2-traktor-live/blob/main/ni-maschine-mk1/README.md)
 
 ### 6. Controller Overlay
 
